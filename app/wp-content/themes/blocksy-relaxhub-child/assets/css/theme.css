@@ -1,0 +1,280 @@
+/* ===== Variables and Base Styles ===== */
+body.rh-theme {
+  /* Light theme variables */
+  --rh-bg: #FAF5EF;
+  --rh-text: #2F2A24;
+  --rh-ink: #2B2F36;
+  --rh-primary: #E0B24B;
+  --rh-sea: #55B8B5;
+  --rh-card: #FFF6E7;
+  --rh-muted: #EDE4D6;
+  --rh-radius: 16px;
+  --rh-gap: 18px;
+  --rh-trans: 200ms cubic-bezier(.2, .8, .2, 1);
+  --rh-shadow: 0 6px 24px rgba(0, 0, 0, .08);
+
+  /* Base styles */
+  background: var(--rh-bg);
+  color: var(--rh-text);
+  line-height: 1.55;
+  font-family: var(--wp--preset--font-family--inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
+}
+
+/* ===== Blocksy Container Resets ===== */
+body.rh-theme .site,
+body.rh-theme .ct-container,
+body.rh-theme .ct-header,
+body.rh-theme .ct-main,
+body.rh-theme .ct-footer {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+/* ===== Links and Buttons ===== */
+body.rh-theme a {
+  color: var(--rh-ink);
+  text-decoration: none;
+  transition: color var(--rh-trans);
+}
+
+body.rh-theme a:hover {
+  color: var(--rh-primary);
+}
+
+/* Button styles */
+body.rh-theme .wp-element-button,
+body.rh-theme .wp-block-button__link,
+body.rh-theme .button,
+body.rh-theme button[type=submit] {
+  background: var(--rh-primary);
+  color: #1D1B16;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-weight: 600;
+  box-shadow: var(--rh-shadow);
+  transition: transform var(--rh-trans), box-shadow var(--rh-trans);
+}
+
+body.rh-theme .wp-element-button:hover,
+body.rh-theme .wp-block-button__link:hover,
+body.rh-theme .button:hover,
+body.rh-theme button[type=submit]:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .12);
+}
+
+/* ===== Side Motif ===== */
+.rh-motif {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: 35vw;
+  pointer-events: none;
+  z-index: 0;
+  opacity: .16;
+  color: var(--rh-ink);
+}
+
+.rh-motif--right {
+  left: auto;
+  right: -10vw;
+}
+
+.rh-motif--left {
+  left: -10vw;
+  right: auto;
+}
+
+.rh-motif__layer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+.rh-motif__layer--back {
+  opacity: .08;
+
+}
+
+.rh-motif__layer--mid {
+  opacity: .12;
+}
+
+.rh-motif__layer--front {
+  opacity: .16;
+}
+
+ł .rh-motif svg {
+  width: 100%;
+  height: auto;
+}
+
+/* ===== Recommended Course Cards ===== */
+.rh-cards .rh-card {
+  background: var(--rh-card);
+  border: 1px solid var(--rh-muted);
+  border-radius: var(--rh-radius);
+  padding: 18px;
+  box-shadow: var(--rh-shadow);
+}
+
+.rh-card__icon {
+  width: 36px;
+  height: 36px;
+  color: var(--rh-ink);
+  margin-bottom: 6px;
+}
+
+.rh-card__title {
+  margin: 0 0 4px;
+  font-size: 18px;
+  color: var(--rh-ink);
+}
+
+.rh-card__desc {
+  margin: 0;
+  font-size: 14px;
+  opacity: .9;
+}
+
+/* ===== Dark Mode Styles ===== */
+@media (prefers-color-scheme: dark) {
+
+  body.rh-theme:not([data-theme="light"]),
+  body.rh-theme[data-theme="dark"] {
+    --rh-bg: #151616;
+    --rh-text: #EAE5DF;
+    --rh-ink: #E1D7C4;
+    --rh-primary: #E0B24B;
+    --rh-sea: #70D0CD;
+    --rh-card: #1E1F1F;
+    --rh-muted: #2B2C2C;
+    --rh-shadow: 0 10px 28px rgba(0, 0, 0, .35);
+  }
+}
+
+/* ===== Dark Mode Toggle ===== */
+.rh-dark-toggle {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 9999;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid var(--rh-muted);
+  background: var(--rh-card);
+  color: var(--rh-ink);
+  display: grid;
+  place-items: center;
+  box-shadow: var(--rh-shadow);
+  transition: transform var(--rh-trans);
+}
+
+.rh-dark-toggle:hover {
+  transform: translateY(-2px);
+}
+
+.rh-dark-toggle__sun {
+  display: inline;
+}
+
+.rh-dark-toggle__moon {
+  display: none;
+}
+
+body.rh-theme[data-theme="dark"] .rh-dark-toggle__sun {
+  display: none;
+}
+
+body.rh-theme[data-theme="dark"] .rh-dark-toggle__moon {
+  display: inline;
+}
+
+/* ===== Mobile Styles ===== */
+@media (max-width: 768px) {
+  .rh-motif {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -4vw;
+    width: 40vw;
+    max-width: none;
+    pointer-events: none;
+    z-index: 0;
+    color: #2B2F36;
+  }
+
+
+  .rh-motif__layer {
+    position: relative;
+    padding-block: 12vh;
+    scroll-snap-align: start;
+  }
+
+  .rh-motif__layer {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .rh-motif--right {
+    right: -18vw;
+  }
+}
+
+/* ===== Utilities ===== */
+body.no-motif .rh-motif {
+  display: none !important;
+}
+
+body[data-theme="dark"] .custom-logo {
+  content: url('/wp-content/themes/blocksy-relaxhub-child/assets/logo/logo-enso-dark.svg');
+}
+
+/* Mapowanie zmiennych – ułatwia stosowanie w własnych klasach */
+:root {
+  --rh-bg: var(--wp--preset--color--bg);
+  --rh-text: var(--wp--preset--color--text);
+  --rh-ink: var(--wp--preset--color--ink);
+  --rh-primary: var(--wp--preset--color--primary);
+  --rh-sea: var(--wp--preset--color--sea);
+  --rh-card: var(--wp--preset--color--card);
+  --rh-muted: var(--wp--preset--color--muted);
+  --rh-radius: var(--wp--custom--relaxhub--radius);
+  --rh-gap: var(--wp--custom--relaxhub--gap);
+}
+
+/* Global look & feel */
+body {
+  background: var(--rh-bg);
+  color: var(--rh-text);
+}
+
+a {
+  color: var(--rh-ink);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--rh-primary);
+}
+
+/* Karty / Boxy */
+.rh-card, .wp-block-group.is-style-card {
+  background: var(--rh-card);
+  border: 1px solid var(--rh-muted);
+  border-radius: var(--rh-radius);
+}
+
+/* Przyciski */
+.wp-block-button .wp-element-button,
+.wp-element-button,
+.button,
+button[type="submit"] {
+  background: var(--rh-primary);
+  color: #1D1B16;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-weight: 600;
+}

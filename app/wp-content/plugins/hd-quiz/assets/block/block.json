@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "hdq/quiz-block",
+	"version": "0.1.0",
+	"title": "HD Quiz Block",
+	"category": "widgets",
+	"icon": "clipboard",
+	"description": "HD Quiz block",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"quizId": {
+			"type": "string"
+		}
+	},
+	"textdomain": "hd-quiz",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

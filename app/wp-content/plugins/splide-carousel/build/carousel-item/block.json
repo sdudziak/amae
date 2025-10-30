@@ -1,0 +1,66 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cloudcatch/splide-carousel-item",
+  "version": "1.7.0",
+  "title": "Splide Carousel Item",
+  "category": "media",
+  "parent": [
+    "cloudcatch/splide-carousel"
+  ],
+  "attributes": {
+    "verticalAlignment": {
+      "type": "string"
+    },
+    "innerBlocks": {
+      "type": "array",
+      "default": []
+    },
+    "urlHash": {
+      "type": "string"
+    },
+    "extensions": {
+      "type": "object",
+      "default": {
+        "autoScroll": false,
+        "urlHash": false
+      }
+    },
+    "url": {
+      "type": "string"
+    },
+    "rel": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "anchor": true,
+    "html": false,
+    "color": {
+      "gradients": true,
+      "link": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    }
+  },
+  "textdomain": "splide-carousel",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

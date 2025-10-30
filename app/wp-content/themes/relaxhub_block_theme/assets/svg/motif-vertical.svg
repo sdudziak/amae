@@ -1,0 +1,13 @@
+<svg viewBox="0 0 140 1000" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="presentation" aria-hidden="true">
+  <path d="M70 10v120" />
+  <circle cx="70" cy="150" r="8"/>
+  <path d="M50 200 L70 170 L90 200" />
+  <path d="M70 220v110" />
+  <path d="M48 370a22 22 0 1 0 44 0" />
+  <path d="M70 410v120" />
+  <path d="M70 550 l-18 -30 h36 z" />
+  <path d="M70 580 v120" />
+  <path d="M70 720 c0 -18 28 -18 28 0 c0 18 -28 18 -28 0 c0 -18 -28 -18 -28 0 c0 18 28 18 28 0" />
+  <path d="M70 750 v220" />
+  <circle cx="70" cy="990" r="3"/>
+</svg>

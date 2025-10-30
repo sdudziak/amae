@@ -1,0 +1,4217 @@
+# Translation of Plugins - Strong Testimonials - Stable (latest release) in Polish
+# This file is distributed under the same license as the Plugins - Strong Testimonials - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-09-06 13:36:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - Strong Testimonials - Stable (latest release)\n"
+
+#: admin/class-strong-testimonials-helper.php:2700
+msgid "submit date"
+msgstr "data wysłania"
+
+#: admin/class-strong-testimonials-defaults.php:537
+msgctxt "display order"
+msgid "submit date"
+msgstr "data wysłania"
+
+#: admin/custom-fields.php:387
+msgid "Populate the field with this custom value or use <code>{user_name}</code>, <code>{user_first_name}</code>, <code>{user_last_name}</code>, <code>{user_email}</code> placeholders."
+msgstr "Wypełnij pole tą wartością niestandardową lub użyj symboli zastępczych <code>{user_name}</code>, <code>{user_first_name}</code>, <code>{user_last_name}</code>, <code>{user_email}</code>."
+
+#: admin/class-strong-testimonials-helper.php:1468
+msgid "show inline"
+msgstr "pokaż w linii"
+
+#: admin/class-strong-testimonials-admin-list.php:270
+msgid "Submitted On"
+msgstr "Przesłano dnia"
+
+#: admin/wpchill/apps/notification-system/notification/notifications-list.jsx:78
+#: admin/wpchill/scripts/notification-system/notification-system.js:1
+msgid "Dismiss"
+msgstr "Odrzuć"
+
+#: admin/wpchill/apps/notification-system/notification/notifications-list.jsx:46
+#: admin/wpchill/scripts/notification-system/notification-system.js:1
+msgid "No notifications!"
+msgstr "Brak powiadomień!"
+
+#: admin/wpchill/apps/notification-system/notification/notifications-head.jsx:14
+#: admin/wpchill/scripts/notification-system/notification-system.js:1
+msgid "WPChill Notification Center"
+msgstr "Centrum powiadomień WPChill"
+
+#: admin/wpchill/apps/notification-system/notification/notifications-footer.jsx:16
+#: admin/wpchill/scripts/notification-system/notification-system.js:1
+msgid " Dismiss All Notifications"
+msgstr " Odrzuć wszystkie powiadomienia"
+
+#. Translators: %s represents the time elapsed (e.g., "5 minutes", "2 hours",
+#. "1 day").
+#: admin/wpchill/class-wpchill-notifications.php:103
+msgid "%s ago"
+msgstr "%s temu"
+
+#: admin/wpchill/class-wpchill-about-us.php:163
+#: admin/wpchill/assets/js/about-us.js:52
+msgid "Install"
+msgstr "Instaluj"
+
+#: admin/wpchill/class-wpchill-about-us.php:152
+msgid "Details"
+msgstr "Szczegóły"
+
+#: admin/wpchill/class-wpchill-about-us.php:68
+msgid "Try plugin"
+msgstr "Wypróbuj wtyczkę"
+
+#: admin/wpchill/class-wpchill-about-us.php:67
+msgid "Website"
+msgstr "Witryna internetowa"
+
+#: admin/wpchill/class-wpchill-about-us.php:66
+msgid "Description"
+msgstr "Opis"
+
+#: admin/wpchill/class-wpchill-about-us.php:65
+msgid "Product"
+msgstr "Produkt"
+
+#: admin/wpchill/class-wpchill-about-us.php:60
+msgid "At WPChill, our commitment goes beyond just creating WordPress solutions—we're dedicated to delivering user-friendly products that help people save time, money, and effort. Every product we offer is built with care, shaped by our experience, and backed by our promise to support our users every step of the way. When you choose WPChill, you're not just purchasing a product; you're gaining a reliable partner."
+msgstr "W WPChill nasze zaangażowanie wykracza poza samo tworzenie rozwiązań WordPress — poświęcamy się dostarczaniu przyjaznych dla użytkownika produktów, które pomagają ludziom oszczędzać czas, pieniądze i wysiłek. Każdy oferowany przez nas produkt jest tworzony z dbałością, kształtowany przez nasze doświadczenie i wspierany naszą obietnicą wspierania naszych użytkowników na każdym kroku. Wybierając WPChill, nie kupujesz tylko produktu; zyskujesz niezawodnego partnera."
+
+#: admin/wpchill/class-wpchill-about-us.php:59
+msgid "Reliable WordPress Solutions Tailored for You"
+msgstr "Niezawodne rozwiązania WordPress dostosowane do Twoich potrzeb"
+
+#: admin/wpchill/class-wpchill-about-us.php:57
+msgid "About WPChill"
+msgstr "O WPChill"
+
+#: admin/wpchill/class-wpchill-about-us.php:34
+#: admin/wpchill/class-wpchill-about-us.php:35
+msgid "About Us"
+msgstr "O nas"
+
+#: admin/settings/class-strong-testimonials-settings.php:52
+msgid "Strong Testimonials settings successfully saved."
+msgstr "Ustawienia Mocnych referencji zostały pomyślnie zapisane."
+
+#: admin/settings/class-strong-testimonials-forms.php:50
+msgid "Form settings successfully saved."
+msgstr "Ustawienia formularza zostały pomyślnie zapisane."
+
+#: admin/custom-fields.php:139
+msgid "The changes to the form fields have been successfully saved."
+msgstr "Zmiany w polach formularza zostały pomyślnie zapisane."
+
+#: admin/custom-fields.php:63
+msgid "The form fields have been restored to the default state."
+msgstr "Pola formularza zostały przywrócone do stanu domyślnego."
+
+#: admin/custom-fields.php:62
+msgid "Defaults restored"
+msgstr "Przywrócono ustawienia domyślne"
+
+#: admin/custom-fields.php:52
+msgid "The form changes have not been saved."
+msgstr "Zmiany w formularzu nie zostały zapisane."
+
+#: admin/custom-fields.php:51
+msgid "Changes cancelled"
+msgstr "Zmiany anulowane"
+
+#: admin/class-wpmtst-admin-helpers.php:100
+msgid "Changelog"
+msgstr "Dziennik zmian"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:1080
+msgid "With this extension you can automatically subscribe your users to a MailChimp email list. Follow up with a targeted message or a coupon to thank them for leaving a good review. Unlock even more marketing & automation potential. "
+msgstr "Dzięki temu rozszerzeniu możesz automatycznie zapisywać swoich użytkowników na listę e-mailową MailChimp. Wyślij im ukierunkowaną wiadomość lub kupon, aby podziękować za pozostawienie dobrej recenzji. Odblokuj jeszcze większy potencjał marketingowy i automatyzacyjny. "
+
+#: admin/class-strong-testimonials-upsell.php:1074
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: admin/class-strong-testimonials-upsell.php:605
+msgid "With the %1$sStrong Testimonials: PRO Templates%2$s you can impress your potential clients with profesionally designed, pixel-perfect templates that increase your chances of standing out and landing more clients."
+msgstr "Dzięki %1$sMocnym referencjom: Szablonom PRO%2$s możesz zaimponować potencjalnym klientom profesjonalnie zaprojektowanymi, perfekcyjnymi co do piksela szablonami, które zwiększają Twoje szanse na wyróżnienie się i pozyskanie większej liczby klientów."
+
+#: admin/class-strong-testimonials-addons.php:232
+msgid "Manage license activation and deactivation, and install extensions seamlessly on-the-go."
+msgstr "Zarządzaj aktywacją i dezaktywacją licencji oraz bezproblemowo instaluj rozszerzenia w podróży."
+
+#: admin/settings/partials/form.php:33
+msgid "description"
+msgstr "opis"
+
+#. translators: %s is the count of pagin ation items.
+#. translators: %s is the number of items. Singular and plural forms are used.
+#: admin/class-strong-testimonials-list-table.php:744
+#: admin/class-strong-testimonials-list-table.php:1188
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s element"
+msgstr[1] "%s elementy"
+msgstr[2] "%s elementów"
+
+#: includes/class-strong-view-slideshow.php:477
+msgid "previous-slide"
+msgstr "poprzedni slajd"
+
+#: includes/class-strong-view-slideshow.php:476
+msgid "next-slide"
+msgstr "następny slajd"
+
+#: admin/class-strong-testimonials-debug.php:267
+msgid "Export testimonial"
+msgstr "Eksportuj referencje"
+
+#: admin/class-strong-testimonials-debug.php:254
+msgid "Export the testimonial and send it to Strong Testimonial's support team so that we can debug your problem much easier."
+msgstr "Eksportuj referencję i prześlij ją do zespołu wsparcia Mocnych referencji, dzięki czemu będziemy mogli łatwiej rozwiązać Twój problem."
+
+#: admin/class-strong-testimonials-debug.php:215
+msgid "Debug testimonial"
+msgstr "Debugowanie referencji"
+
+#: admin/views.php:811
+msgid "You are not authorized to modify this value."
+msgstr "Nie masz uprawnień do zmiany tej wartości."
+
+#: admin/settings/class-strong-testimonials-settings-form.php:246
+#: admin/view-list-order.php:17 admin/views-ajax.php:20 admin/views-ajax.php:47
+#: admin/views-ajax.php:80 admin/views-ajax.php:115 admin/views-ajax.php:140
+#: admin/views-ajax.php:168 admin/views-ajax.php:205 admin/views-ajax.php:232
+#: admin/views-ajax.php:256 admin/views-ajax.php:281
+msgid "Insufficient capabilities."
+msgstr "Niewystarczające możliwości."
+
+#: admin/class-strong-testimonials-upsell.php:982
+msgid "25% OFF for Christmas"
+msgstr "25% ZNIŻKI na Boże Narodzenie"
+
+#: admin/class-strong-testimonials-upsell.php:973
+msgid "40% OFF for Black Friday"
+msgstr "40% ZNIŻKI na Czarny Piątek"
+
+#: admin/views.php:866
+msgid "Only child categories"
+msgstr "Tylko kategorie potomne"
+
+#: admin/views.php:865
+msgid "Only parent categories"
+msgstr "Tylko kategorie nadrzędne"
+
+#: admin/views.php:864
+msgid "Parent & child categories"
+msgstr "Kategorie nadrzędne i potomne"
+
+#: admin/settings/class-strong-testimonials-settings-form.php:241
+#: admin/view-list-order.php:12 admin/views-ajax.php:15 admin/views-ajax.php:42
+#: admin/views-ajax.php:75 admin/views-ajax.php:110 admin/views-ajax.php:135
+#: admin/views-ajax.php:163 admin/views-ajax.php:200 admin/views-ajax.php:227
+#: admin/views-ajax.php:251 admin/views-ajax.php:276 admin/views.php:806
+msgid "Nonce does not exist."
+msgstr "Kod jednorazowy nie istnieje."
+
+#: admin/class-strong-testimonials-admin-scripts.php:331
+msgid "Please enter your license key."
+msgstr "Wpisz swój klucz licencyjny."
+
+#: admin/class-strong-testimonials-admin-scripts.php:330
+msgid "Retrieving data..."
+msgstr "Pobieranie danych..."
+
+#: admin/class-strong-testimonials-admin-scripts.php:329
+msgid "Deactivating..."
+msgstr "Wyłączanie..."
+
+#: admin/class-strong-testimonials-admin-scripts.php:328
+msgid "Activating..."
+msgstr "Włączanie..."
+
+#: admin/class-strong-testimonials-admin-scripts.php:327
+msgid "Please enter your email address."
+msgstr "Proszę wpisać swój adres e-mail."
+
+#: admin/class-strong-testimonials-admin-scripts.php:324
+msgid "An email containing the license was sent."
+msgstr "Wysłano wiadomość e-mail zawierającą licencję."
+
+#: admin/class-strong-testimonials-admin-scripts.php:323
+msgid "Something went wrong. Please try again."
+msgstr "Coś poszło nie tak. Spróbuj ponownie później."
+
+#: admin/class-strong-testimonials-admin-scripts.php:326
+msgid "Deactivate"
+msgstr "Wyłącz"
+
+#: admin/class-strong-testimonials-admin-scripts.php:325
+#: admin/wpchill/class-wpchill-about-us.php:163
+#: admin/wpchill/assets/js/about-us.js:19
+msgid "Activate"
+msgstr "Włącz"
+
+#: includes/class-strong-testimonials-form.php:291
+msgid "(no title)"
+msgstr "(brak tytułu)"
+
+#: includes/submodules/banner/class-wpchill-welcome.php:89
+msgid "Upgrade to unlock"
+msgstr "Uaktualnij aby odblokować"
+
+#. translators: %1$s is the opening HTML tag for the documentation link, %2$s
+#. is the closing HTML tag for the documentation link.
+#: admin/class-wpmtst-onboarding.php:35
+msgid "Need help? Check out %1$s our documentation%2$s."
+msgstr "Potrzebujesz pomocy? Sprawdź %1$s naszą dokumentację%2$s."
+
+#: admin/class-wpmtst-onboarding.php:29
+msgid "Create your first testimonial"
+msgstr "Stwórz swoją pierwszą referencję"
+
+#: admin/class-wpmtst-onboarding.php:23
+msgid "In just a few steps, you will be collecting and publishing your testimonials or reviews. Beginners and pros alike will appreciate the wealth of flexible features refined over 4 years from user feedback and requests."
+msgstr "W zaledwie kilku krokach będziesz zbierać i publikować referencje lub recenzje. Zarówno początkujący, jak i profesjonaliści docenią bogactwo elastycznych funkcji udoskonalonych przez 4 lata, na podstawie uwag i próśb użytkowników."
+
+#: admin/class-wpmtst-onboarding.php:20
+msgid "Hi, there!"
+msgstr "Cześć!"
+
+#: admin/class-wpmtst-admin-helpers.php:96
+msgid "Contact us for support!"
+msgstr "Skontaktuj się z nami, aby uzyskać wsparcie techniczne!"
+
+#: admin/class-strong-testimonials-addons.php:136
+#: class-strong-testimonials.php:619
+msgid "Suggest a feature"
+msgstr "Zaproponuj funkcję"
+
+#: includes/logs/html-strong-testimonials-logs-viewer.php:82
+msgid "There are currently no logs to view."
+msgstr "Brak logów do wyświetlenia."
+
+#: includes/logs/html-strong-testimonials-logs-viewer.php:73
+msgid "View"
+msgstr "Zobacz"
+
+#: includes/logs/html-strong-testimonials-logs-viewer.php:65
+msgid "%1$s at %2$s"
+msgstr "%1$s w %2$s"
+
+#: includes/logs/html-strong-testimonials-logs-viewer.php:54
+msgid "Download log"
+msgstr "Dziennik pobierania"
+
+#: includes/logs/html-strong-testimonials-logs-viewer.php:38
+msgid "Delete log"
+msgstr "Usuń dziennik"
+
+#: includes/logs/html-strong-testimonials-logs-viewer.php:8
+msgid "Strong Testimonials Debug Logs"
+msgstr "Logi debugowania Mocnych referencji"
+
+#: includes/logs/class-strong-testimonials-logger.php:203
+#: includes/logs/class-strong-testimonials-logger.php:207
+#: includes/logs/class-strong-testimonials-logger.php:252
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Akcja nieudana. Odśwież stronę i spróbuj ponownie."
+
+#: includes/logs/class-strong-testimonials-logger.php:78
+#: includes/logs/class-strong-testimonials-logger.php:79
+msgid "Logs"
+msgstr "Dzienniki"
+
+#: admin/settings/partials/advanced-settings.php:16
+msgid "Creates debug logs for Strong Testimonial module and it 's addons."
+msgstr "Tworzy dzienniki debugowania dla modułu Mocnych referencji i jego dodatków."
+
+#: admin/settings/partials/advanced-settings.php:15
+msgid "Enable debug log. Off by default."
+msgstr "Włącz dziennik debugowania. Domyślnie wyłączone."
+
+#: admin/settings/partials/advanced-settings.php:11
+msgid "Debug log"
+msgstr "Dziennik zdarzeń"
+
+#: admin/settings/class-strong-testimonials-advanced-settings.php:24
+msgid "Advanced Settings"
+msgstr "Ustawienia zaawansowane"
+
+#: admin/class-strong-testimonials-upsell.php:148
+msgid "Publish"
+msgstr "Opublikuj"
+
+#: includes/class-strong-view-form.php:54
+msgid "Strong Testimonials form submission spinner."
+msgstr "Spinner wysyłania formularza mocnych referencji."
+
+#: admin/class-strong-testimonials-wpchill-upsells.php:453
+msgid "Sites"
+msgstr "Strony"
+
+#: admin/class-strong-testimonials-wpchill-upsells.php:364
+msgid "Current package"
+msgstr "Aktualny pakiet"
+
+#: admin/class-strong-testimonials-wpchill-upsells.php:321
+msgid "Strong Testimonials - LITE"
+msgstr "Mocne referencje - LITE"
+
+#: admin/challenge/class-wpmtst-challenge-modal.php:56
+msgid "Create First Gallery"
+msgstr "Stwórz pierwszą galerię"
+
+#: admin/challenge/class-wpmtst-challenge-modal.php:46
+msgid "Al 5-lea lucru din lista"
+msgstr "Piąta rzecz na liście"
+
+#: admin/challenge/class-wpmtst-challenge-modal.php:45
+msgid "Al 4-lea lucru din lista"
+msgstr "Czwarta rzecz na liście"
+
+#: admin/challenge/class-wpmtst-challenge-modal.php:44
+msgid "Al 3-lea lucru din lista"
+msgstr "Trzecia rzecz na liście"
+
+#: admin/challenge/class-wpmtst-challenge-modal.php:43
+msgid "Al 2-lea lucru din lista"
+msgstr "Druga rzecz na liście"
+
+#: admin/challenge/class-wpmtst-challenge-modal.php:42
+msgid "Primul lucru din lista"
+msgstr "Pierwqsza rzecz na liście"
+
+#: admin/challenge/class-wpmtst-challenge-modal.php:39
+msgid "Start enjoying <strong>Strong Testimonials</strong> by adding your first testimonial."
+msgstr "Zacznij korzystać z <strong>Mocnych referencji</strong>, dodając swoje pierwsze referencje."
+
+#: admin/class-strong-testimonials-lite-vs-pro-page.php:58
+#: admin/class-strong-testimonials-lite-vs-pro-page.php:59
+msgid "Lite vs Pro"
+msgstr "Lite kontra Pro"
+
+#: admin/views.php:370
+msgid "video_record"
+msgstr "video_record"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:120
+#: admin/class-strong-testimonials-page-shortcodes.php:146
+#: admin/class-strong-testimonials-page-shortcodes.php:309
+#: admin/class-strong-testimonials-page-shortcodes.php:332
+#: admin/class-strong-testimonials-page-shortcodes.php:355
+#: admin/class-strong-testimonials-page-shortcodes.php:402
+#: admin/class-strong-testimonials-page-shortcodes.php:426
+msgid "4.3 stars (based on 9 ratings)"
+msgstr "4.3 gwiazdki (na podstawie 9 ocen)"
+
+#: admin/views.php:425
+msgid "select a field"
+msgstr "wybierz pole"
+
+#: admin/class-strong-testimonials-helper.php:612
+#: admin/class-strong-testimonials-helper.php:651
+msgid "copied"
+msgstr "skopiowano"
+
+#: admin/class-strong-testimonials-helper.php:276
+msgid " Pagination"
+msgstr " Paginacja"
+
+#: admin/class-strong-testimonials-helper.php:247
+msgid " Custom Fields"
+msgstr " Własne pola"
+
+#: admin/class-strong-testimonials-helper.php:235
+msgid " Content"
+msgstr " Treść"
+
+#: admin/class-strong-testimonials-helper.php:224
+msgid " Featured Image"
+msgstr " Obrazek wyróżniający"
+
+#: admin/class-strong-testimonials-helper.php:144
+msgid "Example"
+msgstr "Przykład"
+
+#: admin/class-strong-testimonials-upsell.php:183
+msgid "and more..."
+msgstr "i wiele więcej..."
+
+#: admin/class-strong-testimonials-upsell.php:182
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: admin/class-strong-testimonials-upsell.php:181
+msgid "Zomato"
+msgstr "Zomato"
+
+#: admin/class-strong-testimonials-upsell.php:180
+msgid "Yelp"
+msgstr "Yelp"
+
+#: admin/class-strong-testimonials-upsell.php:179
+msgid "Google"
+msgstr "Google"
+
+#: admin/class-strong-testimonials-upsell.php:178
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:368
+msgid "Round the rating(ex.: from 4.3 -> 4 or 4.7->5)"
+msgstr "Zaokrąglić ocenę (np.: od 4,3 > 4 lub 4,7 > 5)"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:295
+msgid "If using multiple rating fields, you can use \"all\" to use all the rating fields."
+msgstr "Jeśli używasz wielu pól oceny, możesz użyć opcji „wszystko”, aby użyć wszystkich pól oceny."
+
+#: admin/class-strong-testimonials-page-shortcodes.php:294
+msgid "If using multiple rating fields, you can specify the specific field you need."
+msgstr "Jeśli używasz wielu pól oceny, możesz określić konkretne pole, którego potrzebujesz."
+
+#: admin/class-strong-testimonials-page-shortcodes.php:282
+msgid "9"
+msgstr "9"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:261
+msgid "4.333 stars (based on 9 ratings)"
+msgstr "4.333 gwiazdek (na podstawie 9 ocen)"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:249
+msgid "If you need to display multiple decimals for average rating you have to set a number to decimal."
+msgstr "Jeśli chcesz wyświetlić wiele miejsc po przecinku dla średniej oceny, musisz ustawić liczbę dziesiętną."
+
+#: admin/class-strong-testimonials-page-shortcodes.php:237
+msgid "4.3"
+msgstr "4.3"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:188
+#: admin/class-strong-testimonials-page-shortcodes.php:194
+msgid "Our average rating is "
+msgstr "Nasza średnia ocena to "
+
+#: admin/class-strong-testimonials-page-shortcodes.php:171
+#: admin/class-strong-testimonials-page-shortcodes.php:194
+msgid "4.3 stars"
+msgstr "4.3 gwiazdki"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:169
+msgid "Average of 9 Ratings:"
+msgstr "Średnia z 9 ocen:"
+
+#: includes/functions.php:519
+msgid "No submit date"
+msgstr "Brak właściwej daty"
+
+#: admin/views.php:369
+msgid "video"
+msgstr "film"
+
+#: admin/class-strong-testimonials-defaults.php:322
+msgid "Would you like to include star rating?"
+msgstr "Czy chcesz dołączyć ocenę w postaci gwiazdek?"
+
+#: admin/class-strong-testimonials-addons.php:69
+#: admin/class-strong-testimonials-upsell.php:202
+#: admin/class-strong-testimonials-upsell.php:215
+msgid "Upgrade now"
+msgstr "Aktualizuj teraz"
+
+#: includes/strong-testimonials-beaver-block/includes/frontend.php:12
+msgid "No view was selected"
+msgstr "Nie wybrano podglądu"
+
+#: includes/strong-testimonials-beaver-block/class-strong-testimonials-beaver-block.php:34
+msgid "Select Strong Testimonials View"
+msgstr "Wybierz podgląd mocnych referencji"
+
+#: includes/strong-testimonials-beaver-block/class-strong-testimonials-beaver-block.php:30
+msgid "Select the Strong Testimonials View you want"
+msgstr "Wybierz podgląd mocnych referencji taki jak chcesz"
+
+#: includes/strong-testimonials-beaver-block/class-strong-testimonials-beaver-block.php:12
+msgid "A block for Strong Testimonials Views"
+msgstr "Blok do podglądu mocnych referencji"
+
+#: includes/elementor/class-strong-testimonials-elementor-widget.php:46
+#: includes/elementor/class-strong-testimonials-elementor-widget.php:68
+msgid "Select/Search View"
+msgstr "Wybierz/Przeszukaj podgląd"
+
+#. translators: %1$s is the message stating that the Elementor widget requires
+#. a specific Elementor version.
+#: includes/elementor/class-strong-testimonials-elementor-check.php:109
+msgid "PHP"
+msgstr "PHP"
+
+#. translators: %1$s is the message stating that the Elementor widget requires
+#. a specific Elementor version.
+#: includes/elementor/class-strong-testimonials-elementor-check.php:93
+msgid "Elementor"
+msgstr "Elementor"
+
+#. translators: %1$s is the message stating that the Elementor widget requires
+#. a specific Elementor version.
+#: includes/elementor/class-strong-testimonials-elementor-check.php:93
+#: includes/elementor/class-strong-testimonials-elementor-check.php:109
+msgid "Strong Testimonials Elementor widget"
+msgstr "Widżet Mocnych referencji dla Elementora"
+
+#. translators: %1$s is the message stating that the Elementor widget requires
+#. a specific Elementor version.
+#: includes/elementor/class-strong-testimonials-elementor-check.php:93
+#: includes/elementor/class-strong-testimonials-elementor-check.php:109
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr "\"%1$s\" wymaga \"%2$s\" wersji %3$s lub wyższej."
+
+#. Author URI of the plugin
+#: strong-testimonials.php
+msgid "https://wpchill.com/"
+msgstr "https://wpchill.com/"
+
+#. Author of the plugin
+#: strong-testimonials.php
+msgid "WPChill"
+msgstr "WPChill"
+
+#: admin/views.php:94 admin/views.php:109
+msgid " <span class=\"count\">(%s)</span>"
+msgstr " <span class=\"count\">(%s)</span>"
+
+#: admin/views.php:94
+msgid "All"
+msgstr "Wszystko"
+
+#: admin/views.php:79
+msgid "Filter view list"
+msgstr "Filtrowanie podglądu listy"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:538
+msgid "Protect your form against spam. Add Google reCAPTCHA or honeypot anti-spam with the %s extension."
+msgstr "Chroń swój formularz przed spamem. Dodaj Google reCAPTCHA lub honeypot antyspam z rozszerzeniem %s."
+
+#: admin/class-strong-views-list-table.php:243
+#: admin/class-strong-views-list-table.php:245
+msgid "Search"
+msgstr "Szukaj"
+
+#: admin/class-strong-testimonials-defaults.php:490
+msgid "You need to be logged in to access this form."
+msgstr "Musisz być zalogowany, aby uzyskać dostęp do tego formularza."
+
+#: admin/class-strong-testimonials-upsell.php:888
+msgid "Strong Testimonials: Properties"
+msgstr "Mocne referencje: Właściwości"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:884
+msgid "Easily customize default testimonial attributes such as labels, permalink structure, icons and more with the %s extension."
+msgstr "Łatwo dostosuj domyślne atrybuty referencji, takie jak etykiety, struktura bezpośredniego odnośnika, ikonki i wiele więcej za pomocą rozszerzenia %s."
+
+#: admin/class-strong-testimonials-upsell.php:868
+msgctxt "adjective"
+msgid "Properties"
+msgstr "Właściwości"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:847
+msgid "%s provides you with a lot of new functionalities in one plugin, such as choosing the HTML tag you’d like to display for your testimonial titles or prefilling the forms from $_GET parameters. Moreover, if no image is provided for your testimonial, you can display the author’s initials or a default picture. Get started with Strong Testimonials Pro today!"
+msgstr "%s zapewnia wiele nowych funkcji w jednej wtyczce, takich jak wybór znacznika HTML, który chcesz wyświetlić w tytułach referencji lub wstępne wypełnianie formularzy z parametrów $_GET. Co więcej, jeśli nie ma obrazka w referencji, możesz wyświetlić inicjały autora lub zdjęcie domyślne. Zacznij korzystać z Mocnych referencji Pro już dziś!"
+
+#: admin/class-strong-testimonials-upsell.php:836
+msgid "Show testimonial form only for logged-in users."
+msgstr "Pokaż formularz referencji tylko dla zalogowanych użytkowników."
+
+#: admin/class-strong-testimonials-upsell.php:835
+msgid "Prefill testimonial forms from $_GET parameters;"
+msgstr "Wstępnie wypełnij formularze referencji z parametrów $_GET;"
+
+#: admin/class-strong-testimonials-upsell.php:834
+msgid "Choose the Single Testimonial Template settings;"
+msgstr "Wybierz ustawienia szablonu pojedynczych referencji;"
+
+#: admin/class-strong-testimonials-upsell.php:833
+msgid "Choose the HTML tag you’d like to use for your testimonial titles;"
+msgstr "Wybierz znacznik HTML, którego chcesz użyć dla swoich tytułów referencji;"
+
+#: admin/class-strong-testimonials-upsell.php:832
+msgid "Use author initials as the testimonial image;"
+msgstr "Użyj inicjałów autora jako obrazka referencji;"
+
+#: admin/class-strong-testimonials-upsell.php:831
+msgid "Display a default image when no image has been provided for the testimonial;"
+msgstr "Wyświetl domyślny obrazek, gdy nie dostarczono żadnego obrazka dla referencji;"
+
+#: admin/class-strong-testimonials-upsell.php:826
+#: admin/class-strong-testimonials-upsell.php:851
+msgid "Strong Testimonials PRO"
+msgstr "Mocne referencje PRO"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:822
+msgid "With %s you can:"
+msgstr "Za pomocą %s możesz:"
+
+#: admin/class-strong-testimonials-upsell.php:808
+msgctxt "adjective"
+msgid "Single Testimonial Template"
+msgstr "Pojedynczy szablon referencji"
+
+#: admin/class-strong-testimonials-upsell.php:787
+msgid "Strong Testimonials: Assignment"
+msgstr "Mocne referencje: Przydział"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:783
+msgid "The %s extension is perfect if you want to easily assign testimonials to certain custom post types."
+msgstr "Rozszerzenie %s jest idealne, jeśli chcesz łatwo przypisać referencje do niektórych własnych rodzajów wpisu."
+
+#: admin/class-strong-testimonials-upsell.php:768
+msgctxt "adjective"
+msgid "Assignment"
+msgstr "Przydział"
+
+#: admin/class-strong-testimonials-upsell.php:751
+msgid "Filters"
+msgstr "Filtry"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:747
+msgid "Add category-like filters for testimonials, group testimonials by associated product/service, and help potential clients appreciate the great work you do by showcasing reviews from other clients with %s extension."
+msgstr "Dodaj filtry kategorii dla referencji, grupuj referencje według powiązanych produktów/usług i pomóż potencjalnym klientom docenić świetną pracę, którą wykonujesz, prezentując recenzje innych klientów dzięki rozszerzeniu %s."
+
+#: admin/class-strong-testimonials-upsell.php:736
+msgid "help potential clients appreciate the great work you do by showcasing reviews from other clients"
+msgstr "pomóż potencjalnym klientom docenić wspaniałą pracę, jaką wykonujesz, prezentując rekomendacje innych klientów"
+
+#: admin/class-strong-testimonials-upsell.php:735
+msgid "group testimonials by associated product or service"
+msgstr "grupowe referencje według powiązanego produktu lub usługi"
+
+#: admin/class-strong-testimonials-upsell.php:734
+msgid "create category-like filters for your testimonials"
+msgstr "utwórz filtry kategorii dla swoich referencji"
+
+#: admin/class-strong-testimonials-upsell.php:729
+msgid "Strong Testimonials: Filters"
+msgstr "Mocne referencje: Filtry"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:725
+msgid "Use the %s extensions to:"
+msgstr "Użyj rozszerzeń %s do:"
+
+#: admin/class-strong-testimonials-upsell.php:708
+msgid "Infinite Scroll"
+msgstr "Nieskończone przewijanie"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:704
+msgid "Reduce your page’s initial load time - display a fixed number of testimonials on the first view and have more loading when you scroll down with %s extension."
+msgstr "Skróć początkowy czas wczytywania swojej strony - wyświetlaj ustaloną liczbę referencji przy pierwszym wyświetleniu i wczytaj więcej stron, przewijając w dół za pomocą rozszerzenia %s."
+
+#: admin/class-strong-testimonials-upsell.php:692
+msgid "reduce your page's initial load time, making your site faster in the process and not driving clients away because of a slow loading website"
+msgstr "skróć początkowy czas ładowania strony, przyspieszając proces otwierania witryny, nie tracąc klientów z powodu powolnego ładowania strony"
+
+#: admin/class-strong-testimonials-upsell.php:691
+msgid "display a fixed number of testimonials on first view and have more of them load when the user starts scrolling"
+msgstr "wyświetlaj ustaloną liczbę referencji przy pierwszym wyświetleniu i wczytaj więcej, gdy użytkownik zacznie przewijać"
+
+#: admin/class-strong-testimonials-upsell.php:686
+msgid "Strong Testimonials: Infinite Scroll"
+msgstr "Mocne referencje: Nieskończone przewijanie"
+
+#: admin/class-strong-testimonials-upsell.php:665
+msgid "Enhanced Emails"
+msgstr "Ulepszone wiadomości e-mail"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:661
+msgid "Send a thank-you email to your clients once their testimonial is approved using %s extension. This way, you increase brand loyalty and grow your chances of seeling more. "
+msgstr "Wyślij wiadomość e-mail z podziękowaniami do klientów po zatwierdzeniu ich referencji za pomocą rozszerzenia %s. W ten sposób zwiększasz lojalność wobec swojej marki i szanse na więcej sprzedaży. "
+
+#: admin/class-strong-testimonials-upsell.php:649
+msgid "keep your clients engaged and increase your chances of selling more"
+msgstr "angażuj swoich klientów i zwiększaj swoje szanse na sprzedaż"
+
+#: admin/class-strong-testimonials-upsell.php:648
+msgid "increase brand loyalty by showing you really care about your clients"
+msgstr "zwiększaj lojalność wobec marki, pokazując, że naprawdę zależy Ci na swoich klientach"
+
+#: admin/class-strong-testimonials-upsell.php:647
+msgid "send a thank you email to your client once his testimonial's approved"
+msgstr "wyślij wiadomość e-mail z podziękowaniami do klienta po zatwierdzeniu jego referencje"
+
+#: admin/class-strong-testimonials-upsell.php:642
+msgid "Strong Testimonials: Enhanced Emails"
+msgstr "Mocne referencje: Ulepszone wiadomości e-mail"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:638
+msgid "Use the %s extension to:"
+msgstr "Użyj rozszerzeń %s do:"
+
+#: admin/class-strong-testimonials-upsell.php:621
+msgid "Pro Templates"
+msgstr "Szablony Pro"
+
+#: admin/class-strong-testimonials-upsell.php:496
+msgid "Advanced Views"
+msgstr "Zaawansowane podglądy"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:492
+msgid "Start filtering, changing the order, or even editing your testimonials in real-time with the %s extension."
+msgstr "Rozpocznij filtrowanie, zmianę zamówienia, a nawet edycję swoich referencji w czasie rzeczywistym, dzięki rozszerzeniu %s."
+
+#: admin/class-strong-testimonials-upsell.php:449
+msgid "Review Markup"
+msgstr "Przejrzyj znaczniki"
+
+#: admin/class-strong-testimonials-upsell.php:410
+msgctxt "adjective"
+msgid "Review Markup"
+msgstr "Przejrzyj znaczniki"
+
+#: admin/class-strong-testimonials-upsell.php:393
+msgid "Multiple Forms"
+msgstr "Wiele formularzy"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:349
+msgid "Get to know your customers by installing our %s extension."
+msgstr "Poznaj swoich klientów, instalując nasze rozszerzenie %s."
+
+#: admin/class-strong-testimonials-upsell.php:311
+msgid "Country Selector"
+msgstr "Selektor kraju"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:307
+msgid "Show where your customers are located with the %s extension. "
+msgstr "Zobacz, gdzie znajdują się twoi klienci z rozszerzeniem %s. "
+
+#: admin/class-strong-testimonials-upsell.php:251
+#: admin/class-strong-testimonials-upsell.php:269
+msgid "Role Management"
+msgstr "Zarządzanie rolami"
+
+#. translators: %s is a link to a Strong Testimonial extension page.
+#: admin/class-strong-testimonials-upsell.php:247
+#: admin/class-strong-testimonials-upsell.php:265
+msgid "Control who approves testimonials or who has access to the plugins’ settings panel with %s extension. Get total granular control over who has access to your testimonials."
+msgstr "Kontroluj, kto zatwierdza rekomendacje, lub kto ma dostęp do panelu ustawień wtyczek z rozszerzeniem %s. Uzyskaj całkowitą, szczegółową kontrolę nad tym, kto ma dostęp do twoich referencji."
+
+#: admin/class-strong-testimonials-upsell.php:231
+msgctxt "adjective"
+msgid "Role Management"
+msgstr "Zarządzanie rolami"
+
+#: admin/settings/partials/form.php:232
+msgid "Receive an email when new testimonials are submitted and waiting for approval."
+msgstr "Otrzymuj wiadomość e-mail, gdy nowe referencje zostaną wystawione i czekają na zatwierdzenie."
+
+#: includes/class-strong-testimonials-privacy.php:189
+msgid ""
+"\n"
+"            We collect certain pieces of information about you when you fill one of our testimonial forms. This includes your full name, e-mail address, photo, company name, and website.           \n"
+"            By agreeing to these terms, you also allow us to::\n"
+"            - Send a confirmation e-mail, to let you know your testimonial was received and approved;\n"
+"            - Send important account/ product/ service information;\n"
+"            - Set up and administer your account, provide technical/customer support, and verify your identity."
+msgstr ""
+"\n"
+"Zbieramy pewne informacje o tobie, gdy wypełniasz jeden z naszych formularzy referencji. Obejmuje to imię i nazwisko, adres e-mail, zdjęcie, nazwę firmy i stronę internetową.\n"
+"             Zgadzając się na te warunki, pozwalasz nam również:\n"
+"             - Wysłać wiadomość e-mail z potwierdzeniem, aby poinformować Cię, że Twoja referencja została otrzymana i zatwierdzona;\n"
+"             - Wysyłać ważne informacje o koncie / produkcie / usłudze;\n"
+"             - Skonfiguruj swoje konto i administruj nim, zapewnij wsparcie techniczne / klienta oraz weryfikuj swoją tożsamość."
+
+#: templates/default-form/form.php:17 templates/default-form/form.php:18
+#: templates/simple-form/form.php:16 templates/simple-form/form.php:17
+#: templates/unstyled-form/form.php:16 templates/unstyled-form/form.php:17
+msgid "Login"
+msgstr "Login"
+
+#: includes/functions-rating.php:64
+msgid "rating fields"
+msgstr "pola oceny"
+
+#: admin/class-strong-testimonials-helper.php:1505
+msgid "Show <strong>html content</strong>."
+msgstr "Pokaż <strong>treść html</strong>."
+
+#: admin/settings/partials/general.php:306
+msgid "Disable all upsells."
+msgstr "Wyłącz wszystkie dodatkowe oferty."
+
+#: admin/settings/partials/general.php:300
+msgid "Upsells"
+msgstr "Dodatkowe oferty"
+
+#: admin/settings/partials/general.php:274
+msgid "No Lazy Loading Plugin"
+msgstr "Brak wtyczki do powolnego ładowania"
+
+#: admin/settings/partials/general.php:263
+msgid "Enable the Lazy Loading functionality."
+msgstr "Włącz funkcję powolnego ładowania."
+
+#: admin/settings/partials/general.php:257
+msgid "Lazy Loading"
+msgstr "Powolne ładowanie"
+
+#: admin/settings/partials/general.php:247
+msgid "Add <code>rel=\"noreferrer\"</code> to URL custom fields."
+msgstr "Dodaj <code>rel=\"noreferrer\"</code> do własnych pól adresu URL."
+
+#: admin/settings/partials/general.php:241
+msgid "Noreferrer Links"
+msgstr "Odnośniki Noreferrer"
+
+#: admin/settings/partials/general.php:232
+msgid "Add <code>rel=\"noopener\"</code> to URL custom fields."
+msgstr "Dodaj <code>rel=\"noopener\"</code> do własnych pól adresu URL."
+
+#: admin/settings/partials/general.php:226
+msgid "Noopener Links"
+msgstr "Odnośniki Noopener"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:260
+msgid "Randomize testimonials via javascript to ensure proper behaviour. Check this if using page caching plugins (WP Rocket, Super Cache, W3 Total Cache etc.)"
+msgstr "Losuj referencje za pomocą javascript, aby zapewnić właściwe zachowanie. Zaznacz to, jeśli używasz wtyczek do buforowania stron (WP Rocket, Super Cache, W3 Total Cache itp.)"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:254
+msgid "Random JS"
+msgstr "Losowy JS"
+
+#: admin/custom-fields.php:330
+msgid "Limit the user imput to a certain number of characters"
+msgstr "Ogranicz przypisanie użytkownika do określonej liczby znaków"
+
+#: admin/custom-fields.php:329
+msgid "Maximum Length"
+msgstr "Maksymalna długość"
+
+#: admin/views.php:699
+msgid "Unchecked Value"
+msgstr "Niezaznaczona wartość"
+
+#: admin/views.php:690
+msgid "Custom value"
+msgstr "Własna wartość"
+
+#: admin/custom-fields.php:343 admin/views.php:689
+msgid "Checked value"
+msgstr "Sprawdzona wartość"
+
+#: admin/views.php:686
+msgid "Checked Value"
+msgstr "Sprawdzona wartość"
+
+#: admin/views.php:677
+msgid "Custom label"
+msgstr "Własna etykieta"
+
+#: admin/views.php:676
+msgid "Field label"
+msgstr "Etykieta pola"
+
+#: admin/views.php:674
+msgid "Label"
+msgstr "Etykieta"
+
+#: admin/class-strong-testimonials-defaults.php:480
+msgid "Your testimonial was received  for %BLOGNAME% and awaiting approval from the website administrator. Thank you!"
+msgstr "Otrzymaliśmy Twoją referencję dotyczącą %BLOGNAME%, oczekuje ona na zatwierdzenie przez administratora witryny. Dziękujemy!"
+
+#: admin/class-strong-testimonials-defaults.php:479
+msgid "Your testimonial was published for %BLOGNAME%. Thank you!"
+msgstr "Twoja referencja dla %BLOGNAME% została opublikowana. Dziękujemy!"
+
+#: admin/class-strong-testimonials-defaults.php:475
+#: admin/class-strong-testimonials-defaults.php:476
+msgid "Testimonial for %BLOGNAME%"
+msgstr "Referencja dla %BLOGNAME%"
+
+#: admin/class-strong-testimonials-review.php:23
+msgid "Don't show again"
+msgstr "Nie pokazuj ponownie"
+
+#: admin/class-strong-testimonials-review.php:22
+msgid "Remind me later"
+msgstr "Przypomnij później"
+
+#: admin/class-strong-testimonials-review.php:21
+msgid "Rate the plugin"
+msgstr "Oceń wtyczkę"
+
+#: admin/class-strong-testimonials-review.php:20
+msgid "Hi there! Stoked to see you're using Strong Testimonials for a few days now - hope you like it! And if you do, please consider rating it. It would mean the world to us.  Keep on rocking!"
+msgstr "Cześć! Cieszymy się, że od kilku dni korzystasz z Mocnych referencji - mamy nadzieję, że Ci się podoba! A jeśli tak, rozważ ocenę. Dużo to dla nas znaczy. Nie przestawaj dawać czadu!"
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:159
+msgid "Delete tables made by Strong Testimonials and it's add-ons."
+msgstr "Usuń tabele utworzone przez wtyczkę Mocne referencje i jej dodatki."
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:158
+msgid "Delete tables"
+msgstr "Usuń tabele"
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:155
+msgid "Delete Delete categories made by Strong Testimonials and it's add-ons."
+msgstr "Usuń kategorie utworzone przez wtyczkę Mocne referencje i jej dodatki."
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:154
+msgid "Delete categories"
+msgstr "Usuń kategorie"
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:151
+msgid "Delete post types made by Strong Testimonials and it's add-ons."
+msgstr "Usuń typy treści utworzone przez wtyczkę Mocne referencje i jej dodatki."
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:150
+msgid "Delete testimonials post type"
+msgstr "Usuń referencje rodzaju treści"
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:147
+msgid "Delete transients set by Strong Testimonials plugin and it's add-ons  to options table in the database."
+msgstr "Usuń przejścia ustawione przez wtyczkę Mocne referencje i jej dodatki do tabeli opcji, w bazie danych."
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:146
+msgid "Delete Strong Testimonials set transients"
+msgstr "Usuń przejścia ustawione przez wtyczkę Mocne referencje"
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:143
+msgid "Delete options set by Strong Testimonials plugin and it's add-ons  to options table in the database."
+msgstr "Usuń opcje ustawione przez wtyczkę Mocne referencje i jej dodatki do tabeli opcji, w bazie danych."
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:142
+msgid "Delete Strong Testimonials options"
+msgstr "Usuń opcje Mocnych referencji"
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:139
+msgid "Select this to delete all data Strong Testimonials plugin and it's add-ons have set in your database."
+msgstr "Wybierz tę opcję, aby usunąć wszystkie dane, które wtyczka Mocne referencje i jej dodatki ustawiły w Twojej bazie danych."
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:138
+msgid "Delete all data"
+msgstr "Usuń wszystkie dane"
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:133
+msgid " Caution!! This action CANNOT be undone"
+msgstr " Uwaga! Tej czynności NIE MOŻNA cofnąć"
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:132
+msgid "Sorry to see you go"
+msgstr "Przykro nam, że odchodzisz"
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:113
+msgid "Cleaning..."
+msgstr "Czyszczenie..."
+
+#: admin/uninstall/class-strong-testimonials-uninstall.php:63
+#: admin/uninstall/class-strong-testimonials-uninstall.php:117
+msgid "Uninstall"
+msgstr "Odinstaluj"
+
+#: admin/class-strong-testimonials-helper.php:1952
+msgctxt "slideshow setting"
+msgid "Continuous Sliding"
+msgstr "Ciągłe przesuwanie"
+
+#: admin/class-strong-testimonials-helper.php:1224
+msgid "Full testimonial"
+msgstr "Pełna rekomendacja"
+
+#: admin/class-strong-testimonials-helper.php:1216
+msgid "\"Full testimonial\" option doesn's work if \"Disable permalinks for testimonials\" from \"Settings\" page is enabled."
+msgstr "Opcja „Pełna referencja” nie działa, jeśli włączona jest opcja \"Wyłącz bezpośrednie odnośniki do referencji\" na stronie \"Ustawienia\"."
+
+#: admin/settings/partials/general.php:74
+msgid "Prevent indexing of testimonials. This will overwrite the \"Link to testimonial\" settings from the \"Views\" section"
+msgstr "Zapobiegaj indeksowaniu referencji. Spowoduje to zastąpienie ustawień \"Odnośnik do referencji\" w sekcji \"Podgląd\""
+
+#: admin/settings/partials/general.php:70
+msgid "Disable permalinks for testimonials."
+msgstr "Wyłącz bezpośrednie odnośniki do referencji."
+
+#: admin/settings/partials/general.php:63
+msgid "Permalinks"
+msgstr "Bezpośrednie odnośniki"
+
+#: admin/settings/partials/form.php:145
+msgid "This setting is overwritten by \"Submit form without reloading the page (Ajax)\" setting found in Form view in the \"Views\" section."
+msgstr "To ustawienie jest zastępowane ustawieniem \"Prześlij formularz bez ponownego ładowania strony (Ajax)\" znajdującym się w podglądzie formularza w sekcji \"Podgląd\"."
+
+#: admin/views.php:366
+msgid "platform"
+msgstr "platforma"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:617
+msgid "Get access to professionally designed testimonial templates with the %s extension."
+msgstr "Uzyskaj dostęp do profesjonalnie zaprojektowanych szablonów referencji z rozszerzeniem %s."
+
+#: admin/class-strong-testimonials-upsell.php:478
+msgid "edit, in real time, the way your testimonials will look on your site. Stop losing clients because of poor design."
+msgstr "edytuj w czasie rzeczywistym sposób, w jaki Twoje referencje będą wyglądać na stronie. Przestań tracić klientów z powodu złego projektu."
+
+#: admin/class-strong-testimonials-upsell.php:477
+msgid "easily define the display order of your testimonial fields. Re-order the name, image, url and testimonial content fields through drag & drop."
+msgstr "łatwo zdefiniuj kolejność wyświetlania swoich pól referencji. Zmień kolejność pola nazwy, obrazka, adresu URL i treści referencji, przeciągając je i upuszczając."
+
+#: admin/class-strong-testimonials-upsell.php:476
+msgid "filter & display testimonials based on their rating or on a pre-defined condition."
+msgstr "filtruj i wyświetlaj referencje na podstawie ich oceny lub z góry określonego warunku."
+
+#: admin/class-strong-testimonials-upsell.php:433
+msgid "With this extensions, search engines will display star ratings in search results for your site."
+msgstr "Dzięki tym rozszerzeniom wyszukiwarki będą wyświetlać oceny gwiazdek w wynikach wyszukiwania twojej witryny."
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:424
+#: admin/class-strong-testimonials-upsell.php:445
+msgid "Add SEO-friendly & Schema.org compliant Testimonials with our %s extension."
+msgstr "Dodaj referencje przyjazne dla SEO i Schema.org dzięki naszemu rozszerzeniu %s."
+
+#: admin/class-strong-testimonials-addons.php:234
+#: admin/class-strong-testimonials-upsell.php:186
+msgid "Upgrade Now"
+msgstr "Ulepsz teraz"
+
+#: admin/class-strong-testimonials-upsell.php:176
+msgid "Upgrade today and get the ability to import testimonials from:"
+msgstr "Zaktualizuj już dziś i uzyskaj możliwość importowania referencji z:"
+
+#: admin/class-strong-testimonials-upsell.php:175
+msgid "Automatically pull in & display new reviews as your customers leave their feedback on external platforms"
+msgstr "Automatycznie pobieraj i wyświetlaj nowe rekomendacje, gdy Twoi klienci zostawiają swoje opinie na zewnętrznych platformach"
+
+#: admin/class-strong-testimonials-upsell.php:152
+msgid "Import"
+msgstr "Importuj"
+
+#: admin/class-strong-testimonials-admin-list.php:129
+msgid "Platform"
+msgstr "System operacyjny"
+
+#: admin/class-strong-testimonials-admin-list.php:204
+#: includes/functions-template.php:711
+msgid "posted on "
+msgstr "opublikowano "
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:466
+#: admin/class-strong-testimonials-upsell.php:682
+msgid "With the %s extension you can:"
+msgstr "Z rozszerzeniem %s możesz:"
+
+#: admin/class-strong-testimonials-upsell.php:571
+msgid "This method makes it difficult for spambots to complete form submissions."
+msgstr "Ta metoda utrudnia robotom spamującym wypełnianie formularzy."
+
+#: admin/class-strong-testimonials-upsell.php:569
+msgid "In some cases, they’re prompted to complete another task, like identify a string of letters."
+msgstr "W niektórych przypadkach są proszeni o wykonanie innego zadania, na przykład zidentyfikowanie ciągu liter."
+
+#: admin/class-strong-testimonials-upsell.php:567
+msgid "Google reCAPTCHA prompts visitors to check a box to prove that they’re not a robot before they submit the form."
+msgstr "Google reCAPTCHA prosi odwiedzających o zaznaczenie pola, aby udowodnić, że nie są robotami, zanim prześlą formularz."
+
+#: admin/class-strong-testimonials-upsell.php:551
+msgid "Honeypot"
+msgstr "Lepka pułapka"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:586
+msgid "Protect your form against spam. Add Google ReCaptcha or honeypot anti-spam with the %s extension."
+msgstr "Chroń swój formularz przed spamem. Dodaj antyspam Google ReCaptcha lub lepką pułapkę z rozszerzeniem %s."
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:513
+msgid "Protect your form against spam with the %s extension."
+msgstr "Chroń swój formularz przed spamem dzięki rozszerzeniu %s."
+
+#: admin/class-strong-testimonials-upsell.php:256
+#: admin/class-strong-testimonials-upsell.php:298
+#: admin/class-strong-testimonials-upsell.php:340
+#: admin/class-strong-testimonials-upsell.php:380
+#: admin/class-strong-testimonials-upsell.php:436
+#: admin/class-strong-testimonials-upsell.php:483
+#: admin/class-strong-testimonials-upsell.php:522
+#: admin/class-strong-testimonials-upsell.php:577
+#: admin/class-strong-testimonials-upsell.php:608
+#: admin/class-strong-testimonials-upsell.php:652
+#: admin/class-strong-testimonials-upsell.php:695
+#: admin/class-strong-testimonials-upsell.php:739
+#: admin/class-strong-testimonials-upsell.php:792
+#: admin/class-strong-testimonials-upsell.php:839
+#: admin/class-strong-testimonials-upsell.php:893
+#: admin/class-strong-testimonials-upsell.php:928
+#: admin/class-strong-testimonials-upsell.php:929
+#: admin/class-strong-testimonials-upsell.php:1090
+#: admin/class-strong-testimonials-wpchill-upsells.php:425
+msgid "Upgrade"
+msgstr "Aktualizacja"
+
+#: admin/class-strong-testimonials-upsell.php:470
+msgid "Strong Testimonials: Advanced Views"
+msgstr "Mocne referencje: Zaawansowane podglądy"
+
+#: admin/class-strong-testimonials-upsell.php:428
+msgid "Strong Testimonials: Review Markup"
+msgstr "Mocne referencje: Przejrzyj znaczniki"
+
+#: admin/class-strong-testimonials-upsell.php:374
+msgid "Strong Testimonials: Multiple Forms"
+msgstr "Mocne referencje: Wiele formularzy"
+
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:370
+#: admin/class-strong-testimonials-upsell.php:389
+msgid "Create multiple submission forms by installing the %s extension."
+msgstr "Utwórz wiele formularzy przesyłania, instalując rozszerzenie %s."
+
+#: admin/class-strong-testimonials-upsell.php:334
+msgid "Strong Testimonials: Custom Fields"
+msgstr "Mocne referencje: Własne pola"
+
+#: admin/class-strong-testimonials-upsell.php:292
+msgid "Strong Testimonials: Country Selector"
+msgstr "Mocne referencje: Selektor kraju"
+
+#. translators: %s is a link to a Strong Testimonial extension page.
+#. translators: %s is a link to a Strong Testimonials extension page.
+#: admin/class-strong-testimonials-upsell.php:288
+#: admin/class-strong-testimonials-upsell.php:330
+msgid "Install the %s extension"
+msgstr "Zainstaluj rozszerzenie %s"
+
+#. translators: %s is a link to a page about WordPress excerpts.
+#: admin/class-strong-testimonials-helper.php:1515
+msgid "Learn more"
+msgstr "Dowiedz się więcej"
+
+#. translators: %s is a link to a page about WordPress excerpts.
+#: admin/class-strong-testimonials-helper.php:1515
+msgid "%s about WordPress excerpts"
+msgstr "%s o zajawkach WordPressa"
+
+#: admin/class-strong-testimonials-upsell.php:325
+msgid "Know your customers by having access to more advanced custom fields."
+msgstr "Poznaj swoich klientów, mając dostęp do bardziej zaawansowanych własnych pól."
+
+#: admin/class-strong-testimonials-upsell.php:283
+msgid "Want to know where are your customers located?"
+msgstr "Chcesz wiedzieć, gdzie znajdują się Twoi klienci?"
+
+#: admin/class-strong-testimonials-addons.php:115
+msgid "Reload Extensions"
+msgstr "Przeładuj rozszerzenia"
+
+#: admin/class-strong-testimonials-addons.php:95
+#: admin/class-strong-testimonials-addons.php:96
+#: admin/class-strong-testimonials-addons.php:113
+#: admin/class-strong-testimonials-addons.php:146
+#: class-strong-testimonials.php:629
+msgid "Extensions"
+msgstr "Rozszerzenia"
+
+#: admin/class-strong-testimonials-lite-vs-pro-page.php:31
+msgid "Upgrade to PRO!"
+msgstr "Uaktualnij do PRO!"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:67
+msgid "Each view has a unique shortcode like "
+msgstr "Każdy podgląd ma swój unikalny krótki kod "
+
+#: admin/settings/partials/general.php:88
+msgid "Change the permalink slug for a single entry testimonial. After changing this field, reset permalinks by going to Settings > Permalinks and clicking Save Changes."
+msgstr "Zmień bezpośredni odnośnik uproszczonej nazwy dla pojedynczego wpisu referencji. Po zmianie tego pola zresetuj bezpośredni odnośnik, przechodząc do Ustawienia > Bezpośredni odnośnik i klikając Zapisz zmiany."
+
+#: admin/settings/partials/general.php:81
+msgid "Single Testimonial Slug"
+msgstr "Uproszczona nazwa pojedynczej referencji"
+
+#. Plugin URI of the plugin
+#: strong-testimonials.php
+msgid "https://strongtestimonials.com"
+msgstr "https://strongtestimonials.com"
+
+#: admin/class-strong-testimonials-defaults.php:747
+msgid "Show less"
+msgstr "Pokaż mniej"
+
+#: admin/class-strong-testimonials-helper.php:1485
+msgid "Leave blank to leave content expanded without a link."
+msgstr "Pozostaw puste, aby treść została rozwinięta bez odnośnika."
+
+#: admin/class-strong-testimonials-helper.php:1475
+msgid "and link text to read less"
+msgstr "i linkuj tekst, aby czytać mniej"
+
+#: admin/class-strong-testimonials-helper.php:1452
+msgid "If you only see [&hellip;] without a link then use the custom link text instead."
+msgstr "Jeśli widzisz tylko [&hellip;] bez odnośnika, zamiast tego użyj własnego tekstu odnośnika."
+
+#: admin/class-strong-testimonials-helper.php:1447
+msgctxt "display setting"
+msgid "with custom link text"
+msgstr "z własnym tekstem odnośnika"
+
+#: admin/class-strong-testimonials-helper.php:1440
+msgid "with link text to read more"
+msgstr "z tekstem odnośnika, aby przeczytać więcej"
+
+#: admin/class-strong-testimonials-helper.php:1427
+msgid "without an ellipsis"
+msgstr "bez elipsy"
+
+#: admin/class-strong-testimonials-helper.php:1426
+msgid "with an ellipsis"
+msgstr "z elipsą"
+
+#: admin/class-strong-testimonials-helper.php:1414
+msgid "expand content in place"
+msgstr "rozwiń zawartość w miejscu"
+
+#: admin/class-strong-testimonials-helper.php:1413
+msgid "the full testimonial"
+msgstr "pełna referencja"
+
+#: admin/class-strong-testimonials-helper.php:1408
+msgid "Add a <strong>Read more</strong> link to"
+msgstr "Dodaj odnośnik do <strong>Dowiedz się więcej</strong>"
+
+#. translators: %s is the view ID.
+#. Translators: %s is the View ID.
+#: includes/l10n-polylang.php:128 includes/l10n-wpml.php:198
+msgid "View %s : Read less (testimonial)"
+msgstr "Zobacz %s : Czytaj mniej (rekomendacje)"
+
+#: admin/class-strong-testimonials-helper.php:1878
+msgid "defaults restored"
+msgstr "przywrócono wartości domyślne"
+
+#: admin/class-strong-testimonials-helper.php:1876
+msgid "Restore Default Breakpoints"
+msgstr "Przywróć domyślne punkty przerwania"
+
+#: admin/class-strong-testimonials-helper.php:1842
+#: admin/class-strong-testimonials-helper.php:1868
+msgid "slides"
+msgstr "slajdy"
+
+#: admin/class-strong-testimonials-helper.php:1840
+#: admin/class-strong-testimonials-helper.php:1866
+msgid "slide"
+msgstr "slajd"
+
+#: admin/class-strong-testimonials-helper.php:1812
+msgid "move"
+msgstr "przenieś"
+
+#: admin/class-strong-testimonials-helper.php:1811
+msgid "margin"
+msgstr "margines"
+
+#: admin/class-strong-testimonials-helper.php:1810
+msgid "show"
+msgstr "pokaż"
+
+#: admin/class-strong-testimonials-helper.php:1809
+msgid "minimum screen width"
+msgstr "minimalna szerokość ekranu"
+
+#: admin/class-strong-testimonials-helper.php:1799
+msgid "slides at a time with these responsive breakpoints:"
+msgstr "slajdów naraz z tymi responsywnymi punktami przerwania:"
+
+#: admin/class-strong-testimonials-helper.php:1792
+msgid "multiple"
+msgstr "wiele"
+
+#: admin/class-strong-testimonials-helper.php:1791
+msgid "single"
+msgstr "pojedynczo"
+
+#: admin/class-strong-testimonials-helper.php:1796
+msgid "slide at a time"
+msgstr "slajdów na raz"
+
+#: admin/class-strong-testimonials-helper.php:316 admin/views.php:862
+msgid "Show"
+msgstr "Pokaż"
+
+#. translators: %s is a number
+#: includes/class-strong-testimonials-average-shortcode.php:182
+msgid "(based on %s rating)"
+msgid_plural "(based on %s ratings)"
+msgstr[0] "(oparte na %s ocenie)"
+msgstr[1] "(oparte na %s ocenach)"
+msgstr[2] "(oparte na %s ocenach)"
+
+#: admin/class-strong-testimonials-helper.php:138
+msgid "or Shortcode Attribute"
+msgstr "lub atrybut krótki kod"
+
+#: admin/class-strong-testimonials-helper.php:126
+msgid "Option"
+msgstr "Opcja"
+
+#: includes/class-strong-testimonials-privacy.php:62
+msgid "Testimonials"
+msgstr "Referencje"
+
+#: includes/class-strong-testimonials-privacy.php:31
+msgid "Strong Testimonials Plugin"
+msgstr "Wtyczka Mocne referencje"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:78
+#: admin/class-strong-testimonials-page-shortcodes.php:107
+msgid "Default"
+msgstr "Domyślne"
+
+#. translators: %s is a number
+#: includes/class-strong-testimonials-average-shortcode.php:180
+#: includes/class-strong-testimonials-average-shortcode.php:187
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "%s gwiazdka"
+msgstr[1] "%s gwiazdki"
+msgstr[2] "%s gwiazdek"
+
+#. translators: %s is a number
+#: includes/class-strong-testimonials-average-shortcode.php:157
+msgid "Average of %s Rating:"
+msgid_plural "Average of %s Ratings:"
+msgstr[0] "Średnia ocena %s:"
+msgstr[1] "Średnie oceny %s:"
+msgstr[2] "Średnich ocen %s:"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:379
+msgid "4 stars (based on 9 ratings)"
+msgstr "4 gwiazdki (na podstawie 9 ocen)"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:118
+#: admin/class-strong-testimonials-page-shortcodes.php:144
+#: admin/class-strong-testimonials-page-shortcodes.php:307
+#: admin/class-strong-testimonials-page-shortcodes.php:330
+#: admin/class-strong-testimonials-page-shortcodes.php:353
+#: admin/class-strong-testimonials-page-shortcodes.php:377
+#: admin/class-strong-testimonials-page-shortcodes.php:400
+#: admin/class-strong-testimonials-page-shortcodes.php:424
+#: includes/class-strong-testimonials-average-shortcode.php:153
+msgid "Average Rating:"
+msgstr "Średnia ocen:"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:830
+msgid "Try this if your page load time is more than a few seconds."
+msgstr "Spróbuj, jeśli czas ładowania strony jest dłuższy niż kilka sekund."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:805
+msgid "This works well if your page load time is less than a few seconds."
+msgstr "Działa to dobrze, jeśli czas ładowania strony jest krótszy niż kilka sekund."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:800
+msgid "document ready"
+msgstr "dokument gotowy"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:773
+msgid "When to start sliders, Masonry, pagination and form validation."
+msgstr "Kiedy rozpocząć slajdy, cegiełki, paginację i walidację formularzy."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:244
+msgid "Compatibility Settings"
+msgstr "Ustawienia zgodności"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:229
+msgid "A testimonial view with the Masonry layout has only one column or works inconsistently in different browsers or devices."
+msgstr "Podgląd referencji z układem cegiełek ma tylko jedną kolumnę lub działa niespójnie w różnych przeglądarkach lub urządzeniach."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:228
+msgid "Masonry layout not working"
+msgstr "Układ cegiełek nie działa"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:222
+#: admin/settings/class-strong-testimonials-settings-compat.php:235
+#: admin/settings/class-strong-testimonials-settings-compat.php:826
+msgid "window load"
+msgstr "wczytywanie okna"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:222
+#: admin/settings/class-strong-testimonials-settings-compat.php:235
+#: admin/settings/class-strong-testimonials-settings-compat.php:769
+msgid "Load Event"
+msgstr "Wczytywanie zadania"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:219
+#: admin/settings/class-strong-testimonials-settings-compat.php:232
+msgid "The page is very busy loading image galleries, other sliders or third-party resources like social media posts."
+msgstr "Strona jest bardzo zajęta ładowaniem galerii zdjęć, pokazu slajdów lub zasobów stron trzecich, takich jak wpisy w mediach społecznościowych."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:216
+msgid "A testimonial slider does not start or is missing navigation controls."
+msgstr "Pokaz slajdów referencji nie uruchamia się lub brakuje w nim elementów sterujących nawigacją."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:215
+msgid "Slider never starts"
+msgstr "Pokaz slajdów nigdy się nie uruchamia"
+
+#. translators: link text on Settings > Compatibility tab
+#: admin/settings/class-strong-testimonials-settings-compat.php:207
+msgid "Set this now"
+msgstr "Ustaw to teraz"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:197
+msgid "For example, it has no style, no pagination, or the slider has not started."
+msgstr "Na przykład nie ma stylu, paginacji lubpokaz slajdów nie został uruchomiony."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:196
+msgid "A testimonial view does not appear correctly the <strong>first time</strong> you view the page but it does when you <strong>refresh</strong> the page."
+msgstr "Podgląd referencji nie wyświetla się poprawnie podczas <strong>pierwszego</strong> wyświetlenia strony, ale pojawia się po <strong>odświeżeniu</strong> strony."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:189
+msgid "Try"
+msgstr "Sprawdź"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:183
+msgid "Symptom"
+msgstr "Objaw"
+
+#: admin/class-strong-views-list-table.php:19
+msgid "No views found."
+msgstr "Nie znaleziono wyświetleń."
+
+#: admin/class-strong-testimonials-page-shortcodes.php:414
+msgid "The default container element is <code>div</code>. Select another element using <code>element</code>."
+msgstr "Domyślnym elementem kontenera jest <code>div</code>. Wybierz inny element za pomocą <code>element</code>."
+
+#: admin/class-strong-testimonials-page-shortcodes.php:183
+msgid "Insert tags into your custom content."
+msgstr "Wstaw tagi do własnej treści."
+
+#: admin/class-strong-testimonials-page-shortcodes.php:158
+msgid "Alternate content tags."
+msgstr "Alternatywne tagi treści."
+
+#: admin/class-strong-testimonials-page-shortcodes.php:132
+msgid "Customize using content tags."
+msgstr "Dostosuj za pomocą tagów treści."
+
+#: admin/class-strong-testimonials-page-shortcodes.php:108
+msgid "You must use the closing slash <code>/</code> if using the shortcode with content elsewhere on your page."
+msgstr "Musisz użyć zamykającego ukośnika <code>/</code>, jeśli używasz krótkiego kodu z treścią w innym miejscu na swojej stronie."
+
+#. translators: %s is a shortcode
+#: admin/class-strong-testimonials-page-shortcodes.php:101
+msgid "If using a <strong>single</strong> rating field, use %s to display the average rating."
+msgstr "Jeśli używasz <strong>pojedynczego</strong> pola oceny, użyj %s, aby wyświetlić średnią ocenę."
+
+#: admin/class-strong-testimonials-page-shortcodes.php:97
+msgid "Average Rating"
+msgstr "Średnia ocena"
+
+#. translators: %s is a shortcode attribute
+#: admin/class-strong-testimonials-page-shortcodes.php:73
+msgid "Use %s to display the number of testimonials."
+msgstr "Użyj %s, aby wyświetlić liczbę referencji."
+
+#: admin/class-strong-testimonials-page-shortcodes.php:71
+msgid "Testimonial Count"
+msgstr "Licznik referencji"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:68
+msgid "Go to views"
+msgstr "Przejdź do podglądów"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:64
+msgid "Testimonial Views"
+msgstr "Zobacz referencje"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:62
+#: admin/menu/class-strong-testimonials-menu-shortcodes.php:45
+#: admin/menu/class-strong-testimonials-menu-shortcodes.php:46
+msgid "Shortcodes"
+msgstr "Krótkie kody"
+
+#. Description of the plugin
+#: strong-testimonials.php
+msgid "Collect and display your testimonials or reviews."
+msgstr "Zbieraj i wyświetlaj swoje referencje lub opinie."
+
+#. translators: %s is the placeholder for the testimonial view name or
+#. identifier.
+#: includes/class-strong-testimonials-view-shortcode.php:79
+msgid "Testimonial view %s not found."
+msgstr "Nie znaleziono podglądu referencji %s."
+
+#: admin/class-strong-testimonials-admin-scripts.php:322
+msgid "click to insert into message at caret"
+msgstr "kliknij, aby wstawić do wiadomości w dawce"
+
+#: includes/class-strong-testimonials-view-shortcode.php:82
+#: includes/class-strong-view.php:97
+msgid "(Only administrators see this message.)"
+msgstr "(Tylko administratorzy widzą tę wiadomość.)"
+
+#: includes/class-strong-view.php:96
+msgid "No testimonials found. Check your view settings."
+msgstr "Nie znaleziono referencji. Sprawdź ustawienia wyświetlania."
+
+#: admin/settings/partials/email-to.php:36
+msgid "Add recipient"
+msgstr "Dodaj odbiorcę"
+
+#: admin/class-strong-testimonials-helper.php:379
+msgid "Assign to a category"
+msgstr "Przypisz do kategorii"
+
+#: admin/partials/fields/field-type.php:43
+msgid "Select a field type or delete this field."
+msgstr "Wybierz typ pola lub usuń to pole."
+
+#: includes/class-strong-testimonials-templates.php:44
+msgid "Plugin"
+msgstr "Wtyczka"
+
+#: admin/settings/partials/general.php:110
+msgid "If you are having trouble scrolling long testimonials on a small screen, try disabling this."
+msgstr "Jeśli masz problem z przewijaniem długich referencji na małym ekranie, spróbuj to wyłączyć."
+
+#: admin/settings/partials/general.php:107
+msgid "Enable touch swipe navigation in slideshows."
+msgstr "Włącz nawigację dotykową w pokazach slajdów."
+
+#: admin/settings/partials/general.php:101
+msgid "Enable Touch"
+msgstr "Włącz dotyk"
+
+#: admin/settings/partials/email-from.php:63
+#: admin/settings/partials/recipient.php:32
+msgid "admin:"
+msgstr "admin:"
+
+#: admin/class-strong-testimonials-helper.php:1295
+msgid "To add a class to the image link."
+msgstr "Aby dodać klasę do odnośnika obrazka."
+
+#: admin/class-strong-testimonials-helper.php:1291
+msgid "CSS class"
+msgstr "Klasa CSS"
+
+#: admin/class-strong-testimonials-helper.php:1038
+msgid "a comma-separated list of post ID's"
+msgstr "rozdzielona przecinkami lista identyfikatorów wpisów"
+
+#: admin/class-strong-testimonials-helper.php:152
+msgctxt "verb"
+msgid "Select"
+msgstr "Wybierz"
+
+#: admin/class-strong-testimonials-helper.php:2338
+msgid "A single column."
+msgstr "Pojedyncza kolumna."
+
+#: admin/class-strong-testimonials-helper.php:467
+msgid "Font Color"
+msgstr "Kolor kroju pisma"
+
+#: admin/class-strong-testimonials-helper.php:2618
+msgid "Separate class names by spaces."
+msgstr "Oddziel nazwy klas spacjami."
+
+#: admin/class-strong-testimonials-helper.php:478
+msgid "CSS Classes"
+msgstr "Klasy CSS"
+
+#: admin/class-strong-testimonials-helper.php:1100
+msgid "a comma-separated list of category slugs or ID's"
+msgstr "oddzielona przecinkami lista uproszczonych nazw kategorii lub identyfikatorów"
+
+#: admin/class-strong-testimonials-helper.php:2225
+#: admin/class-strong-testimonials-helper.php:2477
+#: admin/class-strong-testimonials-helper.php:2584
+msgid "No options"
+msgstr "Brak opcji"
+
+#: admin/class-strong-testimonials-helper.php:2454
+#: admin/class-strong-testimonials-helper.php:2572
+msgid "inherit from theme"
+msgstr "dziedzicz z motywu"
+
+#: admin/class-strong-testimonials-helper.php:122
+msgid "Query"
+msgstr "Zapytanie"
+
+#: admin/class-strong-testimonials-help.php:193
+msgid "Shortcode Attributes"
+msgstr "Atrybuty krótkiego kodu"
+
+#: admin/class-strong-testimonials-help.php:185
+msgid "Using <code>post_ids</code> is the most specific method and it will override category and count (whether settings or attributes)."
+msgstr "Użycie <code>post_ids</code> jest najbardziej specyficzną metodą i zastąpi kategorię i liczbę (czy to ustawień, czy atrybutów)."
+
+#: admin/class-strong-testimonials-help.php:182
+msgid "Attributes may be used in combination. For example:"
+msgstr "Atrybuty mogą być używane w kombinacji. Na przykład:"
+
+#: admin/class-strong-testimonials-help.php:176
+msgid "Or you can configure one view as a pattern and add it to each service page with the <code>category</code> attribute."
+msgstr "Możesz też skonfigurować jeden podgląd jako wzorzec i dodać go do każdej strony usługi za pomocą atrybutu <code>kategorii</code>."
+
+#: admin/class-strong-testimonials-help.php:175
+msgid "For example, imagine you have five services, a sales page for each service, and a testimonial category for each service. To display the testimonials on each service page, you can create five duplicate views, one for each category."
+msgstr "Na przykład wyobraź sobie, że masz pięć usług, stronę sprzedaży dla każdej usługi i kategorię referencji dla każdej usługi. Aby wyświetlić referencje na każdej stronie usługi, możesz utworzyć pięć zduplikowanych widoków, po jednym dla każdej kategorii."
+
+#: admin/class-strong-testimonials-help.php:174
+msgid "Overridable settings: <code>post_ids</code>, <code>category</code>, <code>order</code>, <code>count</code>."
+msgstr "Ustawienia, które można zastąpić: <code>post_ids</code>, <code>category</code>, <code>order</code>, <code>count</code>."
+
+#: admin/class-strong-testimonials-help.php:173
+msgid "Optional shortcode attributes will override the view settings. Use this to create reusable view <strong>patterns</strong>."
+msgstr "Opcjonalne atrybuty krótkiego kodu zastąpią ustawienia podglądu. Użyj tego do tworzenia <strong>wzorców</strong> widoków wielokrotnego użytku."
+
+#: admin/class-wpmtst-admin-helpers.php:92
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: includes/class-strong-testimonials-form.php:588
+msgid "star"
+msgid_plural "stars"
+msgstr[0] "gwiazdka"
+msgstr[1] "gwiazdki"
+msgstr[2] "gwiazdek"
+
+#: admin/class-strong-testimonials-upsell.php:556
+msgid "These methods for trapping spambots are both time-tested and widely used. May be used simultaneously for more protection."
+msgstr "Te metody wyłapywania robotów spamujących są zarówno sprawdzone, jak i szeroko stosowane. Mogą być używane jednocześnie dla lepszej ochrony."
+
+#: admin/settings/partials/form.php:223
+msgid "Notification Email"
+msgstr "Powiadomienie E-mail"
+
+#: admin/settings/partials/email.php:46
+msgid "Tags for Subject and Message"
+msgstr "Tagi dla tematu i wiadomości"
+
+#: admin/settings/partials/email-to.php:5
+msgid "To"
+msgstr "Do"
+
+#: admin/settings/partials/email-from.php:16
+msgid "From"
+msgstr "Od"
+
+#. translators: %s is the name of the post type. "Testimonial" by default.
+#: admin/class-strong-testimonials-helper.php:1210
+msgctxt "The name of this post type. \"Testimonial\" by default."
+msgid "Link to %s"
+msgstr "Odnośnik do %s"
+
+#: admin/class-strong-testimonials-helper.php:1283
+msgid "Requires a lightbox provided by your theme or another plugin."
+msgstr "Wymaga lightboxa dostarczonego przez Twój motyw lub inną wtyczkę."
+
+#: includes/functions-activation.php:30
+msgid "An error occurred:"
+msgstr "Wystąpił błąd:"
+
+#. translators: %s is the URL to the WordPress dashboard.
+#: includes/functions-activation.php:35 includes/functions-views.php:43
+msgid "<a href=\"%s\">Go back to Dashboard</a>"
+msgstr "<a href=\"%s\">Wróć do Kokpitu</a>"
+
+#: includes/functions-activation.php:31 includes/functions-views.php:41
+msgid "The plugin has been deactivated."
+msgstr "Wtyczka została wyłączona."
+
+#: admin/class-strong-testimonials-defaults.php:765
+#: includes/functions-template.php:638
+msgid "Next &raquo;"
+msgstr "Następne &raquo;"
+
+#: admin/class-strong-testimonials-defaults.php:764
+#: includes/functions-template.php:637
+msgid "&laquo; Previous"
+msgstr "&laquo; Poprzednie"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:742
+msgid "Script name"
+msgstr "Nazwa skryptu"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:734
+msgid "Register a callback for a specific Ajax script."
+msgstr "Zarejestruj wywołanie zwrotne dla określonego skryptu Ajax."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:730
+msgid "Specific script"
+msgstr "Konkretny skrypt"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:699
+msgid "Event name"
+msgstr "Nazwa wydarzenia"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:691
+msgid "Listen for specific events."
+msgstr "Słuchaj konkretnych wydarzeń."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:687
+msgid "Custom event"
+msgstr "Własne wydarzenie"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:665
+msgid "the element being added"
+msgstr "dodawany element"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:655
+msgid "Added node ID"
+msgstr "Dodano identyfikator węzła"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:643
+msgid "the element to observe"
+msgstr "element do obserwacji"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:633
+msgid "Container ID"
+msgstr "Identyfikator kontenera"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:611
+msgctxt "timer setting"
+msgid "Check once after"
+msgstr "Sprawdź raz po"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:598
+msgid "React to changes in specific page elements."
+msgstr "Reaguj na zmiany w określonych elementach strony."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:594
+msgid "Observer"
+msgstr "Obserwator"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:572
+#: admin/settings/class-strong-testimonials-settings-compat.php:621
+msgctxt "timer setting"
+msgid "seconds"
+msgstr "sekund"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:562
+msgctxt "timer setting"
+msgid "Check every"
+msgstr "Sprawdzaj co"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:555
+msgid "Watch for page changes on a timer."
+msgstr "Obserwuj zmiany strony na zegarze."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:551
+msgid "Universal"
+msgstr "Uniwersalny"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:494
+msgid "Initialize sliders, pagination and form validation as pages change."
+msgstr "Inicjuj pokazy slajdów, paginację i walidację formularzy w miarę zmian stron."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:490
+msgid "Monitor"
+msgstr "Monitoruj"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:476
+msgid "When the shortcode is rendered. May result in a flash of unstyled content."
+msgstr "Gdy wyświetlany jest krótki kod. Może spowodować to przebłysk niestylizowanej zawartości."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:451
+msgid "Then select an option for <strong>Monitor</strong> below."
+msgstr "Następnie wybierz poniżej opcję <strong>Monitoruj</strong>."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:450
+msgid "For all views. Required for Ajax page loading."
+msgstr "Dla wszystkich podglądów. Wymagane do ładowania strony Ajax."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:446
+msgid "All views"
+msgstr "Zobacz wszystkie"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:424
+msgid "For the current page only."
+msgstr "Tylko dla bieżącej strony."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:389
+msgid "Load stylesheets and populate script variables up front."
+msgstr "Ładuj arkusze stylów i wypełniaj zmienne skryptu z góry."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:371
+msgid "For specific configurations."
+msgstr "Dla konkretnych konfiguracji."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:367
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:345
+msgid "This works well with common Ajax methods."
+msgstr "Działa to dobrze z popularnymi metodami Ajax."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:344
+msgid "Be ready to render any view at any time."
+msgstr "Bądź gotowy do renderowanie dowolnego podglądu w dowolnym momencie."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:319
+#: admin/settings/class-strong-testimonials-settings-compat.php:425
+msgid "This works well for most themes."
+msgstr "Działa to dobrze w przypadku większości motywów."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:318
+#: admin/settings/class-strong-testimonials-settings-compat.php:529
+msgid "No compatibility needed."
+msgstr "Kompatybilność nie jest wymagana."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:314
+#: admin/settings/class-strong-testimonials-settings-compat.php:420
+#: admin/settings/class-strong-testimonials-settings-compat.php:525
+#: admin/settings/class-strong-testimonials-settings-compat.php:801
+msgid "(default)"
+msgstr "(domyślny)"
+
+#: admin/class-strong-testimonials-helper.php:1222
+#: admin/settings/class-strong-testimonials-settings-compat.php:313
+#: admin/settings/class-strong-testimonials-settings-compat.php:472
+#: admin/settings/class-strong-testimonials-settings-compat.php:524
+#: includes/functions.php:858
+msgid "None"
+msgstr "Brak"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:284
+msgid "It provides compatibility with themes and plugins that use Ajax to load pages, also known as page animation or transition effects."
+msgstr "Zapewnia kompatybilność z motywami i wtyczkami, które używają Ajax do ładowania stron, znanych również jako animacja strony lub efekty przejścia."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:283
+msgid "This does not perform Ajax page loading."
+msgstr "To nie wykonuje ładowania strony Ajax."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:204
+#: admin/settings/class-strong-testimonials-settings-compat.php:340
+msgid "General"
+msgstr "Ogólne"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:204
+#: admin/settings/class-strong-testimonials-settings-compat.php:278
+msgid "Ajax Page Loading"
+msgstr "Ładowanie strony Ajax"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:201
+msgid "Instead of loading the entire page, this technique fetches only the new content."
+msgstr "Zamiast ładować całą stronę, ta technika pobiera tylko nową treść."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:200
+msgid "Your site uses <strong>Ajax page loading</strong> &ndash; also known as page animations, transition effects or Pjax (pushState Ajax) &ndash; provided by your theme or another plugin."
+msgstr "Twoja witryna używa <strong>ładowania strony Ajax</strong> &ndash; znany również jako animacje strony, efekty przejścia lub Pjax (pushState Ajax) &ndash; dostarczone przez Twój motyw lub inną wtyczkę."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:186
+msgid "Possible Cause"
+msgstr "Możliwa przyczyna"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:195
+msgid "Views not working"
+msgstr "Podgląd nie działa"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:175
+msgid "Common Scenarios"
+msgstr "Wspólne scenariusze"
+
+#: admin/class-strong-testimonials-helper.php:1681
+msgid "After page number"
+msgstr "Po numerze strony"
+
+#: admin/class-strong-testimonials-helper.php:1675
+msgid "Before page number"
+msgstr "Przed numerem strony"
+
+#: admin/class-strong-testimonials-helper.php:1664
+msgid "Next text"
+msgstr "Następny tekst"
+
+#: admin/class-strong-testimonials-helper.php:1658
+msgid "Previous text"
+msgstr "Poprzedni tekst"
+
+#: admin/class-strong-testimonials-helper.php:1655
+msgid "Show previous/next links"
+msgstr "Pokaż poprzednie/następne odnośniki"
+
+#: admin/class-strong-testimonials-helper.php:1640
+msgctxt "quantity"
+msgid "Middle size"
+msgstr "Średni rozmiar"
+
+#: admin/class-strong-testimonials-helper.php:1634
+msgctxt "quantity"
+msgid "End size"
+msgstr "Końcowy rozmiar"
+
+#: admin/class-strong-testimonials-helper.php:1628
+msgid "Show condensed page numbers"
+msgstr "Pokaż skondensowane numery stron"
+
+#: admin/class-strong-testimonials-helper.php:1626
+msgid "Show all page numbers"
+msgstr "Pokaż numery wszystkich stron"
+
+#. translators: %s is a link to a guide on CSS flexbox.
+#: admin/class-strong-testimonials-helper.php:2365
+msgid "Using <a href=\"%s\" target=\"_blank\">CSS flexbox</a>."
+msgstr "Korzystanie z <a href=\"%s\" target=\"_blank\">CSS Flexbox</a>."
+
+#. translators: %s is the shortcode that was not found.
+#: admin/class-strong-testimonials-post-editor.php:284
+msgid "shortcode %s not found"
+msgstr "krótki kod %s nie został znaleziony"
+
+#: admin/class-strong-testimonials-help.php:89
+#: admin/settings/class-strong-testimonials-settings-compat.php:385
+msgid "Prerender"
+msgstr "Wstępne renderowanie"
+
+#: admin/class-strong-testimonials-help.php:82
+msgid "The prerender option ensures this plugin's stylesheets are loaded before the content."
+msgstr "Opcja wstępnego renderowania gwarantuje, że arkusze stylów tej wtyczki zostaną załadowane przed treścią."
+
+#: admin/class-strong-testimonials-help.php:81
+msgid "When this occurs with plugins that use shortcodes, it means the plugin's stylesheet was enqueued when the shortcode was rendered so it gets loaded after the content instead of in the normal sequence."
+msgstr "Gdy dzieje się tak w przypadku wtyczek, które używają skrótów, oznacza to, że arkusz stylów wtyczki został umieszczony w kolejce podczas renderowania krótkiego kodu, więc jest ładowany po treści zamiast w normalnej kolejności."
+
+#. translators: %s is the URL to an expert's observations on CSS Tricks.
+#: admin/class-strong-testimonials-help.php:69
+msgid "<a href=\"%s\" target=\"_blank\">An expert's observations here</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Obserwacje eksperta tutaj</a>"
+
+#. translators: %s is the URL to a demonstration on CodePen.
+#: admin/class-strong-testimonials-help.php:53
+msgid "<a href=\"%s\" target=\"_blank\">Demonstrated here</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Pokazane tutaj</a>"
+
+#. translators: %s is the URL to an external explanation about Flash of
+#. Unstyled Content (FOUC).
+#: admin/class-strong-testimonials-help.php:37
+msgid "<a href=\"%s\" target=\"_blank\">Explained further here</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Więcej wyjaśnień tutaj</a>"
+
+#: admin/class-strong-testimonials-help.php:31
+msgid "When a browser displays the content before all the stylesheets have been loaded, a flash of unstyled content can occur."
+msgstr "Gdy przeglądarka wyświetla zawartość przed załadowaniem wszystkich arkuszy stylów, może wystąpić przebłysk zawartości bez stylu."
+
+#: admin/class-strong-testimonials-help.php:30
+msgid "Normally, a web page will load its stylesheets (font, color, size, etc.) before the content. When the content is displayed, the style is ready and the page appears as it was designed."
+msgstr "Zwykle strona internetowa ładuje swoje arkusze stylów (czcionka, kolor, rozmiar itp.) przed treścią. Po wyświetleniu zawartości styl jest gotowy, a strona wygląda tak, jak została zaprojektowana."
+
+#: admin/settings/partials/email-from.php:7
+msgid "Use mail queue. For services like Mandrill. Off by default."
+msgstr "Użyj kolejki poczty. Dla usług takich jak Mandrill. Domyślnie wyłączone."
+
+#: admin/views.php:50 includes/functions-views.php:40
+msgid "An error occurred."
+msgstr "Wystąpił błąd."
+
+#. translators: %s is a URL link to the Lazy Loading Responsive Images plugin
+#: admin/settings/partials/general.php:284
+msgid "Exclude from <a href=\"%s\" target=\"_blank\">Lazy Loading Responsive Images</a> plugin."
+msgstr "Wyklucz z wtyczki <a href=\"%s\" target=\"_blank\">Lazy Loading Responsive Images</a>."
+
+#: admin/custom-fields.php:383
+msgid "Checked by default."
+msgstr "Domyślnie zaznaczone."
+
+#: admin/class-strong-testimonials-help.php:156
+msgid "About Views"
+msgstr "O podglądach"
+
+#: admin/class-strong-testimonials-help.php:148
+msgid "Add a view to a page with its unique shortcode or add it to a sidebar with the Strong Testimonials widget."
+msgstr "Dodaj podgląd do strony z jego unikatowym krótkim kodem lub dodaj go do panelu bocznego za pomocą widżetu Mocnych referencji."
+
+#: admin/class-strong-testimonials-help.php:145
+msgid "Create a view to append your custom fields to the individual testimonial using your theme single post template."
+msgstr "Utwórz widok, aby dołączyć pola niestandardowe do indywidualnej referencji, korzystając z szablonu pojedynczego wpisu swojego motywu."
+
+#: admin/class-strong-testimonials-help.php:144
+msgid "Create a view to show a testimonial submission form"
+msgstr "Utwórz widok, aby wyświetlić formularz przesyłania referencji"
+
+#: admin/class-strong-testimonials-help.php:143
+msgid "Create a view to display your testimonials in a list, grid, or slideshow."
+msgstr "Utwórz widok, aby wyświetlić swoje referencje w formie listy, siatki lub pokazu slajdów."
+
+#: admin/class-strong-testimonials-help.php:140
+msgid "You can create an <strong>unlimited</strong> number of views."
+msgstr "Możesz utworzyć <strong>nieograniczoną</strong> liczbę podglądów."
+
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+#: includes/functions-content.php:192
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "słowa"
+
+#: includes/functions-content.php:176 includes/functions-template.php:122
+msgid "&hellip;"
+msgstr "&hellip;"
+
+#: includes/functions-content.php:45
+msgid "There is no excerpt because this is a protected post."
+msgstr "Brak zajawki, ponieważ wpis jest zabezpieczony hasłem."
+
+#: admin/class-strong-testimonials-defaults.php:418
+msgctxt "Default message for required notice at top of form."
+msgid "Required"
+msgstr "Wymagane"
+
+#. translators: Settings > Form > Messages tab
+#: admin/class-strong-testimonials-defaults.php:417
+msgctxt "setting description"
+msgid "Required"
+msgstr "Wymagane"
+
+#: admin/settings/partials/form.php:65
+msgid "Display required notice at top of form"
+msgstr "Wyświetl wymagane powiadomienie na górze formularza"
+
+#: admin/class-strong-testimonials-defaults.php:167 admin/views.php:368
+msgid "checkbox"
+msgstr "pole zaznaczenia"
+
+#: admin/settings/partials/general.php:217
+msgid "Custom Field Bulk Editor"
+msgstr "Edytor zbiorczy własnych pól"
+
+#: admin/settings/partials/general.php:209
+msgid "Add <code>rel=\"nofollow\"</code> to URL custom fields."
+msgstr "Dodaj <code>rel=\"nofollow\"</code> do własnych pól adresu URL."
+
+#: admin/settings/partials/general.php:203
+msgid "Nofollow Links"
+msgstr "Odnośniki nofollow"
+
+#: admin/partials/fields/field-text.php:7
+msgctxt "noun"
+msgid "Text"
+msgstr "Tekst"
+
+#: admin/custom-fields.php:344 admin/partials/fields/field-text.php:12
+msgid "next to the checkbox"
+msgstr "obok pola wyboru"
+
+#: admin/custom-fields.php:174
+msgid "Editor"
+msgstr "Edytor"
+
+#: admin/class-strong-testimonials-post-editor.php:185
+#: admin/class-strong-testimonials-post-editor.php:193
+#: admin/class-strong-testimonials-post-editor.php:201
+msgid "default"
+msgstr "domyślne"
+
+#: admin/class-strong-testimonials-defaults.php:528
+msgid "When viewing the testimonial using a theme's single post template."
+msgstr "Podczas przeglądania referencji przy użyciu szablonu pojedynczego wpisu motywu."
+
+#: admin/class-strong-testimonials-defaults.php:527
+msgid "Single Template"
+msgstr "Pojedynczy szablon"
+
+#: admin/class-strong-testimonials-defaults.php:523
+msgid "Display a testimonial submission form."
+msgstr "Wyświetl formularz przesyłania referencji."
+
+#: admin/class-strong-testimonials-defaults.php:518
+msgid "Create a slideshow of your testimonials."
+msgstr "Utwórz pokaz slajdów ze swoich referencji."
+
+#: admin/class-strong-testimonials-defaults.php:513
+msgid "Display your testimonials in a list or a grid."
+msgstr "Wyświetl swoje referencję na liście lub w siatce."
+
+#: admin/class-strong-views-list-table.php:197
+msgid "theme single post template"
+msgstr "motyw szablonu pojedynczego wpisu"
+
+#: admin/class-strong-views-list-table.php:182
+msgid "stick to top of list"
+msgstr "przyklej na górze listy"
+
+#: admin/class-strong-testimonials-page-shortcodes.php:133
+msgid "Default:"
+msgstr "Domyślnie:"
+
+#: includes/class-strong-testimonials-templates.php:38
+msgid "Parent Theme"
+msgstr "Motyw nadrzędny"
+
+#: includes/class-strong-testimonials-templates.php:32
+msgid "Child Theme"
+msgstr "Motyw potomny"
+
+#: admin/class-strong-testimonials-helper.php:573
+msgid "Duplicate This View"
+msgstr "Powiel ten podgląd"
+
+#: admin/class-strong-testimonials-helper.php:570
+msgid "Return To List"
+msgstr "Wróć do listy"
+
+#: admin/class-strong-testimonials-helper.php:1003
+msgid "one or more testimonials"
+msgstr "jedna lub więcej referencji"
+
+#: admin/class-strong-testimonials-helper.php:1728
+msgid "Pages"
+msgstr "Strony"
+
+#: admin/class-strong-testimonials-helper.php:1719
+#: includes/class-strong-testimonials-templates.php:63
+msgid "Custom"
+msgstr "Własne"
+
+#: admin/class-strong-testimonials-helper.php:2640
+msgid "Not required if simply adding this view in the <b>Divi theme</b> using either the default editor or Divi Builder."
+msgstr "Niewymagane, jeśli po prostu dodajesz ten podgląd w <b>motywie Divi</b> przy użyciu domyślnego edytora lub narzędzia Divi Builder."
+
+#: admin/class-strong-testimonials-helper.php:2639
+msgid "Not required if simply adding this view in the default editor."
+msgstr "Niewymagane, jeśli po prostu dodajesz ten podgląd w domyślnym edytorze."
+
+#: admin/class-strong-testimonials-helper.php:2638
+msgid "Check this if adding this view (via shortcode or widget) using the Visual Builder in <b>Divi Builder version 2</b>."
+msgstr "Zaznacz to, jeśli dodajesz ten podgląd (za pomocą krótkiego kodu lub widżetu) przy pomocy narzędzia Visual Builder w <b>Divi Builder w wersji 2</b>."
+
+#: admin/class-strong-testimonials-helper.php:501
+msgid "Divi Builder"
+msgstr "Divi Builder"
+
+#: admin/class-strong-testimonials-helper.php:1372
+msgid "If no manual excerpt, create an excerpt using"
+msgstr "Jeśli nie ma ręcznej zajawki, utwórz zajawkę za pomocą"
+
+#: admin/class-strong-testimonials-helper.php:497
+#: admin/settings/class-strong-testimonials-settings-compat.php:47
+msgid "Compatibility"
+msgstr "Kompatybilność"
+
+#: admin/class-strong-testimonials-helper.php:594 admin/custom-fields.php:205
+msgid "Cancel Changes"
+msgstr "Anuluj zmiany"
+
+#: admin/views.php:35
+msgid "Changes cancelled."
+msgstr "Zmiany anulowane."
+
+#: admin/class-strong-testimonials-helper.php:527
+msgid "Invalid request. Please try again."
+msgstr "Nieprawidłowe zapytanie. Proszę spróbować ponownie."
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:261
+#: admin/settings/partials/general.php:55
+#: admin/settings/partials/general.php:71
+#: admin/settings/partials/general.php:163
+#: admin/settings/partials/general.php:264
+#: admin/settings/partials/general.php:307
+msgid "Off by default."
+msgstr "Domyślnie wyłączone."
+
+#: admin/settings/partials/general.php:23
+#: admin/settings/partials/general.php:108
+#: admin/settings/partials/general.php:133
+#: admin/settings/partials/general.php:148
+#: admin/settings/partials/general.php:210
+#: admin/settings/partials/general.php:233
+#: admin/settings/partials/general.php:248
+#: admin/settings/partials/general.php:289
+msgid "On by default."
+msgstr "Domyślnie włączone."
+
+#: admin/settings/partials/general.php:22
+msgid "Show indicator bubble when new submissions are awaiting moderation."
+msgstr "Pokaż dymek powiadomienia, gdy nowe zgłoszenia oczekują na moderację."
+
+#: admin/custom-fields.php:377 admin/custom-fields.php:409
+msgid "stars"
+msgstr "gwiazdki"
+
+#. translators: %s is the number of testimonials that were restored from the
+#. Trash.
+#: includes/post-types.php:255
+msgid "%s testimonial restored from the Trash."
+msgid_plural "%s testimonials restored from the Trash."
+msgstr[0] "%s referencja przywrócona z Kosza."
+msgstr[1] "%s referencje przywrócone z Kosza."
+msgstr[2] "%s referencji przywróconych z Kosza."
+
+#. translators: %s is the number of testimonials that were moved to the Trash.
+#: includes/post-types.php:253
+msgid "%s testimonial moved to the Trash."
+msgid_plural "%s testimonials moved to the Trash."
+msgstr[0] "%s referencja przeniesiona do kosza."
+msgstr[1] "%s referencje przeniesione do kosza."
+msgstr[2] "%s referencji przeniesionych do kosza."
+
+#. translators: %s is the number of testimonials that were permanently deleted.
+#: includes/post-types.php:251
+msgid "%s testimonial permanently deleted."
+msgid_plural "%s testimonials permanently deleted."
+msgstr[0] "%s referencja bezpowrotnie usunięta."
+msgstr[1] "%s referencje bezpowrotnie usunięte."
+msgstr[2] "%s referencji bezpowrotnie usuniętych."
+
+#. translators: %s is the number of testimonials that were not updated because
+#. someone else is editing them.
+#: includes/post-types.php:249
+msgid "%s testimonial not updated, somebody is editing it."
+msgid_plural "%s testimonials not updated, somebody is editing them."
+msgstr[0] "%s referencja nie została zaktualizowana, ktoś ją edytuje."
+msgstr[1] "%s referencje nie zostały zaktualizowane, ktoś je edytuje."
+msgstr[2] "%s referencji nie zostało zaktualizowanych, ktoś je edytuje."
+
+#. translators: %s is the number of testimonials that were not updated because
+#. someone else is editing them.
+#: includes/post-types.php:249
+msgid "1 testimonial not updated, somebody is editing it."
+msgstr "1 referencja nie została zaktualizowana, ktoś ją edytuje."
+
+#. translators: %s is the number of testimonials that were updated.
+#: includes/post-types.php:247
+msgid "%s testimonial updated."
+msgid_plural "%s testimonials updated."
+msgstr[0] "%s referencja zaktualizowana."
+msgstr[1] "%s referencje zaktualizowane."
+msgstr[2] "%s referencji zaktualizowanych."
+
+#: includes/post-types.php:78
+msgctxt "admin bar menu name"
+msgid "Testimonial"
+msgstr "Referencja"
+
+#: includes/post-types.php:76
+msgid "Testimonials list"
+msgstr "Lista referencji"
+
+#: includes/post-types.php:75
+msgid "Testimonials list navigation"
+msgstr "Nawigacja po liście referencji"
+
+#: includes/post-types.php:74
+msgid "Filter testimonials list"
+msgstr "Filtruj listę referencji"
+
+#: includes/post-types.php:73
+msgid "Use as featured image"
+msgstr "Użyj jako obrazka wyróżniającego"
+
+#: includes/post-types.php:72
+msgid "Remove featured image"
+msgstr "Usuń obrazek wyróżniający"
+
+#: includes/post-types.php:71
+msgid "Set featured image"
+msgstr "Ustaw obrazek wyróżniający"
+
+#: includes/post-types.php:69
+msgid "Uploaded to this testimonial"
+msgstr "Przesłano do tej referencji"
+
+#: includes/post-types.php:68
+msgid "Insert into testimonial"
+msgstr "Wstaw do referencji"
+
+#: includes/post-types.php:66
+msgid "Testimonial Archives"
+msgstr "Archiwa referencji"
+
+#: includes/post-types.php:61
+msgid "View Testimonials"
+msgstr "Zobacz referencje"
+
+#: admin/class-strong-testimonials-helper.php:568 admin/views.php:75
+#: includes/post-types.php:56
+msgid "Add New"
+msgstr "Utwórz"
+
+#: admin/class-strong-testimonials-helper.php:2018
+msgid "The slideshow will pause if the browser window becomes inactive."
+msgstr "Pokaz slajdów zostanie wstrzymany, jeśli okno przeglądarki stanie się nieaktywne."
+
+#: admin/settings/partials/general.php:95
+msgid "Output"
+msgstr "Wyjście"
+
+#: admin/settings/partials/general.php:10
+msgid "Admin"
+msgstr "Admin"
+
+#. translators: %s is a shortcode
+#: admin/class-strong-testimonials-page-shortcodes.php:92
+msgid "Here's what %s local clients say"
+msgstr "Oto, co mówią lokalni klienci %s"
+
+#. translators: %s is a shortcode attribute
+#: admin/class-strong-testimonials-page-shortcodes.php:88
+msgid "To count for a specific category, add the %s attribute with the category slug."
+msgstr "Aby liczyć dla określonej kategorii, dodaj atrybut %s do uproszczonej nazwy kategorii."
+
+#. translators: %s is a shortcode
+#: admin/class-strong-testimonials-page-shortcodes.php:82
+msgid "Read some of our %s testimonials!"
+msgstr "Przeczytaj niektóre z naszych referencje %s!"
+
+#: admin/class-strong-testimonials-help.php:141
+msgid "For example:"
+msgstr "Na przykład:"
+
+#: admin/class-strong-testimonials-help.php:139
+msgid "A view is simply a group of settings with an easy-to-use editor."
+msgstr "Podgląd to po prostu grupa ustawień z łatwym w obsłudze edytorem."
+
+#: admin/class-strong-testimonials-help.php:271
+msgid "Use the excerpt or abbreviated content if you want to minimize the whitespace."
+msgstr "Użyj fragmentu lub skróconej treści, jeśli chcesz zminimalizować odstępy."
+
+#: admin/class-strong-testimonials-help.php:270
+msgid "Select the <b>Stretch</b> option to stretch the borders and background vertically to compensate."
+msgstr "Wybierz opcję <b>Rozciągnij</b>, aby rozciągnąć krawędzie i tło w pionie w celu kompensacji."
+
+#: admin/class-strong-testimonials-help.php:269
+msgid "This will set the height of the <b>slideshow container</b> to match the tallest slide in order to keep elements below it from bouncing up and down during slide transitions. With testimonials of uneven length, the result is whitespace underneath the shorter testimonials."
+msgstr "Ustawi to wysokość <b>kontenera pokazu slajdów</b> tak, aby odpowiadała najwyższemu slajdowi, aby elementy poniżej nie odbijały się w górę i w dół podczas przejść między slajdami. W przypadku referencji o nierównej długości, wynikiem jest pusta przestrzeń pod krótszymi referencjami."
+
+#: admin/class-strong-testimonials-wpchill-upsells.php:460
+msgid "Support"
+msgstr "Wsparcie techniczne"
+
+#: admin/admin.php:136
+msgid "restore default"
+msgstr "przywróć ustawienia domyślne"
+
+#: admin/class-strong-testimonials-post-editor.php:245
+msgid "Zero"
+msgstr "Zero"
+
+#: admin/class-strong-testimonials-admin-scripts.php:275
+msgid "Restore the default settings?"
+msgstr "Przywrócić ustawienia domyślne?"
+
+#: admin/class-strong-testimonials-admin-scripts.php:274
+msgid "An error occurred, please try again."
+msgstr "Wystąpił błąd, proszę spróbować ponownie."
+
+#: admin/class-strong-testimonials-helper.php:643
+#: admin/class-strong-views-list-table.php:104
+msgid "Shortcode"
+msgstr "Krótki kod"
+
+#: admin/class-strong-testimonials-helper.php:2166
+msgid "This will override the <strong>Success Redirect</strong> setting."
+msgstr "Spowoduje to zastąpienie ustawienia <strong>Przekierowanie powodzenia</strong>."
+
+#: admin/class-strong-testimonials-helper.php:390
+msgid " Submit form without reloading the page (Ajax)"
+msgstr " Wyślij formularz bez przeładowania strony (Ajax)"
+
+#: admin/class-strong-testimonials-helper.php:662
+#: admin/class-strong-views-list-table.php:102
+msgid "Mode"
+msgstr "Tryb"
+
+#: admin/settings/partials/form.php:186
+msgid "redirect to a URL"
+msgstr "przekieruj do adresu URL"
+
+#: admin/settings/partials/form.php:176
+msgctxt "to select a redirect page"
+msgid "or enter its ID or slug"
+msgstr "lub wprowadź jego identyfikator lub uproszczoną nazwę"
+
+#: admin/settings/partials/form.php:163
+msgid "&mdash; select a page &mdash;"
+msgstr "&mdash; wybierz stronę &mdash;"
+
+#: admin/settings/partials/form.php:158
+msgid "redirect to a page"
+msgstr "przekieruj do strony"
+
+#: admin/settings/partials/form.php:152
+msgid "display message"
+msgstr "wyświetl wiadomość"
+
+#: admin/settings/partials/form.php:143
+msgid "Upon Successful Submission"
+msgstr "Po pomyślnym przesłaniu"
+
+#: admin/settings/partials/form.php:88
+msgid "Restore Default Messages"
+msgstr "Przywróć domyślne wiadomości"
+
+#: includes/post-types.php:67
+msgid "Attributes"
+msgstr "Atrybuty"
+
+#: admin/class-strong-testimonials-defaults.php:193
+msgid "category checklist"
+msgstr "lista kontrolna kategorii"
+
+#: admin/class-strong-testimonials-help.php:111
+msgid "To display this form, create a view and select Form mode."
+msgstr "Aby wyświetlić ten formularz, utwórz podgląd i wybierz tryb formularza."
+
+#: admin/class-strong-testimonials-help.php:102
+msgid "This editor serves two purposes: (1) to modify the form as it appears on your site, and (2) to modify the custom fields added to each testimonial."
+msgstr "Edytor ten służy dwóm celom: (1) modyfikowaniu formularza, który pojawia się w Twojej witrynie, oraz (2) modyfikowaniu własnych pól dodawanych do każdej referencji."
+
+#: admin/class-strong-testimonials-help.php:101
+msgid "These fields let you customize your testimonials to gather the information you need."
+msgstr "Pola te pozwalają dostosować referencje w celu zebrania potrzebnych informacji."
+
+#: admin/custom-fields-ajax.php:24
+msgid "New Field"
+msgstr "Nowe pole"
+
+#: admin/class-strong-testimonials-admin-scripts.php:181
+msgctxt "Fields editor: To indicate when no categories have been found."
+msgid "(none found)"
+msgstr "(nic nie znaleziono)"
+
+#: admin/class-strong-testimonials-admin-scripts.php:180
+msgctxt "Fields editor: To indicate when a field type can only be used once."
+msgid "(in use)"
+msgstr "(w użyciu)"
+
+#: admin/class-strong-testimonials-admin-scripts.php:179
+msgctxt "Field editor: The default label for new fields"
+msgid "New Field"
+msgstr "Nowe pole"
+
+#: admin/class-strong-testimonials-defaults.php:656
+msgctxt "slideshow navigation option"
+msgid "buttons"
+msgstr "przyciski"
+
+#: admin/class-strong-testimonials-defaults.php:644
+#: admin/class-strong-testimonials-defaults.php:664
+msgctxt "slideshow navigation option"
+msgid "text"
+msgstr "tekst"
+
+#: admin/class-strong-testimonials-defaults.php:601
+msgctxt "slideshow navigation option"
+msgid "full"
+msgstr "pełne"
+
+#: admin/class-strong-testimonials-defaults.php:597
+msgctxt "slideshow navigation option"
+msgid "none"
+msgstr "brak"
+
+#: admin/class-strong-testimonials-defaults.php:650
+#: includes/class-strong-view-slideshow.php:443
+msgctxt "slideshow_control"
+msgid "Next"
+msgstr "Następny"
+
+#: admin/class-strong-testimonials-defaults.php:649
+#: includes/class-strong-view-slideshow.php:442
+msgctxt "slideshow_control"
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: admin/class-strong-testimonials-defaults.php:648
+#: includes/class-strong-view-slideshow.php:441
+msgctxt "slideshow control"
+msgid "Pause"
+msgstr "Pauza"
+
+#: admin/class-strong-testimonials-defaults.php:647
+#: includes/class-strong-view-slideshow.php:440
+msgctxt "slideshow control"
+msgid "Play"
+msgstr "Odtwarzaj"
+
+#: admin/class-strong-testimonials-defaults.php:634
+msgctxt "slideshow navigation option"
+msgid "buttons 3"
+msgstr "3 przyciski"
+
+#: admin/class-strong-testimonials-defaults.php:584
+msgctxt "slideshow controls option"
+msgid "Sides: previous / next"
+msgstr "Strony: poprzednia / następna"
+
+#: admin/class-strong-testimonials-defaults.php:575
+msgctxt "slideshow controls option"
+msgid "Bottom: previous / next"
+msgstr "Dół: poprzedni / następny"
+
+#: admin/class-strong-testimonials-defaults.php:563
+msgctxt "slideshow controls option"
+msgid "Bottom: previous / play-pause / next"
+msgstr "Dół: poprzedni / odtwarzanie-pauza / następny"
+
+#: admin/class-strong-testimonials-defaults.php:555
+msgctxt "slideshow controls option"
+msgid "none"
+msgstr "brak"
+
+#: admin/class-strong-testimonials-defaults.php:549
+msgctxt "slideshow option"
+msgid "Set height to match the tallest slide"
+msgstr "Ustaw wysokość tak, aby pasowała do najwyższego slajdu"
+
+#: admin/class-strong-testimonials-defaults.php:548
+msgctxt "slideshow option"
+msgid "Adjust height for each slide"
+msgstr "Dostosuj wysokość dla każdego slajdu"
+
+#: admin/class-strong-testimonials-defaults.php:544
+msgctxt "slideshow transition option"
+msgid "scroll vertically"
+msgstr "przewiń w pionie"
+
+#: admin/class-strong-testimonials-defaults.php:543
+#: admin/class-strong-testimonials-helper.php:1915
+msgctxt "slideshow transition option"
+msgid "scroll horizontally"
+msgstr "przewiń w poziomie"
+
+#: admin/class-strong-testimonials-defaults.php:542
+msgctxt "slideshow transition option"
+msgid "fade"
+msgstr "zanikanie"
+
+#: admin/class-strong-testimonials-defaults.php:541
+msgctxt "slideshow transition option"
+msgid "no transition effect"
+msgstr "brak efektu przejścia"
+
+#: admin/class-strong-testimonials-helper.php:328
+msgid "Transition"
+msgstr "Przejście"
+
+#: admin/class-strong-testimonials-helper.php:2111
+msgid "the testimonial frame"
+msgstr "ramka referencji"
+
+#: admin/class-strong-testimonials-helper.php:2103
+msgid "Position"
+msgstr "Pozycja"
+
+#: admin/class-strong-testimonials-helper.php:2036
+msgid "Controls"
+msgstr "Sterowanie"
+
+#: admin/class-strong-testimonials-helper.php:2009
+msgid "Stretch slides vertically"
+msgstr "Rozciągnij slajdy w pionie"
+
+#: admin/class-strong-testimonials-helper.php:1998
+msgid "Duration"
+msgstr "Czas trwania"
+
+#: admin/class-strong-testimonials-helper.php:1972
+msgid "Recommended if using navigation."
+msgstr "Zalecane w przypadku korzystania z nawigacji."
+
+#: admin/class-strong-testimonials-helper.php:1969
+msgctxt "slideshow setting"
+msgid "Stop on interaction"
+msgstr "Zatrzymaj przy interakcji"
+
+#: admin/class-strong-testimonials-helper.php:1943
+msgctxt "slideshow setting"
+msgid "Start automatically"
+msgstr "Uruchom automatycznie"
+
+#: admin/class-strong-testimonials-helper.php:339
+msgid "Behavior"
+msgstr "Zachowanie"
+
+#: admin/class-strong-testimonials-help.php:278
+msgid "Stretch"
+msgstr "Rozciąganie"
+
+#: includes/post-types.php:136
+msgctxt "slug"
+msgid "testimonial-category"
+msgstr "kategoria rekomendacji"
+
+#. Plugin Name of the plugin
+#: strong-testimonials.php
+#: includes/elementor/class-strong-testimonials-elementor-widget.php:23
+#: includes/strong-testimonials-beaver-block/class-strong-testimonials-beaver-block.php:11
+#: includes/strong-testimonials-beaver-block/class-strong-testimonials-beaver-block.php:13
+#: includes/strong-testimonials-beaver-block/class-strong-testimonials-beaver-block.php:27
+msgid "Strong Testimonials"
+msgstr "Mocne referencje"
+
+#: includes/functions.php:572
+msgid "light plum gradient"
+msgstr "lekki śliwkowy gradient"
+
+#: includes/functions.php:562
+msgid "light green mist gradient"
+msgstr "jasnozielony gradient mgły"
+
+#: includes/functions.php:567
+msgid "light latte gradient"
+msgstr "lekki gradient latte"
+
+#: includes/functions.php:577
+msgid "sky blue gradient"
+msgstr "gradient błękitny"
+
+#: includes/functions.php:552
+msgid "light blue gradient"
+msgstr "gradient jasnoniebieski"
+
+#: includes/functions.php:557
+msgid "light gray gradient"
+msgstr "jasnoszary gradient"
+
+#: class-strong-testimonials.php:96 class-strong-testimonials.php:108
+msgid "Cheatin&#8217; huh?"
+msgstr "Oszukujemy, co?"
+
+#: admin/settings/class-strong-testimonials-settings-compat.php:748
+#: includes/class-strong-testimonials-view-widget.php:95
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Wybierz &mdash;"
+
+#: includes/class-strong-testimonials-view-widget.php:92
+msgctxt "widget setting"
+msgid "View:"
+msgstr "Widok:"
+
+#: includes/class-strong-testimonials-view-widget.php:88
+msgid "Automatically add paragraphs to above Content only"
+msgstr "Automatycznie dodawaj akapity tylko do powyższej treści"
+
+#: includes/class-strong-testimonials-view-widget.php:84
+msgid "Content:"
+msgstr "Treść:"
+
+#: includes/class-strong-testimonials-view-widget.php:78
+msgid "Title:"
+msgstr "Tytuł:"
+
+#: includes/class-strong-testimonials-view-widget.php:27
+msgctxt "widget title"
+msgid "Testimonials"
+msgstr "Referencje"
+
+#: includes/class-strong-testimonials-view-widget.php:21
+msgctxt "widget label"
+msgid "Strong Testimonials View"
+msgstr "Zobacz Mocne referencje"
+
+#: includes/class-strong-testimonials-view-widget.php:14
+msgctxt "widget description"
+msgid "Add one of your testimonial views."
+msgstr "Dodaj jedną ze swoich referencji."
+
+#: includes/post-types.php:223
+msgid "Testimonial draft updated."
+msgstr "Referencja zaktualizowana."
+
+#. translators: %s: date and time of the scheduled date
+#: includes/post-types.php:222
+msgid "Testimonial scheduled for: %s."
+msgstr "Referencja zaplanowana na: %s."
+
+#: includes/post-types.php:220
+msgid "Testimonial submitted."
+msgstr "Referencja przesłana."
+
+#: includes/post-types.php:219
+msgid "Testimonial saved."
+msgstr "Referencja zapisana."
+
+#: includes/post-types.php:218
+msgid "Testimonial published."
+msgstr "Referencja opublikowana."
+
+#. translators: %s: date and time of the revision
+#: includes/post-types.php:217
+msgid "Testimonial restored to revision from %s."
+msgstr "Referencja przywrócona do wersji z %s."
+
+#: includes/post-types.php:214
+msgid "Custom field deleted."
+msgstr "Własne pole zostało usunięte."
+
+#: includes/post-types.php:213
+msgid "Custom field updated."
+msgstr "Własne pole zostało zaktualizowane."
+
+#: includes/post-types.php:212 includes/post-types.php:215
+msgid "Testimonial updated."
+msgstr "Referencja zaktualizowana."
+
+#: includes/post-types.php:197
+msgid "View testimonial"
+msgstr "Zobacz referencję"
+
+#: includes/post-types.php:190 includes/post-types.php:204
+msgid "Preview testimonial"
+msgstr "Podgląd referencji"
+
+#: includes/post-types.php:130
+msgid "All categories"
+msgstr "Wszystkie kategorie"
+
+#: includes/post-types.php:128
+msgid "Testimonial Category"
+msgstr "Kategoria referencji"
+
+#: includes/post-types.php:127
+msgid "Testimonial Categories"
+msgstr "Kategorie referencji"
+
+#: includes/post-types.php:106
+msgctxt "slug"
+msgid "testimonial"
+msgstr "referencja"
+
+#: includes/post-types.php:64
+msgid "Nothing found in Trash"
+msgstr "W koszu niczego nie znaleziono"
+
+#: includes/post-types.php:63
+msgid "Nothing Found"
+msgstr "Niczego nie znaleziono"
+
+#: includes/post-types.php:62
+msgid "Search Testimonials"
+msgstr "Szukaj referencji"
+
+#: includes/post-types.php:60
+msgid "View Testimonial"
+msgstr "Zobacz referencję"
+
+#: includes/post-types.php:65
+msgid "All Testimonials"
+msgstr "Wszystkie referencje"
+
+#: includes/post-types.php:59
+msgid "New Testimonial"
+msgstr "Nowa referencja"
+
+#: includes/post-types.php:58
+msgid "Edit Testimonial"
+msgstr "Edytuj referencję"
+
+#: includes/post-types.php:57
+msgid "Add New Testimonial"
+msgstr "Utwórz referencję"
+
+#: includes/post-types.php:55
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr "Referencja"
+
+#: includes/post-types.php:77
+msgctxt "admin menu name"
+msgid "Testimonials"
+msgstr "Referencje"
+
+#: admin/class-strong-testimonials-addons.php:131
+#: class-strong-testimonials.php:614 includes/post-types.php:54
+msgctxt "post type general name"
+msgid "Testimonials"
+msgstr "Referencje"
+
+#. translators: %s is the view ID.
+#. Translators: %s is the View ID.
+#: includes/l10n-polylang.php:135 includes/l10n-wpml.php:202
+msgid "View %s : Read more (page or post)"
+msgstr "Zobacz %s : Dowiedz się więcej (strona lub wpis)"
+
+#. translators: %s is the view ID.
+#. Translators: %s is the View ID.
+#: includes/l10n-polylang.php:121 includes/l10n-wpml.php:194
+msgid "View %s : Read more (testimonial)"
+msgstr "Zobacz %s : Dowiedz się więcej (referencje)"
+
+#: includes/l10n-polylang.php:94 includes/l10n-wpml.php:180
+msgid "Email subject"
+msgstr "Tytuł wiadomości e-mail"
+
+#: includes/l10n-polylang.php:95 includes/l10n-wpml.php:179
+msgid "Email message"
+msgstr "Wiadomość e-mail"
+
+#: includes/l10n-polylang.php:73 includes/l10n-wpml.php:155
+msgid "default display value"
+msgstr "domyślna wartość wyświetlania"
+
+#: includes/l10n-polylang.php:70 includes/l10n-wpml.php:151
+msgid "default form value"
+msgstr "domyślna wartość formularza"
+
+#: includes/l10n-polylang.php:67 includes/l10n-wpml.php:143
+msgid "label"
+msgstr "etykieta"
+
+#: includes/l10n-polylang.php:64 includes/l10n-wpml.php:139
+msgid "placeholder"
+msgstr "symbol zastępczy"
+
+#: admin/class-strong-testimonials-defaults.php:751
+msgctxt "link"
+msgid "Read more testimonials"
+msgstr "Dowiedz się więcej o referencjach"
+
+#: admin/class-strong-testimonials-defaults.php:743
+msgctxt "link"
+msgid "Read more"
+msgstr "Dowiedz się więcej"
+
+#: admin/class-strong-testimonials-defaults.php:517
+#: admin/class-strong-testimonials-helper.php:312
+msgid "Slideshow"
+msgstr "Pokaz slajdów"
+
+#: admin/class-strong-testimonials-defaults.php:512
+msgid "Display"
+msgstr "Wyświetl"
+
+#. translators: Default message for new testimonial notification email.
+#: admin/class-strong-testimonials-defaults.php:478
+msgid "New testimonial submission for %BLOGNAME%. This is awaiting action from the website administrator."
+msgstr "Nowo przesłana referencja dla %BLOGNAME%. Oczekuje na działanie administratora witryny."
+
+#. translators: Default subject line for new testimonial notification email.
+#: admin/class-strong-testimonials-defaults.php:474
+msgid "New testimonial for %BLOGNAME%"
+msgstr "Nowa referencja dla %BLOGNAME%"
+
+#. translators: Default message for submission form success message.
+#: admin/class-strong-testimonials-defaults.php:440
+msgctxt "success message"
+msgid "Thank you! Your testimonial is waiting to be approved."
+msgstr "Dziękujemy! Twoja referencja oczekuje na zatwierdzenie."
+
+#. translators: Settings > Form > Messages tab
+#: admin/class-strong-testimonials-defaults.php:438
+msgctxt "description"
+msgid "Submission Success"
+msgstr "Wysyłanie zakończone powodzeniem"
+
+#. translators: Default message for submission form error.
+#: admin/class-strong-testimonials-defaults.php:433
+msgctxt "error message"
+msgid "There was a problem processing your testimonial."
+msgstr "Wystąpił problem podczas przetwarzania twojej referencji."
+
+#. translators: Settings > Form > Messages tab
+#: admin/class-strong-testimonials-defaults.php:431
+msgctxt "description"
+msgid "Submission Error"
+msgstr "Błąd przesyłania"
+
+#. translators: Default label for the Submit button on testimonial form.
+#: admin/class-strong-testimonials-defaults.php:426
+msgctxt "the Submit button"
+msgid "Add Testimonial"
+msgstr "Dodaj referencje"
+
+#. translators: Settings > Form > Messages tab
+#: admin/class-strong-testimonials-defaults.php:424
+msgctxt "description"
+msgid "Submit Button"
+msgstr "Przycisk wysyłania"
+
+#: admin/class-strong-testimonials-upsell.php:517
+#: admin/class-strong-testimonials-upsell.php:542
+#: admin/class-strong-testimonials-upsell.php:1084
+msgid "Strong Testimonials: Captcha"
+msgstr "Mocne referencje: Captcha"
+
+#: admin/class-strong-testimonials-defaults.php:394
+msgid "Custom Form"
+msgstr "Własny formularz"
+
+#: admin/class-strong-testimonials-defaults.php:330
+msgid "Minimal Form"
+msgstr "Minimalny formularz"
+
+#: admin/class-strong-testimonials-defaults.php:313
+msgid "Would you like to include a photo?"
+msgstr "Czy chcesz dołączyć zdjęcie?"
+
+#: admin/class-strong-testimonials-defaults.php:311
+msgid "Photo"
+msgstr "Zdjęcie"
+
+#: admin/class-strong-testimonials-defaults.php:305
+msgid "What do you think about us?"
+msgstr "Co o nas myślisz?"
+
+#. translators: %s is the name of the post type. "Testimonial" by default.
+#: admin/class-strong-testimonials-defaults.php:302
+#: admin/class-strong-testimonials-defaults.php:359
+#: admin/class-strong-testimonials-helper.php:1210
+#: admin/settings/class-strong-testimonials-settings.php:68
+msgid "Testimonial"
+msgstr "Referencja"
+
+#: admin/class-strong-testimonials-defaults.php:296
+msgid "A headline for your testimonial."
+msgstr "Nagłówek twojej referencji."
+
+#: admin/class-strong-testimonials-defaults.php:293
+msgid "Heading"
+msgstr "Nagłówek"
+
+#: admin/class-strong-testimonials-defaults.php:285
+msgid "Does your company have a website?"
+msgstr "Czy twoja firma ma witrynę internetową?"
+
+#: admin/class-strong-testimonials-defaults.php:283
+msgid "Company Website"
+msgstr "Witryna internetowa firmy"
+
+#: admin/class-strong-testimonials-defaults.php:278
+msgid "What is your company name?"
+msgstr "Jaka jest nazwa twojej firmy?"
+
+#: admin/class-strong-testimonials-defaults.php:276
+msgid "Company Name"
+msgstr "Nazwa firmy"
+
+#: admin/class-strong-testimonials-defaults.php:271
+msgid "What is your email address?"
+msgstr "Jaki jest twój adres e-mail?"
+
+#: admin/class-strong-testimonials-defaults.php:262
+msgid "What is your full name?"
+msgstr "Jakie jest twoje pełne imię i nazwisko?"
+
+#: admin/class-strong-testimonials-defaults.php:259
+msgid "Full Name"
+msgstr "Pełna nazwa"
+
+#: admin/class-strong-testimonials-defaults.php:250
+msgid "Default Form"
+msgstr "Domyślny formularz"
+
+#: admin/class-strong-testimonials-defaults.php:212
+msgid "star rating"
+msgstr "ocena gwiazdkowa"
+
+#: admin/class-strong-testimonials-defaults.php:185
+msgid "category selector"
+msgstr "selektor kategorii"
+
+#: admin/class-strong-testimonials-defaults.php:162
+msgid "URL"
+msgstr "Adres URL"
+
+#: admin/class-strong-testimonials-defaults.php:157
+msgid "email"
+msgstr "e-mail"
+
+#: admin/class-strong-testimonials-defaults.php:123
+msgid "Testimonial Content"
+msgstr "Treść referencji"
+
+#: admin/class-strong-testimonials-defaults.php:112
+msgid "Testimonial Title"
+msgstr "Tytuł referencji"
+
+#: admin/class-strong-testimonials-admin-scripts.php:273
+#: admin/class-strong-testimonials-defaults.php:80
+msgid "This field is required."
+msgstr "To pole jest wymagane."
+
+#. translators: %s is the name of the view that is going to be deleted.
+#: admin/class-strong-views-list-table.php:168
+msgid "Delete \"%s\"?"
+msgstr "Usunąć \"%s\"?"
+
+#: admin/class-strong-views-list-table.php:166
+msgid "Duplicate"
+msgstr "Powiel"
+
+#: admin/class-strong-testimonials-list-table.php:946
+msgid "Select All"
+msgstr "Wybierz wszystko"
+
+#: admin/class-strong-testimonials-list-table.php:804
+msgid "Go to the last page"
+msgstr "Przejdź do ostatniej strony"
+
+#: admin/class-strong-testimonials-list-table.php:796
+msgid "Go to the next page"
+msgstr "Przejdź do następnej strony"
+
+#. translators: %1$s is the current page number. %1$s is the total number of
+#. pages.
+#: admin/class-strong-testimonials-list-table.php:791
+msgctxt "paging"
+msgid "%1$s of %1$s"
+msgstr "%1$s z %1$s"
+
+#: admin/class-strong-testimonials-list-table.php:784
+#: admin/settings/class-strong-testimonials-settings-compat.php:419
+msgid "Current page"
+msgstr "Bieżąca strona"
+
+#: admin/class-strong-testimonials-list-table.php:783
+msgid "Select Page"
+msgstr "Wybierz stronę"
+
+#: admin/class-strong-testimonials-list-table.php:773
+msgid "Go to the previous page"
+msgstr "Przejdź do poprzedniej strony"
+
+#: admin/class-strong-testimonials-list-table.php:765
+msgid "Go to the first page"
+msgstr "Przejdź do pierwszej strony"
+
+#. translators: %s is the number of pending comments.
+#: admin/class-strong-testimonials-list-table.php:661
+msgid "%s pending"
+msgstr "%s oczekuje"
+
+#: admin/class-strong-testimonials-list-table.php:596
+msgid "All dates"
+msgstr "Wszystkie daty"
+
+#: admin/class-strong-testimonials-list-table.php:594
+msgid "Filter by date"
+msgstr "Filtruj po dacie"
+
+#: admin/class-strong-testimonials-list-table.php:484
+msgid "Apply"
+msgstr "Zastosuj"
+
+#: admin/class-strong-testimonials-list-table.php:474
+msgid "Bulk Actions"
+msgstr "Działania zbiorcze"
+
+#: admin/class-strong-testimonials-list-table.php:472
+msgid "Select bulk action"
+msgstr "Wybierz masowe działanie"
+
+#: admin/class-strong-testimonials-list-table.php:338
+msgid "No items found."
+msgstr "Nie znaleziono żadnego elementu."
+
+#: admin/class-strong-testimonials-list-table.php:165
+msgid "Excerpt View"
+msgstr "Podgląd zajawek"
+
+#: admin/class-strong-testimonials-list-table.php:164
+msgid "List View"
+msgstr "Podgląd listy"
+
+#: admin/views.php:749 admin/views.php:779
+msgid "filter categories"
+msgstr "filtr kategorii"
+
+#: admin/views.php:628
+msgid "more about date formats"
+msgstr "więcej o formatach dat"
+
+#: admin/views.php:618
+msgid "Format"
+msgstr "Format"
+
+#: admin/views.php:593
+msgid "new tab"
+msgstr "nowa karta"
+
+#: admin/views.php:578
+msgid "URL Field"
+msgstr "Pole adresu URL"
+
+#: admin/views.php:559
+msgid "custom text"
+msgstr "własny tekst"
+
+#: admin/views.php:558
+msgid "this field's label"
+msgstr "etykieta tego pola"
+
+#: admin/views.php:557
+msgid "this field's value"
+msgstr "wartość tego pola"
+
+#: admin/views.php:555
+msgid "Link Text"
+msgstr "Tekst odnośnika"
+
+#: admin/views.php:508
+msgid "CSS Class"
+msgstr "Klasa CSS"
+
+#: admin/views.php:450
+msgid "Display Type"
+msgstr "Rodzaj wyświetlania"
+
+#: admin/views.php:407
+msgid "remove this field"
+msgstr "usuń to pole"
+
+#: admin/class-strong-testimonials-defaults.php:201 admin/views.php:367
+msgid "shortcode"
+msgstr "krótki kod"
+
+#: admin/views.php:365
+msgid "rating"
+msgstr "ocena"
+
+#: admin/views.php:364
+msgid "category"
+msgstr "kategoria"
+
+#: admin/views.php:363
+msgid "date"
+msgstr "data"
+
+#: admin/views.php:362
+msgid "link (must be URL type)"
+msgstr "odnośnik (musi być typu adres URL)"
+
+#: admin/views.php:361
+msgid "link with another field"
+msgstr "odnośnik z innym polem"
+
+#: admin/class-strong-testimonials-defaults.php:153 admin/views.php:360
+#: includes/l10n-wpml.php:147
+msgid "text"
+msgstr "tekst"
+
+#: admin/views.php:351
+msgid "built-in"
+msgstr "wbudowany"
+
+#: admin/class-strong-testimonials-helper.php:2577 admin/views.php:350
+msgid "custom"
+msgstr "własny"
+
+#: admin/class-strong-testimonials-defaults.php:676
+msgctxt "slideshow navigation option"
+msgid "inside"
+msgstr "wewnątrz"
+
+#: admin/class-strong-testimonials-defaults.php:624
+msgctxt "slideshow navigation option"
+msgid "buttons 2"
+msgstr "przyciski 2"
+
+#: admin/class-strong-testimonials-defaults.php:614
+msgctxt "slideshow navigation option"
+msgid "buttons 1"
+msgstr "przyciski 1"
+
+#: admin/class-strong-testimonials-defaults.php:677
+msgctxt "slideshow navigation option"
+msgid "outside"
+msgstr "na zewnątrz"
+
+#: admin/class-strong-testimonials-defaults.php:536
+msgctxt "display order"
+msgid "oldest first"
+msgstr "najstarsze na początku"
+
+#: admin/class-strong-testimonials-defaults.php:535
+msgctxt "display order"
+msgid "newest first"
+msgstr "najnowsze na początku"
+
+#: admin/class-strong-testimonials-defaults.php:534
+msgctxt "display order"
+msgid "menu order"
+msgstr "kolejność w menu"
+
+#: admin/class-strong-testimonials-defaults.php:533
+msgctxt "display order"
+msgid "random"
+msgstr "losowo"
+
+#: admin/class-strong-testimonials-helper.php:615
+#: admin/class-strong-testimonials-helper.php:654
+msgctxt "The shortcode for a new View."
+msgid "will be available after you save this"
+msgstr "będzie dostępne po zapisaniu tego"
+
+#: admin/class-strong-testimonials-helper.php:611
+#: admin/class-strong-testimonials-helper.php:650
+msgid "copy to clipboard"
+msgstr "kopiuj do schowka"
+
+#: admin/class-strong-testimonials-helper.php:566
+msgid "Add View"
+msgstr "Dodaj podgląd"
+
+#: admin/class-strong-testimonials-helper.php:566 admin/views.php:48
+#: assets/dist/blocks.js:1
+msgid "Edit View"
+msgstr "Podgląd edycji"
+
+#: admin/views.php:38
+msgid "View deleted."
+msgstr "Wyświetl usunięte."
+
+#: admin/views.php:37
+msgid "View saved."
+msgstr "Wyświetl zapisane."
+
+#: admin/class-strong-testimonials-helper.php:213
+msgid " Title"
+msgstr " Tytuł"
+
+#: admin/class-strong-testimonials-helper.php:1960
+msgctxt "slideshow setting"
+msgid "Pause on hover"
+msgstr "Zatrzymaj po najechaniu"
+
+#: admin/class-strong-testimonials-helper.php:1918
+msgid "for"
+msgstr "dla"
+
+#: admin/class-strong-testimonials-helper.php:1904
+#: admin/class-strong-testimonials-helper.php:1915
+msgid "then"
+msgstr "wtedy"
+
+#: admin/class-strong-testimonials-helper.php:1900
+#: admin/class-strong-testimonials-helper.php:1922
+#: admin/class-strong-testimonials-helper.php:2003
+msgctxt "time setting"
+msgid "seconds"
+msgstr "sekundy"
+
+#: admin/class-strong-testimonials-helper.php:1896
+msgctxt "slideshow setting"
+msgid "Show slides for"
+msgstr "Pokaż slajdy dla"
+
+#: admin/class-strong-testimonials-helper.php:1314
+msgid "Gravatar settings"
+msgstr "Ustawienia Gravatara"
+
+#: admin/class-strong-testimonials-helper.php:1306
+msgid "show Gravatar only if found"
+msgstr "pokaż Gravatar tylko wtedy, gdy zostanie znaleziony"
+
+#: admin/class-strong-testimonials-helper.php:1305
+msgid "show Gravatar"
+msgstr "pokaż Gravatar"
+
+#: admin/class-strong-testimonials-helper.php:1304
+msgid "show nothing"
+msgstr "nic nie pokazuj"
+
+#: admin/class-strong-testimonials-helper.php:1302
+msgid "If no Featured Image"
+msgstr "Jeśli nie ma obrazka wyrózniającego"
+
+#: admin/class-strong-testimonials-helper.php:1280
+msgid "Open full-size image in a lightbox"
+msgstr "Otwórz obrazek w pełnym rozmiarze w oknie lightboxa"
+
+#: admin/class-strong-testimonials-helper.php:1268
+msgid "height"
+msgstr "wysokość"
+
+#: admin/class-strong-testimonials-helper.php:1263
+msgid "width"
+msgstr "szerokość"
+
+#: admin/class-strong-testimonials-defaults.php:135 includes/post-types.php:70
+msgid "Featured Image"
+msgstr "Obrazek wyróżniający"
+
+#: admin/class-strong-testimonials-helper.php:2221
+msgid "no description"
+msgstr "brak opisu"
+
+#: admin/class-strong-testimonials-helper.php:1004
+msgid "a specific testimonial"
+msgstr "konkretna referencja"
+
+#: admin/class-strong-testimonials-helper.php:1767
+msgctxt "display setting"
+msgid "in each testimonial"
+msgstr "w każdej referencji"
+
+#: admin/class-strong-testimonials-helper.php:1766
+msgctxt "display setting"
+msgid "after the last testimonial"
+msgstr "po ostatniej referencji"
+
+#: admin/class-strong-testimonials-helper.php:1755
+msgid "with link text"
+msgstr "z odnośnikiem tekstowym"
+
+#: admin/class-strong-testimonials-helper.php:1745
+msgctxt "to select a target page"
+msgid "or enter its ID or slug"
+msgstr "lub wprowadź jego identyfikator lub uproszczoną nazwę"
+
+#: admin/class-strong-testimonials-helper.php:288
+msgid " \"Read more\" link to a page or post"
+msgstr " Odnośnik „Dowiedz się więcej” do strony lub wpisu"
+
+#: admin/class-strong-testimonials-helper.php:1615
+msgid "before & after"
+msgstr "przed i po"
+
+#: admin/class-strong-testimonials-helper.php:1614
+#: includes/l10n-polylang.php:58 includes/l10n-wpml.php:131
+msgid "after"
+msgstr "po"
+
+#: admin/class-strong-testimonials-helper.php:1613
+#: includes/l10n-polylang.php:61 includes/l10n-wpml.php:135
+msgid "before"
+msgstr "przed"
+
+#: admin/class-strong-testimonials-helper.php:350
+#: admin/class-strong-testimonials-helper.php:1611
+msgid "Navigation"
+msgstr "Nawigacja"
+
+#: admin/class-strong-testimonials-helper.php:1605
+msgctxt "quantity"
+msgid "Per page"
+msgstr "Na stronę"
+
+#: admin/class-strong-testimonials-helper.php:1596
+msgid "Using paged URLs: /page/2, /page/3, etc. Best for large scale."
+msgstr "Używanie stronicowanych adresów URL: /page/2, /page/3 itd. Najlepsze w przypadku dużej skali."
+
+#: admin/class-strong-testimonials-helper.php:141
+#: admin/class-strong-testimonials-helper.php:1570
+#: admin/class-strong-testimonials-helper.php:2012 admin/custom-fields.php:177
+#: admin/settings/class-strong-testimonials-settings-compat.php:390
+#: admin/views.php:76
+msgid "Help"
+msgstr "Pomoc"
+
+#: admin/class-strong-testimonials-helper.php:1589
+msgid "Using JavaScript. Intended for small scale."
+msgstr "Używanie JavaScriptu. Przeznaczony na małą skalę."
+
+#: admin/class-strong-testimonials-helper.php:1581
+msgid "WordPress standard"
+msgstr "Standard WordPressa"
+
+#: admin/class-strong-testimonials-helper.php:1580
+msgid "simple"
+msgstr "proste"
+
+#: admin/class-strong-testimonials-helper.php:174
+msgctxt "noun"
+msgid "Order"
+msgstr "Kolejność"
+
+#: admin/class-strong-testimonials-helper.php:1155
+msgctxt "noun"
+msgid "count"
+msgstr "licznik"
+
+#: admin/class-strong-testimonials-helper.php:185
+msgid "Quantity"
+msgstr "Ilość"
+
+#: admin/class-strong-testimonials-helper.php:2374
+msgid "Number of columns"
+msgstr "Liczba kolumn"
+
+#: admin/class-strong-testimonials-helper.php:2368
+msgid "Testimonials will be equal height so this works best when they are about the same length either naturally or using excerpts."
+msgstr "Referencje będą równej wysokości, więc działa to najlepiej, gdy są mniej więcej tej samej długości, naturalnie lub przy użyciu zajawek."
+
+#: admin/class-strong-testimonials-helper.php:2358
+#: admin/class-strong-testimonials-helper.php:2369
+msgid "Compatible with pagination."
+msgstr "Kompatybilne z paginacją."
+
+#: admin/class-strong-testimonials-helper.php:2357
+msgid "Works well with both long and short testimonials."
+msgstr "Działa dobrze zarówno z długimi, jak i krótkimi referencjami."
+
+#. translators: %s is a link to a guide on CSS multi-column layout.
+#: admin/class-strong-testimonials-helper.php:2354
+msgid "Using <a href=\"%s\" target=\"_blank\">CSS multi-column</a>. Fill from top to bottom, then over to next column."
+msgstr "Używanie <a href=\"%s\" target=\"_blank\">wielokolumnowego CSS</a>. Wypełnij od góry do dołu, a następnie do następnej kolumny."
+
+#: admin/class-strong-testimonials-helper.php:2348
+msgid "Not compatible with pagination."
+msgstr "Niekompatybilne z paginacją."
+
+#: admin/class-strong-testimonials-helper.php:2347
+msgid "The universal solution that works well regardless of testimonial lengths."
+msgstr "Uniwersalne rozwiązanie, które sprawdza się niezależnie od długości referencji."
+
+#. translators: %s is a link to the Masonry jQuery plugin.
+#: admin/class-strong-testimonials-helper.php:2344
+msgid "A cascading, responsive grid using the jQuery plugin <a href=\"%s\" target=\"_blank\">Masonry</a>."
+msgstr "Kaskadowa, responsywna siatka wykorzystująca wtyczkę jQuery <a href=\"%s\" target=\"_blank\">Cegiełki</a>."
+
+#: admin/class-strong-testimonials-helper.php:2331
+msgid "grid"
+msgstr "siatka"
+
+#: admin/class-strong-testimonials-helper.php:2325
+msgid "columns"
+msgstr "kolumny"
+
+#: admin/class-strong-testimonials-helper.php:2317
+msgid "Masonry"
+msgstr "Cegiełki"
+
+#: admin/class-strong-testimonials-helper.php:2312
+msgid "normal"
+msgstr "normalnie"
+
+#: admin/class-strong-testimonials-helper.php:445
+msgid "Layout"
+msgstr "Układ"
+
+#: admin/class-strong-testimonials-helper.php:1025
+msgctxt "to select a testimonial"
+msgid "or enter its ID or slug"
+msgstr "lub wprowadź jego identyfikator lub uproszczoną nazwę"
+
+#: admin/class-strong-testimonials-helper.php:1017
+msgid "(untitled)"
+msgstr "(bez tytułu)"
+
+#: admin/class-strong-testimonials-helper.php:1014
+#: admin/class-strong-testimonials-helper.php:1713
+msgid "&mdash; select &mdash;"
+msgstr "&mdash; wybierz &mdash;"
+
+#: admin/class-strong-testimonials-helper.php:2203
+#: admin/class-strong-views-list-table.php:223
+msgid "not found"
+msgstr "nie znaleziono"
+
+#: admin/class-strong-testimonials-helper.php:422
+#: admin/class-strong-testimonials-helper.php:433
+#: admin/class-strong-views-list-table.php:103
+msgid "Template"
+msgstr "Szablon"
+
+#: admin/class-strong-testimonials-helper.php:1495
+msgctxt "display setting"
+msgid "for both automatic and manual excerpts"
+msgstr "zarówno dla automatycznych, jak i ręcznych zajawek"
+
+#: admin/class-strong-testimonials-helper.php:1494
+msgctxt "display setting"
+msgid "for automatic excerpt only"
+msgstr "tylko dla automatycznej zajawki"
+
+#: admin/class-strong-testimonials-helper.php:1432
+msgid "Automatic excerpt only."
+msgstr "Tylko automatyczna zajawka."
+
+#: admin/class-strong-testimonials-helper.php:1460
+#: admin/class-strong-testimonials-helper.php:1482
+msgid "enter a phrase"
+msgstr "wpisz frazę"
+
+#: admin/class-strong-testimonials-helper.php:1446
+msgctxt "display setting"
+msgid "with default link text"
+msgstr "z domyślnym tekstem odnośnika"
+
+#. translators: %s is an input field where the user can specify the number of
+#. words for the excerpt length.
+#: admin/class-strong-testimonials-helper.php:1395
+msgctxt "the excerpt length"
+msgid "the first %s words"
+msgstr "pierwsze %s słowa"
+
+#: admin/class-strong-testimonials-helper.php:1387
+msgid "The default length is 55 words but your theme may override that."
+msgstr "Domyślna długość to 55 słów, ale twój motyw może to zastąpić."
+
+#: admin/class-strong-testimonials-helper.php:1380
+msgctxt "display setting"
+msgid "custom length"
+msgstr "własna długość"
+
+#: admin/class-strong-testimonials-helper.php:1379
+msgctxt "display setting"
+msgid "default length"
+msgstr "domyślna długość"
+
+#. translators: %s is the URL for a Thickbox popup showing a screenshot.
+#: admin/class-strong-testimonials-helper.php:1357
+msgid "To create manual excerpts, you may need to enable them in the post editor like in this <a href=\"%s\" class=\"thickbox\">screenshot</a>."
+msgstr "Aby ręcznie tworzyć fragmenty, może być konieczne włączenie ich w edytorze postów, tak jak na tym <a href=\"%s\" class=\"thickbox\">zrzucie ekranu</a>."
+
+#: admin/class-strong-testimonials-helper.php:1350
+msgid "This will strip tags like &lt;em&gt; and &lt;strong&gt;."
+msgstr "Spowoduje to usunięcie znaczników, takich jak &lt;em&gt; i &lt;strong&gt;."
+
+#: admin/class-strong-testimonials-helper.php:1344
+msgctxt "display setting"
+msgid "manual excerpt"
+msgstr "instrukcja zajawki"
+
+#: admin/class-strong-testimonials-helper.php:1343
+msgctxt "display setting"
+msgid "automatic excerpt"
+msgstr "automatyczna zajawka"
+
+#: admin/class-strong-testimonials-helper.php:1342
+msgctxt "display setting"
+msgid "entire content"
+msgstr "cała treść"
+
+#: includes/elementor/class-strong-testimonials-elementor-widget.php:38
+#: includes/elementor/class-strong-testimonials-elementor-widget.php:60
+msgid "Content"
+msgstr "Treść"
+
+#: admin/class-strong-testimonials-helper.php:1545
+msgid "Add Field"
+msgstr "Dodaj pole"
+
+#: admin/class-strong-testimonials-helper.php:1091
+#: admin/class-strong-testimonials-helper.php:2151
+msgid "No categories found"
+msgstr "Nie znaleziono kategorii"
+
+#: admin/class-strong-testimonials-helper.php:1063
+msgctxt "verb"
+msgid "select"
+msgstr "wybierz"
+
+#: admin/class-strong-testimonials-helper.php:1062
+#: admin/class-strong-testimonials-helper.php:1152
+msgid "all"
+msgstr "wszystko"
+
+#: admin/class-strong-testimonials-helper.php:2509
+msgid "To bottom"
+msgstr "Na dół"
+
+#: admin/class-strong-testimonials-helper.php:2497
+msgid "From top"
+msgstr "Z góry"
+
+#: admin/class-strong-testimonials-helper.php:2469
+msgid "preset"
+msgstr "wstępnie ustawienia"
+
+#: admin/class-strong-testimonials-helper.php:2464
+msgid "gradient"
+msgstr "gradient"
+
+#: admin/class-strong-testimonials-helper.php:2459
+msgid "single color"
+msgstr "pojedyńczy kolor"
+
+#: admin/class-strong-testimonials-helper.php:456
+msgid "Background"
+msgstr "Tło"
+
+#: admin/class-strong-testimonials-helper.php:418
+#: admin/class-strong-testimonials-helper.php:2056
+#: admin/class-strong-testimonials-helper.php:2089
+msgid "Style"
+msgstr "Styl"
+
+#: admin/class-strong-testimonials-helper.php:375
+msgid "Actions"
+msgstr "Działania"
+
+#: admin/class-strong-testimonials-helper.php:272
+msgid "Extra"
+msgstr "Dodatkowo"
+
+#: admin/settings/partials/advanced-settings.php:22
+msgid "Save changes"
+msgstr "Zapisz zmiany"
+
+#: admin/class-strong-testimonials-addons.php:202
+msgid "License"
+msgstr "Licencje"
+
+#: admin/class-strong-testimonials-defaults.php:522
+#: admin/menu/class-strong-testimonials-menu-fields.php:45
+#: admin/menu/class-strong-testimonials-menu-fields.php:46
+#: admin/settings/class-strong-testimonials-forms.php:65
+msgid "Form"
+msgstr "Formularz"
+
+#: admin/settings/class-strong-testimonials-settings-general.php:45
+msgctxt "adjective"
+msgid "General"
+msgstr "Podstawowe"
+
+#: admin/settings/class-strong-testimonials-forms.php:49
+#: admin/settings/class-strong-testimonials-settings.php:51
+msgid "Settings saved"
+msgstr "Ustawienia zapisane"
+
+#: admin/class-strong-testimonials-helper.php:132
+#: admin/menu/class-strong-testimonials-menu-settings.php:47
+#: admin/menu/class-strong-testimonials-menu-settings.php:48
+#: admin/settings/class-strong-testimonials-settings-form.php:50
+#: admin/settings/class-strong-testimonials-settings.php:68
+msgid "Settings"
+msgstr "Ustawienia główne"
+
+#: admin/menu/class-strong-testimonials-menu-views.php:45
+#: admin/menu/class-strong-testimonials-menu-views.php:46 admin/views.php:74
+msgid "Views"
+msgstr "Podgląd"
+
+#: admin/wpchill/class-wpchill-about-us.php:167
+#: admin/wpchill/assets/js/about-us.js:15
+msgid "Active"
+msgstr "Włączone"
+
+#: admin/settings/partials/general.php:193
+msgid "More on embeds"
+msgstr "Więcej o osadzaniu"
+
+#: admin/settings/partials/general.php:187
+msgid "Leave empty for default width (usually 100% for videos). Height will be calculated automatically. This setting only applies to Views."
+msgstr "Pozostaw puste dla domyślnej szerokości (zwykle 100% w przypadku filmów). Wysokość zostanie obliczona automatycznie. To ustawienie dotyczy tylko podgladów."
+
+#. Translators: %s is an input field.
+#: admin/settings/partials/general.php:183
+msgid "For embedded links (YouTube, Twitter, etc.) set the frame width to %s pixels."
+msgstr "W przypadku osadzonych odnośników (YouTube, Twitter itp.) ustaw szerokość ramki na %s pikseli."
+
+#: admin/settings/partials/general.php:176
+msgid "Embed Width"
+msgstr "Szerokość osadzania"
+
+#: admin/settings/partials/general.php:169
+msgid "For multiple testimonials, use <strong>Bulk Edit</strong> in the testimonial list."
+msgstr "W przypadku wielu rekomendacji użyj opcji <strong>Edycja zbiorcza</strong> na liście referencji."
+
+#: admin/settings/partials/general.php:168
+msgid "For individual testimonials, use the <strong>Discussion</strong> meta box in the post editor or <strong>Quick Edit</strong> in the testimonial list."
+msgstr "W przypadku indywidualnych referencji użyj meta pola <strong>Dyskusja</strong> w edytorze wpisów lub <strong>Szybkiej edycji</strong> na liście referencji."
+
+#: admin/settings/partials/general.php:166
+msgid "To enable comments:"
+msgstr "Aby włączyć komentarze:"
+
+#: admin/settings/partials/general.php:162
+msgid "Allow comments on testimonials. Requires using your theme's single post template."
+msgstr "Zezwalaj na komentowanie referencji. Wymaga użycia szablonu pojedynczego wpisu twojego motywu."
+
+#: admin/settings/partials/general.php:156
+msgid "Comments"
+msgstr "Komentarze"
+
+#: admin/settings/partials/general.php:147
+msgid "Remove space between HTML tags in View output to prevent double paragraphs <em>(wpautop)</em>."
+msgstr "Usuń przerwy między znacznikami HTML w podglądzie danych wyjściowych, aby uniknąć podwójnych akapitów <em>(wpautop)</em>."
+
+#: admin/settings/partials/general.php:141
+msgid "Remove Whitespace"
+msgstr "Usuń białe znaki"
+
+#. translators: %s is an HTML input element for the scrolltop offset value
+#: admin/settings/partials/general.php:126
+msgid "When a new page is selected in paginated Views, scroll to the top of the container minus %s pixels."
+msgstr "Po wybraniu nowej strony w podgladach podzielonych na strony, przewiń do góry kontenera minus %s pikseli."
+
+#: admin/settings/partials/general.php:117
+msgid "Scroll Top"
+msgstr "Przewiń do góry"
+
+#: admin/class-strong-testimonials-helper.php:2617
+#: admin/settings/class-strong-testimonials-settings-compat.php:599
+#: admin/settings/class-strong-testimonials-settings-compat.php:692
+#: admin/settings/class-strong-testimonials-settings-compat.php:735
+#: admin/settings/partials/general.php:57
+msgid "For advanced users."
+msgstr "Dla zaawansowanych użytkowników."
+
+#: admin/settings/partials/general.php:54
+msgid "Show the <strong>Custom Fields</strong> meta box in the testimonial post editor. This does not affect the <strong>Client Details</strong> meta box."
+msgstr "Pokaż metapole <strong>Pola niestandardowe</strong> w edytorze wpisów z referencjami. Nie ma to wpływu na meta pole <strong>Szczegóły klienta</strong>."
+
+#: admin/settings/partials/general.php:48
+msgid "Custom Fields Meta Box"
+msgstr "Własne pola meta pola"
+
+#: admin/settings/partials/general.php:16
+msgid "Pending Indicator"
+msgstr "Wskaźnik oczekujących"
+
+#: admin/class-strong-testimonials-upsell.php:563
+#: admin/class-strong-testimonials-upsell.php:590
+msgid "Captcha"
+msgstr "Captcha"
+
+#: admin/class-strong-testimonials-helper.php:917
+#: admin/class-strong-testimonials-helper.php:969
+msgid "Recommended."
+msgstr "Zalecane."
+
+#: admin/class-strong-testimonials-upsell.php:532
+msgid "Form Spam Control"
+msgstr "Kontrola spamu formularzy"
+
+#. translators: %s is a HTML input element for the scrolltop error offset value
+#: admin/settings/partials/form.php:116
+msgid "If success, scroll to the success message minus %s pixels. On by default."
+msgstr "Jeśli sukces, przewiń do komunikatu o sukcesie minus %s pikseli. Domyślnie."
+
+#. translators: %s is a HTML input element for the scrolltop error offset value
+#: admin/settings/partials/form.php:106
+msgid "If errors, scroll to the first error minus %s pixels. On by default."
+msgstr "Jeśli błędy, przewiń do pierwszego błędu minus %s pikseli. Domyślnie."
+
+#: admin/settings/partials/form.php:96
+msgid "Scroll"
+msgstr "Przewiń"
+
+#: admin/settings/partials/form.php:213
+msgid "Published"
+msgstr "Opublikowano"
+
+#: admin/settings/partials/form.php:207
+msgid "Pending"
+msgstr "Oczekujące"
+
+#: admin/settings/partials/form.php:199
+msgid "Post Status"
+msgstr "Status wpisu"
+
+#: admin/settings/partials/form.php:134
+msgid "Form Actions"
+msgstr "Akcje formularza"
+
+#: admin/settings/partials/form.php:77
+msgctxt "singular"
+msgid "restore default"
+msgstr "przywróć domyślne"
+
+#: admin/settings/partials/form.php:24
+msgid "Form Labels & Messages"
+msgstr "Etykiety formularza i wiadomości"
+
+#: admin/settings/partials/email.php:37
+msgid "message text"
+msgstr "tekst wiadomości"
+
+#: admin/settings/partials/email.php:27
+msgid "Message"
+msgstr "Wiadomość"
+
+#: admin/settings/partials/email.php:16
+msgid "subject line"
+msgstr "wiersz tematu"
+
+#: admin/settings/partials/email.php:5
+msgid "Subject"
+msgstr "Temat"
+
+#: admin/settings/partials/email-from.php:82
+#: admin/settings/partials/recipient.php:49
+#: admin/settings/partials/recipient.php:61
+msgid "email address"
+msgstr "adres e-mail"
+
+#: admin/settings/partials/email-from.php:47
+#: admin/settings/partials/recipient.php:15
+msgid "(optional)"
+msgstr "(opcjonalne)"
+
+#: admin/class-strong-testimonials-defaults.php:268
+#: admin/class-strong-testimonials-defaults.php:348
+#: admin/settings/partials/email-from.php:31
+#: admin/settings/partials/email-to.php:20
+msgid "Email"
+msgstr "E-mail"
+
+#: admin/class-strong-testimonials-help.php:253
+#: admin/class-strong-testimonials-helper.php:2069
+msgid "Pagination"
+msgstr "Paginacja"
+
+#: admin/class-strong-testimonials-help.php:241
+msgid "works in a widget"
+msgstr "działa w widżecie"
+
+#: admin/class-strong-testimonials-help.php:238
+#: admin/class-strong-testimonials-help.php:243
+#: admin/class-strong-testimonials-post-editor.php:187
+#: admin/class-strong-testimonials-post-editor.php:195
+#: admin/class-strong-testimonials-post-editor.php:203
+msgid "no"
+msgstr "nie"
+
+#: admin/class-strong-testimonials-help.php:237
+#: admin/class-strong-testimonials-help.php:242
+#: admin/class-strong-testimonials-post-editor.php:186
+#: admin/class-strong-testimonials-post-editor.php:194
+#: admin/class-strong-testimonials-post-editor.php:202
+msgid "yes"
+msgstr "tak"
+
+#: admin/class-strong-testimonials-help.php:236
+msgid "works with random order option"
+msgstr "działa z opcją losowej kolejności"
+
+#: admin/class-strong-testimonials-help.php:233
+msgid "You will return the last page you were on so this works well with \"Read more\" links."
+msgstr "Wrócisz na ostatnią stronę, na której byłeś, więc działa to dobrze z odnośnikami „Dowiedz się więcej”."
+
+#: admin/class-strong-testimonials-help.php:232
+msgid "It does not remember which page of testimonials you are on. If you click away &ndash; for example, on a \"Read more\" link &ndash; then click back, you will return to page one."
+msgstr "Nie pamięta, na której stronie referencji jesteś. Jeśli klikniesz &ndash; na przykład w odnośniku „Dowiedz się więcej” &ndash następnie kliknij wstecz, wrócisz do pierwszej strony."
+
+#: admin/class-strong-testimonials-help.php:231
+msgid "the Back button"
+msgstr "przycisk Wstecz"
+
+#: admin/class-strong-testimonials-help.php:228
+msgid "uses paged URLs just like standard WordPress posts"
+msgstr "używa stronicowanych adresów URL, tak jak standardowe posty WordPress"
+
+#: admin/class-strong-testimonials-help.php:227
+msgid "does not change the URL"
+msgstr "nie zmienia adresu URL"
+
+#: admin/class-strong-testimonials-help.php:226
+msgid "URLs"
+msgstr "Adresy URL"
+
+#: admin/class-strong-testimonials-help.php:223
+msgid "more than ten pages"
+msgstr "więcej niż dziesięć stron"
+
+#: admin/class-strong-testimonials-help.php:222
+msgid "ten pages or less"
+msgstr "dziesięć stron lub mniej"
+
+#: admin/class-strong-testimonials-help.php:221
+msgid "best use"
+msgstr "najlepsze wykorzystanie"
+
+#: admin/class-strong-testimonials-help.php:216
+msgid "Standard"
+msgstr "Standardowe"
+
+#: admin/class-strong-testimonials-help.php:215
+msgid "Simple"
+msgstr "Proste"
+
+#: admin/class-strong-testimonials-help.php:209
+msgid "Some of the features and drawbacks for each method."
+msgstr "Niektóre funkcje i wady każdej metody."
+
+#: admin/class-strong-testimonials-help.php:126
+msgid "Form Fields"
+msgstr "Pola formularza"
+
+#. translators: %s is the URL to the Polylang String Translations page for the
+#. specific context.
+#: includes/l10n-polylang.php:181
+msgid "Translate these fields in <a href=\"%s\">Polylang String Translations</a>"
+msgstr "Przetłumacz te pola w <a href=\"%s\">Polylang String Translations</a>"
+
+#. translators: %s is the URL to the WPML String Translations page for the
+#. specific context.
+#: includes/l10n-wpml.php:234
+msgid "Translate these fields in <a href=\"%s\">WPML String Translations</a>"
+msgstr "Przetłumacz te pola w <a href=\"%s\">WPML String Translations</a>"
+
+#: admin/class-strong-testimonials-help.php:118
+msgid "Form settings"
+msgstr "Ustawienia formularza"
+
+#. translators: %s is the icon for reordering fields.
+#: admin/class-strong-testimonials-help.php:108
+msgid "Reorder by grabbing the %s icon."
+msgstr "Zmień kolejność, klikając ikonkę %s."
+
+#: admin/class-strong-testimonials-help.php:105
+msgid "Fields will appear in this order on the form."
+msgstr "Pola pojawią się w tej kolejności w formularzu."
+
+#: admin/class-strong-testimonials-help.php:103
+msgid "The default fields are designed to fit most situations. You can quickly add or remove fields and change several display properties."
+msgstr "Domyślne pola są zaprojektowane tak, aby pasowały do większości sytuacji. Możesz szybko dodawać lub usuwać pola i zmieniać kilka właściwości wyświetlania."
+
+#: admin/class-strong-testimonials-defaults.php:492
+msgid "Subscribe to our newsletter."
+msgstr "Zapisz się do naszego newslettera."
+
+#: admin/class-strong-testimonials-defaults.php:319
+msgid "Star rating"
+msgstr "Ocena"
+
+#: admin/custom-fields.php:470
+msgid "Show this field in the admin list table."
+msgstr "Pokaż to pole w tabeli listy administratorów."
+
+#: admin/custom-fields.php:467
+msgid "required"
+msgstr "wymagane"
+
+#: admin/custom-fields.php:462
+msgid "Admin List"
+msgstr "Lista administratorów"
+
+#: admin/custom-fields.php:435
+msgid "Shortcode on display"
+msgstr "Krótki kod do wyświetlenia"
+
+#: admin/custom-fields.php:427
+msgid "Shortcode on form"
+msgstr "Krótki kod w formularzu"
+
+#: admin/custom-fields.php:414
+msgid "Display this on the testimonial if no value is submitted."
+msgstr "Wyświetl to w referencji, jeśli nie zostanie przesłana żadna wartość."
+
+#: admin/custom-fields.php:403
+msgid "Default Display Value"
+msgstr "Domyślna wartość wyświetlania"
+
+#: admin/custom-fields.php:378
+msgid "Populate the field with this value."
+msgstr "Zapełnij pole tą wartością."
+
+#: admin/custom-fields.php:371
+msgid "Default Form Value"
+msgstr "Domyślna wartość formularza"
+
+#: admin/custom-fields.php:361
+msgid "After"
+msgstr "Po"
+
+#: admin/custom-fields.php:353 admin/views.php:495
+msgid "Before"
+msgstr "Przed"
+
+#: admin/custom-fields.php:317
+msgid "Placeholder"
+msgstr "Symbol zastępczy"
+
+#: admin/custom-fields.php:299
+msgid "Required"
+msgstr "Wymagane"
+
+#: admin/partials/fields/field-controls.php:11
+msgctxt "verb"
+msgid "Close"
+msgstr "Zamknij"
+
+#. translators: %s is the name of the view that is going to be deleted.
+#: admin/class-strong-views-list-table.php:168
+#: admin/partials/fields/field-controls.php:9
+msgid "Delete"
+msgstr "Usuń"
+
+#: admin/partials/fields/field-type.php:34
+msgid "Special Fields"
+msgstr "Pola specjalne"
+
+#: admin/class-strong-testimonials-upsell.php:353
+#: admin/partials/fields/field-type.php:27
+msgid "Custom Fields"
+msgstr "Własne pola"
+
+#: admin/partials/fields/field-type.php:20
+msgid "Post Fields"
+msgstr "Pola wpisu"
+
+#: admin/partials/fields/field-type.php:9
+msgctxt "noun"
+msgid "Type"
+msgstr "Rodzaj"
+
+#: admin/partials/fields/field-name.php:17
+msgid "Cannot be \"name\" or \"date\"."
+msgstr "Nie może być „nazwa” ani „data”."
+
+#: admin/partials/fields/field-name.php:16
+msgid "Use only lowercase letters, numbers, and underscores."
+msgstr "Należy używać wyłącznie małych liter, cyfr i podkreśleń."
+
+#: admin/partials/fields/field-name.php:9
+msgctxt "noun"
+msgid "Name"
+msgstr "Nazwa"
+
+#: admin/partials/fields/field-label.php:12
+msgid "Show this label on the form."
+msgstr "Pokaż tę etykietę w formularzu."
+
+#: admin/partials/fields/field-label.php:7
+msgctxt "noun"
+msgid "Label"
+msgstr "Etykieta"
+
+#: admin/partials/fields/field-header.php:10 admin/views.php:405
+msgid "drag and drop to reorder"
+msgstr "przeciągnij i upuść, aby zmienić kolejność"
+
+#: admin/partials/fields/field-header.php:8 admin/views.php:399
+#: admin/views.php:412
+msgid "click to open or close"
+msgstr "kliknij, aby otworzyć lub zamknąć"
+
+#: admin/custom-fields.php:214
+msgid "Only to demonstrate the fields. May look different in your theme."
+msgstr "Tylko po to, aby zademonstrować pola. Może wyglądać inaczej w twoim motywie."
+
+#: admin/custom-fields.php:213
+msgid "Basic Preview"
+msgstr "Podgląd podstawowy"
+
+#: admin/class-strong-testimonials-helper.php:595 admin/custom-fields.php:206
+msgid "Restore Defaults"
+msgstr "Przywróć domyślne"
+
+#: admin/custom-fields.php:198
+msgid "Add New Field"
+msgstr "Dodaj pole"
+
+#: admin/custom-fields.php:176
+msgid "Click a field to open its options panel."
+msgstr "Kliknij pole, aby otworzyć panel opcji."
+
+#: admin/class-strong-testimonials-helper.php:209
+#: includes/class-strong-testimonials-form.php:46
+msgid "Fields"
+msgstr "Formularze"
+
+#: admin/custom-fields.php:138
+msgid "Fields saved"
+msgstr "Pola zapisane"
+
+#: admin/views.php:36
+msgid "Defaults restored."
+msgstr "Przywrócono wartości domyślne."
+
+#: admin/custom-fields.php:161
+msgid "No fields selected."
+msgstr "Nie wybrano pól."
+
+#: admin/custom-fields.php:157
+#: admin/settings/class-strong-testimonials-forms.php:42
+#: admin/settings/class-strong-testimonials-settings.php:44 admin/views.php:16
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Brak uprawnień, aby uzyskać dostęp do tej strony."
+
+#. translators: %s is the URL to the "Plugins" page in WordPress.
+#: admin/admin.php:25
+msgctxt "installation"
+msgid "Back to the WordPress <a href=\"%s\">Plugins page</a>"
+msgstr "Powrót do <a href=\"%s\">Strony wtyczek</a> WordPress"
+
+#: admin/admin.php:23
+msgctxt "installation"
+msgid "Please upgrade WordPress and try again."
+msgstr "Zaktualizuj WordPress i spróbuj ponownie."
+
+#. translators: %s is a WordPress version number.
+#: admin/admin.php:22
+msgctxt "installation"
+msgid "This plugin requires <strong>WordPress %s</strong> or higher so it has been deactivated."
+msgstr "Ta wtyczka wymaga wersji <strong>WordPress %s</strong> lub wyższej, więc została wyłączona."
+
+#. translators: %s is the name of the plugin.
+#: admin/admin.php:20
+msgctxt "installation"
+msgid "Unable to load %s"
+msgstr "Nie można wyczytać %s"
+
+#: admin/class-strong-testimonials-admin-category-list.php:42
+#: admin/class-strong-testimonials-helper.php:1736
+msgid "Posts"
+msgstr "Wpisy"
+
+#: admin/class-strong-testimonials-admin-category-list.php:41
+msgid "Slug"
+msgstr "Uproszczona nazwa"
+
+#: admin/class-strong-testimonials-admin-category-list.php:40
+#: admin/class-strong-testimonials-defaults.php:339
+#: admin/class-strong-testimonials-helper.php:631
+#: admin/class-strong-views-list-table.php:101
+#: admin/settings/partials/email-from.php:25
+#: admin/settings/partials/email-to.php:14 admin/views.php:422
+msgid "Name"
+msgstr "Nazwisko i imiona"
+
+#: admin/class-strong-testimonials-admin-category-list.php:39
+#: admin/class-strong-views-list-table.php:98
+msgid "ID"
+msgstr "Id"
+
+#: admin/class-strong-testimonials-admin-list.php:125
+msgid "Date"
+msgstr "Data"
+
+#: admin/class-strong-testimonials-admin-list.php:118
+#: admin/class-strong-testimonials-helper.php:163 includes/post-types.php:129
+msgid "Categories"
+msgstr "Kategorie"
+
+#: admin/class-strong-testimonials-admin-list.php:108
+msgid "Rating"
+msgstr "Ocena"
+
+#: admin/class-strong-testimonials-admin-list.php:106
+#: admin/class-strong-testimonials-admin-list.php:257
+msgid "Thumbnail"
+msgstr "Miniaturka"
+
+#: admin/class-strong-testimonials-admin-list.php:98
+msgid "Excerpt"
+msgstr "Zajawka"
+
+#: admin/class-strong-testimonials-post-editor.php:260
+#: admin/class-strong-views-list-table.php:165
+msgid "Edit"
+msgstr "Edycja"
+
+#: admin/class-strong-testimonials-post-editor.php:247
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: admin/class-strong-testimonials-post-editor.php:246
+msgid "OK"
+msgstr "OK"
+
+#: admin/class-strong-testimonials-post-editor.php:61
+msgctxt "post editor"
+msgid "To add a photo or logo, use the Featured Image option."
+msgstr "Aby dodać zdjęcie lub logo, użyj opcji Obrazek wyróżniający."
+
+#: admin/class-strong-testimonials-post-editor.php:39
+msgctxt "post editor"
+msgid "Client Details"
+msgstr "Dane klienta"

@@ -1,0 +1,60 @@
+#hdq_wrapper {
+	max-width: 1000px;
+	margin: 4rem auto;
+	font-size: 18px;
+}
+
+#hdq_header_actions {
+	display: flex;
+	justify-content: end;
+}
+
+#hdq_header_actions > .hdq_button {
+	margin-right: 0.4em;
+}
+
+#hdq_header_actions > .hdq_button:last-child {
+	margin-right: 0;
+}
+
+.hdq_button {
+	display: inline-block;
+	line-height: 1;
+	border: 1px solid #343434;
+	color: #000;
+	text-decoration: none;
+	padding: 0.4em 1em;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 3px;
+	position: relative;
+}
+
+.hdq_button:before {
+	content: "";
+	position: absolute;
+	opacity: 0.1;
+	background-color: rgba(255, 255, 255);
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 100%;
+	transition: ease-in-out all 250ms;
+}
+
+.hdq_button:hover {
+	color: #000;
+	border-color: #000;
+}
+
+.hdq_button:hover:before {
+	width: 100%;
+}
+
+.hdq_button_primary {
+	background-color: darkseagreen;
+}
+
+.hdq_button_secondary {
+	background-color: #66cbff;
+}

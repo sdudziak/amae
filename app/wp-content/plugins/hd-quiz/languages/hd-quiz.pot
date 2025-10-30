@@ -1,0 +1,160 @@
+# Copyright (C) 2024 Harmonic Design
+# This file is distributed under the same license as the HD Quiz plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HD Quiz 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hd-quiz\n"
+"POT-Creation-Date: 2024-11-02 14:20-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: hd-quiz\n"
+
+#. Description of the plugin
+msgid "Add fun and interactive quizzes to your site."
+msgstr ""
+
+#: classes/dashboard.php:28
+msgid "Enter quiz name"
+msgstr ""
+
+#: classes/dashboard.php:33
+msgid "Quiz type"
+msgstr ""
+
+#: classes/dashboard.php:40
+msgid "General / Scored"
+msgstr ""
+
+#: classes/dashboard.php:44
+msgid "Personality"
+msgstr ""
+
+#: classes/dashboard.php:52 classes/question.php:482 classes/quiz.php:646
+msgid "Save"
+msgstr ""
+
+#: classes/dashboard.php:52
+msgid "Create"
+msgstr ""
+
+#: classes/dashboard.php:102
+msgid "DOCUMENTATION"
+msgstr ""
+
+#: classes/dashboard.php:103
+msgid "SUPPORT"
+msgstr ""
+
+#: classes/question.php:97
+msgid "Main"
+msgstr ""
+
+#: classes/question.php:124
+msgid "Extra"
+msgstr ""
+
+#: classes/question.php:477
+msgid "Back to quiz"
+msgstr ""
+
+#: classes/question.php:478 classes/quiz.php:645
+msgid "Add new question"
+msgstr ""
+
+#: classes/question.php:488
+msgid "Question title"
+msgstr ""
+
+#: classes/quiz.php:46 classes/quiz.php:318 classes/settings.php:156
+msgid "Results"
+msgstr ""
+
+#: classes/quiz.php:94
+msgid "Marking"
+msgstr ""
+
+#: classes/quiz.php:172
+msgid "Timer"
+msgstr ""
+
+#: classes/quiz.php:209 classes/quiz.php:326
+msgid "Advanced"
+msgstr ""
+
+#: classes/quiz.php:659
+msgid "QUESTIONS"
+msgstr ""
+
+#: classes/quiz.php:660
+msgid "QUIZ SETTINGS"
+msgstr ""
+
+#: classes/quiz.php:718
+msgid "Newly added questions will appear here"
+msgstr ""
+
+#: classes/settings.php:18
+msgid "General"
+msgstr ""
+
+#: classes/settings.php:146
+msgid "Translations"
+msgstr ""
+
+#: classes/settings.php:153
+msgid "Finish"
+msgstr ""
+
+#: classes/settings.php:154
+msgid "Next"
+msgstr ""
+
+#: classes/settings.php:155
+msgid "Previous"
+msgstr ""
+
+#: classes/settings.php:161
+msgid "QUIZ START"
+msgstr ""
+
+#: classes/settings.php:173
+msgid "enter answer here"
+msgstr ""
+
+#: classes/settings.php:185
+msgid "Select all that apply:"
+msgstr ""
+
+#: classes/settings.php:197
+msgid "Submit"
+msgstr ""
+
+#: includes/quiz-taxonomy.php:8
+msgid "Quizzes"
+msgstr ""
+
+#: includes/quiz-taxonomy.php:9
+msgid "All Quizzes"
+msgstr ""
+
+#: index.php:125
+msgid "Addons"
+msgstr ""
+
+#: index.php:126
+msgid "Tools"
+msgstr ""
+
+#: index.php:127 index.php:145
+msgid "Settings"
+msgstr ""
+
+#: index.php:150
+msgid "Help"
+msgstr ""

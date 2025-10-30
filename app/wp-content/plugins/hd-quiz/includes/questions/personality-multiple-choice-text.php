@@ -1,0 +1,41 @@
+<?php
+hdq_print_question_title($question, $question_number);
+$answers = $question["question_answers"];
+
+$i = 0;
+echo '<div class = "hdq_answers">';
+foreach ($answers as $k => $answer) {
+    $i++;
+    $selected = array();
+    foreach ($answer as $k => $value) {
+        if ($k !== "selected" && str_contains($k, "selected")) {
+            if ($value === "yes") {
+                array_push($selected, $k);
+            }
+        }
+    }
+    $selected = json_encode($selected);
+
+?>
+    <div class="hdq_row">
+        <label class="hdq_label_answer" id="hda_label_<?php echo $i . '_' . $question["question_id"]; ?>" data-type="radio" data-id="hdq_question_<?php echo $question["question_id"]; ?>" for="hdq_option_<?php echo $i . '_' . $question["question_id"]; ?>">
+            <div class="hdq-options-check">
+                <input type="checkbox" aria-labelledby="hda_label_<?php echo $i . '_' . $question["question_id"]; ?>" autocomplete="off" data-value="<?php echo esc_attr($selected); ?>" title="<?php echo htmlentities($answer["value"]); ?>" data-id="<?php echo $question["question_id"]; ?>" class="hdq_option hdq_check_input" data-type="radio" value="1" name="hdq_option_<?php echo $i . '_' . $question["question_id"]; ?>" id="hdq_option_<?php echo $i . '_' . $question["question_id"]; ?>">
+                <span class="hdq_toggle"></span>
+            </div>
+            <span class="hdq_aria_label">
+                <?php
+                if (str_contains($answer["value"], "[") && str_contains($answer["value"], "]")) {
+                    remove_filter('the_content', 'wpautop');
+                    echo apply_filters('the_content', $answer["value"]); // render out shortcode
+                    add_filter('the_content', 'wpautop');
+                } else {
+                    echo $answer["value"];
+                }
+                ?>
+            </span>
+        </label>
+    </div>
+<?php
+}
+echo '</div>';

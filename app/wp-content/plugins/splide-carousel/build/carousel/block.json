@@ -1,0 +1,133 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cloudcatch/splide-carousel",
+  "version": "1.7.0",
+  "title": "Splide Carousel",
+  "category": "media",
+  "attributes": {
+    "innerBlocks": {
+      "type": "array",
+      "default": []
+    },
+    "type": {
+      "type": "string",
+      "default": "slide"
+    },
+    "slideType": {
+      "type": "string",
+      "default": "perPage"
+    },
+    "perPage": {
+      "type": "integer",
+      "default": 1
+    },
+    "perMove": {
+      "type": "integer",
+      "default": 1
+    },
+    "speed": {
+      "type": "integer",
+      "default": 400
+    },
+    "fixedWidth": {
+      "type": "string",
+      "default": ""
+    },
+    "autoWidth": {
+      "type": "boolean",
+      "default": false
+    },
+    "gap": {
+      "type": "string",
+      "default": "0px"
+    },
+    "direction": {
+      "type": "string",
+      "default": "ltr"
+    },
+    "fixedHeight": {
+      "type": "string",
+      "default": ""
+    },
+    "arrows": {
+      "type": "boolean",
+      "default": true
+    },
+    "pagination": {
+      "type": "boolean",
+      "default": true
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "interval": {
+      "type": "string",
+      "default": "5000"
+    },
+    "pauseOnHover": {
+      "type": "boolean",
+      "default": true
+    },
+    "autoplayPlayPauseButtons": {
+      "type": "boolean",
+      "default": false
+    },
+    "options": {
+      "type": "string",
+      "default": ""
+    },
+    "mediaQuery": {
+      "type": "string",
+      "default": "max"
+    },
+    "breakpointTablet": {
+      "type": "integer",
+      "default": "1079"
+    },
+    "breakpointMobile": {
+      "type": "integer",
+      "default": "599"
+    },
+    "perPageTablet": {
+      "type": "integer",
+      "default": null
+    },
+    "perPageMobile": {
+      "type": "integer",
+      "default": null
+    },
+    "extensions": {
+      "type": "object",
+      "default": {
+        "autoScroll": false,
+        "urlHash": false,
+        "grid": false
+      }
+    },
+    "progressBar": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "units": [
+      "px",
+      "em",
+      "rem",
+      "vh",
+      "vw"
+    ]
+  },
+  "textdomain": "splide-carousel",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./view.css",
+  "viewScript": "file:./view.js"
+}
