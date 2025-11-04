@@ -1,0 +1,4 @@
+/.env
+/vendor/
+/web/wp/
+/web/app/uploads/

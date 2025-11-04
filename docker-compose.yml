@@ -38,7 +38,7 @@ services:
         if (!defined('PROTECTED_PATH')) { define('PROTECTED_PATH', '/var/www/protected'); }
     # Kluczowe: bind-mount do katalogu w WSL (szybki)
     volumes:
-      - ./app:/var/www/html
+      - ./bedrock/web:/var/www/html
     # (Opcjonalnie) uruchamiaj jako Twój UID/GID 1000, żeby pliki tworzyły się z Twoją własnością:
     user: "1000:1000"
 
@@ -50,7 +50,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./app:/var/www/html:ro
+      - ./bedrock/web:/var/www/html:ro
       - ./ops/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
 
   phpmyadmin:
@@ -81,7 +81,7 @@ services:
       HOME: /tmp
       WP_CLI_CACHE_DIR: /tmp/wp-cli-cache
     volumes:
-      - ./app:/var/www/html
+      - ./bedrock/web:/var/www/html
     entrypoint: ["wp","--path=/var/www/html","--allow-root"]
     tmpfs:
       - /tmp

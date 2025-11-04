@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.8.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-09-30 21:03:27+0000\n"
+"PO-Revision-Date: 2025-10-03 22:11:25+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1564,7 +1564,7 @@ msgstr "Podgląd ikonki aplikacji: bieżący obraz: %s"
 #: wp-includes/customize/class-wp-customize-site-icon-control.php:103
 #: wp-admin/options-general.php:140 wp-admin/js/site-icon.js:168
 msgid "Browser icon preview: The current image has no alternative text. The file name is: %s"
-msgstr "Podgląd ikonki przeglądarki: bieżący obraz nie ma tekstu alternatywnego. Nazwa pliku to: %s"
+msgstr "Podgląd ikonki przeglądarki: bieżący obrazek nie ma tekstu alternatywnego. Nazwa pliku to: %s"
 
 #. translators: %s: The selected image alt text.
 #: wp-includes/customize/class-wp-customize-site-icon-control.php:95
@@ -1979,7 +1979,7 @@ msgstr "Nie można uzyskać dostępu do systemu plików."
 #: wp-includes/blocks/site-logo/block.json
 msgctxt "block description"
 msgid "Display an image to represent this site. Update this block and the changes apply everywhere."
-msgstr "Wyświetl obraz reprezentujący witrynę. Zaktualizuj blok, a zmiany zostaną zastosowane wszędzie."
+msgstr "Wyświetl obrazek reprezentujący witrynę. Zaktualizuj blok, a zmiany zostaną zastosowane wszędzie."
 
 #: wp-includes/blocks/post-title/block.json
 msgctxt "block title"
@@ -12610,7 +12610,7 @@ msgstr "Pozwala na powiadomienia z innych witryn (pingbacki i trackbacki) w nowy
 
 #: wp-includes/option.php:2878
 msgid "Blog pages show at most."
-msgstr "Strony blogu wyświetlają maksymalnie tyle wpisów."
+msgstr "Maksymalna liczba wpisów wyświetlanych na stronach bloga."
 
 #: wp-includes/option.php:2867
 msgid "Default post format."
@@ -13620,7 +13620,7 @@ msgstr "Język witryny:"
 #. translators: %s: The message ID.
 #: wp-mail.php:270
 msgid "Mission complete. Message %s deleted."
-msgstr "Misja ukończona. Wiadomość %s została usunięta."
+msgstr "Ukończono misję. Usunięto wiadomość %s."
 
 #: wp-mail.php:257
 msgid "Posted title:"
@@ -14131,7 +14131,7 @@ msgstr "Ukryj obrazek"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:248
 msgid "Hide header image"
-msgstr "Ukryj obrazek w nagłówku"
+msgstr "Ukryj obrazek nagłówka"
 
 #: wp-includes/class-wp-customize-manager.php:5211
 #: wp-includes/js/dist/edit-post.js:294 wp-includes/js/dist/edit-site.js:7809
@@ -14911,7 +14911,7 @@ msgstr "Aby przenieść skupienie na inny przycisk wciśnij klawisz Tab lub klaw
 
 #: wp-includes/class-wp-editor.php:1411
 msgid "Elements path"
-msgstr "Ścieżki do elementów w hierarchii DOM"
+msgstr "Ścieżka elementów"
 
 #: wp-includes/class-wp-editor.php:1410
 msgid "Editor toolbar"
@@ -14950,15 +14950,15 @@ msgstr "Istnieje już taksonomia o takiej nazwie i uproszczonej nazwie."
 
 #: wp-includes/pluggable.php:1835
 msgid "You can see all comments on this post here:"
-msgstr "Możesz zobaczyć wszystkie komentarze do tego wpisu tutaj:"
+msgstr "Możesz zobaczyć wszystkie komentarze wpisu tutaj:"
 
 #: wp-includes/pluggable.php:1813
 msgid "You can see all pingbacks on this post here:"
-msgstr "Możesz zobaczyć wszystkie pingbacki do tego wpisu tutaj:"
+msgstr "Możesz zobaczyć wszystkie pingbacki wpisu tutaj:"
 
 #: wp-includes/pluggable.php:1799
 msgid "You can see all trackbacks on this post here:"
-msgstr "Możesz zobaczyć wszystkie trackbacki do tego wpisu tutaj:"
+msgstr "Możesz zobaczyć wszystkie trackbacki wpisu tutaj:"
 
 #. translators: %s: Comment text.
 #: wp-includes/pluggable.php:1798 wp-includes/pluggable.php:1812
@@ -15931,7 +15931,7 @@ msgstr "Wyszukiwanie"
 
 #: wp-includes/class-wp-editor.php:1388 wp-includes/script-loader.php:819
 msgid "Insert Read More tag"
-msgstr "Wstaw znacznik &bdquo;Czytaj dalej&rdquo;"
+msgstr "Wstaw „Dowiedz się więcej”"
 
 #: wp-includes/class-wp-editor.php:1387
 msgid "Toolbar Toggle"
@@ -16211,7 +16211,7 @@ msgstr "Sugerowane"
 #: wp-includes/customize/class-wp-customize-header-image-control.php:254
 msgctxt "custom headers"
 msgid "Previously uploaded"
-msgstr "Uprzednio wysłane"
+msgstr "Poprzednio przesłane"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:240
 msgid "Current header"

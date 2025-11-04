@@ -2,14 +2,30 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More Than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-09-29 13:18:37+0000\n"
+"PO-Revision-Date: 2025-10-28 11:09:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
-"X-Generator: GlotPress/4.0.1\n"
+"X-Generator: GlotPress/4.0.3\n"
 "Language: pl\n"
 "Project-Id-Version: Plugins - Elementor Website Builder &#8211; More Than Just a Page Builder - Stable (latest release)\n"
+
+#: modules/promotions/pointers/black-friday.php:30
+msgid "Black Friday Is On!"
+msgstr "Czarny Piątek!"
+
+#: modules/promotions/pointers/black-friday.php:31
+msgid "Save big on Elementor Pro and unlock the tools to design without limits."
+msgstr "Zaoszczędź kupując Elementor Pro i odblokuj narzędzia do projektowania bez ograniczeń."
+
+#: core/admin/admin-notices.php:535
+msgid "Please note: The \"Load Google Fonts Locally\" feature has been disabled by default on all websites. To turn it back on, go to Elementor → Settings → Performance → Enable Load Google Fonts Locally."
+msgstr "Uwaga: funkcja „Wczytaj kroje pisma Google lokalnie” jest domyślnie wyłączona na wszystkich witrynach internetowych. Aby ją ponownie włączyć, przejdź do Elementor → Ustawienia → Wydajność → Włącz wczytywanie krojów pisma Google lokalnie."
+
+#: core/admin/admin-notices.php:534
+msgid "Important: Local Google Fonts Settings in Elementor"
+msgstr "Ważne: Ustawienia lokalne kroje pisma Google w Elementorze"
 
 #: includes/settings/settings.php:479
 msgid "Load Google fonts locally to benefit from faster performance and ensure GDPR compliance. Fonts will be served from your own server instead of Google’s. Only the very first load (in the editor and on the front end) may take slightly longer."
@@ -45,65 +61,65 @@ msgstr "Tablica operacji nie może być pusta"
 msgid "Watermark must be a non-negative integer"
 msgstr "Znak wodny musi być liczbą całkowitą nieujemną"
 
-#: modules/pro-install/pro-install-menu-item.php:183
+#: modules/pro-install/pro-install-menu-item.php:186
 msgid "Activate Elementor Pro"
 msgstr "Włącz Elementora Pro"
 
-#: modules/pro-install/pro-install-menu-item.php:182
+#: modules/pro-install/pro-install-menu-item.php:185
 msgid "Enjoy full access to powerful design tools, advanced widgets, and everything you need to create next-level websites."
 msgstr "Ciesz się pełnym dostępem do potężnych narzędzi projektowych, zaawansowanych widżetów i wszystkiego, czego potrzebujesz, aby tworzyć witryny internetowe następnej generacji."
 
-#: modules/pro-install/pro-install-menu-item.php:168
+#: modules/pro-install/pro-install-menu-item.php:171
 msgid "You've got Elementor Pro"
 msgstr "Masz Elementor Pro"
 
-#: modules/pro-install/pro-install-menu-item.php:156
+#: modules/pro-install/pro-install-menu-item.php:159
 msgid "Pro Upgrade"
 msgstr "Ulepszenie Pro"
 
-#: modules/pro-install/pro-install-menu-item.php:148
+#: modules/pro-install/pro-install-menu-item.php:151
 msgid "Build custom headers, footers, forms, popups, and WooCommerce stores."
 msgstr "Twórz własne nagłówki, stopki, formularze, wyskakujące okienka i sklepy WooCommerce."
 
-#: modules/pro-install/pro-install-menu-item.php:147
+#: modules/pro-install/pro-install-menu-item.php:150
 msgid "Upgrade to Pro to unlock powerful design tools and advanced features."
 msgstr "Ulepsz do Pro, aby odblokować potężne narzędzia projektowe i zaawansowane funkcje."
 
-#: modules/pro-install/pro-install-menu-item.php:118
+#: modules/pro-install/pro-install-menu-item.php:121
 msgid "Want to disconnect for any reason?"
 msgstr "Chcesz się rozłączyć z jakiegokolwiek powodu?"
 
 #. translators: %s: Connected user.
-#: modules/pro-install/pro-install-menu-item.php:109
+#: modules/pro-install/pro-install-menu-item.php:112
 msgid "You're connected as %s."
 msgstr "Jesteś połączony jako %s."
 
-#: modules/pro-install/pro-install-menu-item.php:96
+#: modules/pro-install/pro-install-menu-item.php:99
 msgid "My Account"
 msgstr "Moje konto"
 
-#: modules/pro-install/pro-install-menu-item.php:93
+#: modules/pro-install/pro-install-menu-item.php:96
 msgid "Connected"
 msgstr "Połączono"
 
-#: modules/pro-install/pro-install-menu-item.php:71
+#: modules/pro-install/pro-install-menu-item.php:74
 msgid "Gain access to dozens of professionally designed templates, and connect your site to your My Elementor Dashboard."
 msgstr "Uzyskaj dostęp do dziesiątek profesjonalnie zaprojektowanych szablonów i połącz swoją witrynę z kokpitem Mój Elementor."
 
-#: modules/pro-install/pro-install-menu-item.php:68
+#: modules/pro-install/pro-install-menu-item.php:71
 msgid "Connect your Elementor Account"
 msgstr "Połącz swoje konto Elementor"
 
-#: modules/pro-install/pro-install-menu-item.php:27
+#: modules/pro-install/pro-install-menu-item.php:30
 msgid "Connect Settings"
 msgstr "Ustawienia połączenia"
 
-#: modules/pro-install/module.php:57
+#: modules/pro-install/module.php:60
 #: modules/pro-install/plugin-installer.php:21
 msgid "There are no available subscriptions at the moment."
 msgstr "W tej chwili nie ma dostępnych subskrypcji."
 
-#: modules/pro-install/module.php:48
+#: modules/pro-install/module.php:51
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Nie masz wystarczających uprawnień, aby uzyskać dostęp do tej strony."
 
@@ -169,22 +185,22 @@ msgid "Atomic Tab List"
 msgstr "Lista karty Atomic"
 
 #. translators: %s: Theme name.
-#: app/modules/import-export-customization/runners/import/site-settings.php:329
+#: app/modules/import-export-customization/runners/import/site-settings.php:332
 msgid "Theme: %s has been successfully installed"
 msgstr "Motyw: %s został pomyślnie zainstalowany"
 
 #. translators: %s: Theme name.
-#: app/modules/import-export-customization/runners/import/site-settings.php:321
+#: app/modules/import-export-customization/runners/import/site-settings.php:324
 msgid "Failed to install theme: %s"
 msgstr "Nie udało się zainstalować motywu: %s"
 
 #. translators: %s: Theme name.
-#: app/modules/import-export-customization/runners/import/site-settings.php:310
+#: app/modules/import-export-customization/runners/import/site-settings.php:313
 msgid "Theme: %s has already been installed and activated"
 msgstr "Motyw: %s został już zainstalowany i włączony"
 
 #. translators: %s: Theme name.
-#: app/modules/import-export-customization/runners/import/site-settings.php:298
+#: app/modules/import-export-customization/runners/import/site-settings.php:301
 msgid "Theme: %s is already used"
 msgstr "Motyw: %s jest już używany"
 
@@ -313,11 +329,11 @@ msgstr "Dostosowywanie importu/eksportu"
 msgid "Apply a Website Template"
 msgstr "Zastosuj szablon witryny internetowej"
 
-#: core/admin/admin-notices.php:494
+#: core/admin/admin-notices.php:496
 msgid "Collecting leads is just the beginning. With Send by Elementor, you can manage contacts, launch automations, and turn form submissions into sales."
 msgstr "Zbieranie potencjalnych klientów to dopiero początek. Dzięki Wyślij przez Elementor możesz zarządzać kontaktami, uruchamiać automatyzacje i przekształcać zgłoszenia z formularzy w sprzedaż."
 
-#: core/admin/admin-notices.php:490
+#: core/admin/admin-notices.php:492
 msgid "Turn leads into loyal shoppers"
 msgstr "Zmień potencjalnych klientów w lojalnych klientów"
 
@@ -530,11 +546,11 @@ msgstr "Nie udało się utworzyć zestawu: Nieprawidłowa odpowiedź"
 msgid "Cloud Kits"
 msgstr "Zestawy chmurowe"
 
-#: core/admin/admin-notices.php:279
+#: core/admin/admin-notices.php:281
 msgid "Opt in"
 msgstr "Zgoda"
 
-#: core/admin/admin-notices.php:276
+#: core/admin/admin-notices.php:278
 msgid "Update regarding usage data collection"
 msgstr "Aktualizacja dotycząca gromadzenia danych o użytkowaniu"
 
@@ -542,15 +558,15 @@ msgstr "Aktualizacja dotycząca gromadzenia danych o użytkowaniu"
 msgid "Data Sharing"
 msgstr "Udostępnianie danych"
 
-#: core/admin/admin-notices.php:272
+#: core/admin/admin-notices.php:274
 msgid "We're updating our Terms and Conditions to include the collection of usage and behavioral data. This information helps us understand how you use Elementor so we can make informed improvements to the product."
 msgstr "Aktualizujemy warunki korzystania z usługi, aby uwzględnić zbieranie danych dotyczących użytkowania i zachowań. Informacje te pomagają nam zrozumieć, w jaki sposób korzystasz z Elementora, dzięki czemu możemy wprowadzać świadome ulepszenia produktu."
 
-#: core/admin/admin-notices.php:234
+#: core/admin/admin-notices.php:236
 msgid "Want to shape the future of web creation?"
 msgstr "Chcesz mieć wpływ na przyszłość tworzenia stron internetowych?"
 
-#: core/admin/admin-notices.php:218 includes/settings/settings-page.php:403
+#: core/admin/admin-notices.php:220 includes/settings/settings-page.php:403
 msgid "Become a super contributor by helping us understand how you use our service to enhance your experience and improve our product."
 msgstr "Zostań naszym superwspółpracownikiem, pomagając nam zrozumieć, w jaki sposób korzystasz z naszych usług, aby zwiększyć wygodę korzystania i udoskonalić nasz produkt."
 
@@ -648,6 +664,7 @@ msgid "Enable Editor V4."
 msgstr "Włącz edytor V4."
 
 #: modules/promotions/pointers/birthday.php:35
+#: modules/promotions/pointers/black-friday.php:35
 msgid "View Deals"
 msgstr "Zobacz oferty"
 
@@ -760,11 +777,11 @@ msgstr "Widok listy"
 msgid "Cloud templates"
 msgstr "Szablony chmury"
 
-#: core/admin/admin-notices.php:537
+#: core/admin/admin-notices.php:579
 msgid "Create a more inclusive site experience for all your visitors. With Ally, it's easy to add your statement page in just a few clicks."
 msgstr "Stwórz bardziej inkluzywne doświadczenie witryny dla wszystkich odwiedzających. Dzięki Ally możesz łatwo dodać swoją stronę oświadczenia za pomocą kilku kliknięć."
 
-#: core/admin/admin-notices.php:536
+#: core/admin/admin-notices.php:578
 msgid "Make sure your site has an accessibility statement page"
 msgstr "Upewnij się, że Twoja witryna ma stronę z oświadczeniem o dostępności"
 
@@ -1023,19 +1040,19 @@ msgstr "Projektuj własne karuzele"
 msgid "Create flexible custom carousels."
 msgstr "Twórz elastyczne, własne karuzele."
 
-#: core/admin/admin-notices.php:611
+#: core/admin/admin-notices.php:653
 msgid "Use Elementor's Site Mailer to ensure your store emails like purchase confirmations, shipping updates and more are reliably delivered."
 msgstr "Użyj modułu Site Mailer firmy Elementor, aby mieć pewność, że wiadomości e-mail ze sklepu, takie jak potwierdzenia zakupów, aktualizacje dotyczące wysyłki i inne, będą niezawodnie dostarczane."
 
-#: core/admin/admin-notices.php:610
+#: core/admin/admin-notices.php:652
 msgid "Improve Transactional Email Deliverability"
 msgstr "Poprawa dostarczalności wiadomości e-mail transakcyjnych"
 
-#: core/admin/admin-notices.php:589
+#: core/admin/admin-notices.php:631
 msgid "Ensure your form emails avoid the spam folder!"
 msgstr "Upewnij się, że e-maile z formularza nie trafiły do folderu ze spamem!"
 
-#: core/admin/admin-notices.php:590
+#: core/admin/admin-notices.php:632
 msgid "Use Site Mailer for improved email deliverability, detailed email logs, and an easy setup."
 msgstr "Użyj Site Mailer, aby poprawić dostarczalność wiadomości e-mail, uzyskać szczegółowe dzienniki wiadomości e-mail i ułatwić konfigurację."
 
@@ -1164,7 +1181,7 @@ msgstr "Kup teraz"
 msgid "Floating Elements"
 msgstr "Pływające elementy"
 
-#: modules/floating-buttons/module.php:47 assets/js/editor.js:51001
+#: modules/floating-buttons/module.php:47 assets/js/editor.js:51033
 msgid "Floating Bars"
 msgstr "Pływające paski"
 
@@ -1443,8 +1460,8 @@ msgstr "Aktywna kropka"
 msgid "Paste Waze link"
 msgstr "Wklej odnośnik Waze"
 
-#: modules/floating-buttons/module.php:46 assets/js/editor.js:51003
-#: assets/js/editor.js:51005
+#: modules/floating-buttons/module.php:46 assets/js/editor.js:51035
+#: assets/js/editor.js:51037
 msgid "Floating Buttons"
 msgstr "Pływające przyciski"
 
@@ -1893,12 +1910,6 @@ msgstr "Odnośnik przycisków wezwania do działania"
 msgid "Add CTA Link"
 msgstr "Dodaj odnośnik wezwania do działania"
 
-#: modules/floating-buttons/base/widget-contact-button-base.php:920
-#: modules/link-in-bio/base/widget-link-in-bio-base.php:534
-#: modules/link-in-bio/base/widget-link-in-bio-base.php:783
-msgid "Enter your username"
-msgstr "Wpisz swoje imię"
-
 #: modules/link-in-bio/base/widget-link-in-bio-base.php:495
 msgid "Enter your number"
 msgstr "Wpisz swoją liczbę"
@@ -2015,6 +2026,12 @@ msgstr "Dodaj Ikonkę"
 msgid "Action"
 msgstr "Działanie"
 
+#: modules/floating-buttons/base/widget-contact-button-base.php:920
+#: modules/link-in-bio/base/widget-link-in-bio-base.php:534
+#: modules/link-in-bio/base/widget-link-in-bio-base.php:783
+msgid "Enter your username"
+msgstr "Wpisz swoją nazwę użytkownika"
+
 #: core/settings/editor-preferences/model.php:66
 msgid "Display mode"
 msgstr "Tryb ekranu"
@@ -2076,11 +2093,11 @@ msgstr "Ulepsz Kup teraz"
 msgid "Discounted Upgrades Now!"
 msgstr "Teraz obniżone ceny ulepszeń!"
 
-#: core/admin/admin-notices.php:709
+#: core/admin/admin-notices.php:751
 msgid "Automatically compress and optimize images, resize larger files, or convert to WebP. Optimize images individually, in bulk, or on upload."
 msgstr "Automatycznie kompresuj i optymalizuj obrazki, zmieniaj rozmiar większych plików lub konwertuj do formatu WebP. Optymalizuj obrazki indywidualnie, zbiorczo lub podczas przesyłania."
 
-#: core/admin/admin-notices.php:708
+#: core/admin/admin-notices.php:750
 msgid "Speed up your website with Image Optimizer by Elementor"
 msgstr "Przyspiesz swoją witrynę dzięki optymalizatorowi obrazków firmy Elementor"
 
@@ -2281,7 +2298,7 @@ msgstr "Włącz opcję korzystania z widżetu HTML"
 
 #: includes/editor-templates/panel-elements.php:33
 msgid "Access all Pro widgets."
-msgstr "Uzyskaj dostęp do wszystkich widżetów Pro."
+msgstr "Dostęp do wszystkich widżetów Pro."
 
 #: core/utils/hints.php:167 includes/controls/notice.php:83
 msgid "Don’t show again."
@@ -2291,23 +2308,23 @@ msgstr "Nie pokazuj ponownie."
 msgid "Access all Pro widgets"
 msgstr "Dostęp do wszystkich widżetów Pro"
 
-#: includes/managers/controls.php:1310 assets/js/editor.js:53010
+#: includes/managers/controls.php:1310 assets/js/editor.js:53042
 msgid "Mouse Effects"
 msgstr "Efekty myszy"
 
-#: includes/managers/controls.php:1301 assets/js/editor.js:52995
+#: includes/managers/controls.php:1301 assets/js/editor.js:53027
 msgid "Scrolling Effects"
 msgstr "Efekty przewijania"
 
 #: includes/managers/controls.php:1319
 #: modules/floating-buttons/base/widget-floating-bars-base.php:1453
-#: assets/js/editor.js:53025
+#: assets/js/editor.js:53057
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:22
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.strings.js:146
 msgid "Sticky"
 msgstr "Przypięty"
 
-#: core/admin/admin-notices.php:661 includes/controls/gallery.php:123
+#: core/admin/admin-notices.php:703 includes/controls/gallery.php:123
 #: includes/controls/media.php:319 includes/widgets/heading.php:473
 msgid "Install Plugin"
 msgstr "Zainstaluj wtyczkę"
@@ -2316,7 +2333,7 @@ msgstr "Zainstaluj wtyczkę"
 msgid "Designer"
 msgstr "Projektant"
 
-#: includes/managers/controls.php:1270 assets/js/editor.js:52980
+#: includes/managers/controls.php:1270 assets/js/editor.js:53012
 msgid "Display Conditions"
 msgstr "Wyświetl warunki"
 
@@ -2546,6 +2563,10 @@ msgstr "Obrazek nie powinien być jednocześnie leniwie wczytywany i oznaczony j
 msgid "You are currently editing a Star Rating widget in its old version. Drag a new Rating widget onto your page to use a newer version, providing better capabilities."
 msgstr "Aktualnie edytujesz widżet oceny gwiazdkowej w starej wersji. Przeciągnij nowy widżet oceny na swoją stronę, aby skorzystać z nowszej wersji, która oferuje lepsze możliwości."
 
+#: modules/page-templates/module.php:158
+msgid "Elementor Full Width"
+msgstr "Elementor o pełnej szerokości"
+
 #: includes/editor-templates/templates.php:519 assets/js/ai-admin.js:1035
 #: assets/js/ai-admin.js:1082 assets/js/ai-admin.js:2492
 #: assets/js/ai-admin.js:3219 assets/js/ai-gutenberg.js:1173
@@ -2564,10 +2585,6 @@ msgstr "Aktualnie edytujesz widżet oceny gwiazdkowej w starej wersji. Przeciąg
 #: assets/js/onboarding.50bce36b17131b8d21b7.bundle.js:326
 msgid "Upgrade now"
 msgstr "Ulepsz teraz"
-
-#: modules/page-templates/module.php:158
-msgid "Elementor Full Width"
-msgstr "Elementor o pełnej szerokości"
 
 #: includes/controls/groups/background.php:245
 #: assets/js/packages/editor-controls/editor-controls.js:112
@@ -3095,7 +3112,7 @@ msgstr "Poziomy tablet"
 msgid "Tablet Portrait"
 msgstr "Pionowy tablet"
 
-#: core/admin/admin-notices.php:762 core/admin/admin.php:1036
+#: core/admin/admin-notices.php:804 core/admin/admin.php:1036
 msgid "Dismiss this notice."
 msgstr "Odrzuć to powiadomienie."
 
@@ -3131,14 +3148,6 @@ msgstr "Eksperymenty i funkcje"
 msgid "A generator tag is a meta element that indicates the attributes used to create a webpage. It is used for analytical purposes."
 msgstr "Znacznik generatora to element meta, który wskazuje atrybuty użyte do utworzenia strony internetowej. Jest używany do celów analitycznych."
 
-#. translators: %d: Number of rows.
-#: includes/utils.php:254
-msgid "%d database row affected."
-msgid_plural "%d database rows affected."
-msgstr[0] "%d wiersz bazy danych został zmieniony."
-msgstr[1] "%d wiersze bazy danych zostało zmienione."
-msgstr[2] "%d wierszy bazy danych zostało zmienionych."
-
 #. translators: %1$s Link open tag, %2$s: Link close tag.
 #: core/experiments/manager.php:523
 msgid "Personalize your Elementor experience by controlling which features and experiments are active on your site. Help make Elementor better by %1$ssharing your experience and feedback with us%2$s."
@@ -3147,6 +3156,14 @@ msgstr "Spersonalizuj swoje doświadczenie Elementora, kontrolując, które funk
 #: modules/generator-tag/module.php:76
 msgid "Generator Tag"
 msgstr "Generator znacznika"
+
+#. translators: %d: Number of rows.
+#: includes/utils.php:254
+msgid "%d database row affected."
+msgid_plural "%d database rows affected."
+msgstr[0] "%d wiersz bazy danych został zmieniony."
+msgstr[1] "%d wiersze bazy danych zostały zmienione."
+msgstr[2] "%d wierszy bazy danych zostało zmienionych."
 
 #: modules/atomic-opt-in/opt-in-page.php:90
 #: modules/atomic-widgets/opt-in.php:41 assets/js/editor-v4-opt-in.js:344
@@ -3331,7 +3348,7 @@ msgstr "Ikonka odrzucenia"
 msgid "Don’t add links to elements nested in this container - it will break the layout."
 msgstr "Nie dodawaj odnośników do elementów zagnieżdżonych w tym kontenerze - popsuje to aktualny układ."
 
-#: core/admin/admin-notices.php:407
+#: core/admin/admin-notices.php:409
 msgid "Try it out"
 msgstr "Wypróbuj"
 
@@ -3357,7 +3374,7 @@ msgstr "Ustawia domyślną przestrzeń wewnątrz kontenera (domyślnie 10px)"
 msgid "Exit to"
 msgstr "Wyjdź do"
 
-#: core/admin/admin-notices.php:403
+#: core/admin/admin-notices.php:405
 msgid "Improve your site’s performance score."
 msgstr "Popraw wynik wydajności swojej witryny."
 
@@ -3389,7 +3406,7 @@ msgstr "Pozycja pozioma"
 msgid "Vertical Position"
 msgstr "Pozycja pionowa"
 
-#: core/admin/admin-notices.php:404
+#: core/admin/admin-notices.php:406
 msgid "With our experimental speed boosting features you can go faster than ever before. Look for the Performance label on our Experiments page and activate those experiments to improve your site loading speed."
 msgstr "Dzięki naszym eksperymentalnym funkcjom zwiększającym szybkość możesz działać szybciej niż kiedykolwiek wcześniej. Szukaj etykiety „Wydajność” na naszej stronie „Eksperymenty” i włącz te eksperymenty, aby poprawić szybkość wczytywania witryny."
 
@@ -3469,7 +3486,7 @@ msgstr "Ulepsz"
 #: modules/checklist/steps/setup-header.php:93
 #: modules/element-manager/ajax.php:73 modules/element-manager/ajax.php:80
 #: modules/element-manager/ajax.php:88
-#: modules/pro-install/pro-install-menu-item.php:152
+#: modules/pro-install/pro-install-menu-item.php:155
 #: modules/promotions/admin-menu-items/base-promotion-item.php:32
 #: modules/promotions/admin-menu-items/base-promotion-template.php:37
 #: modules/promotions/admin-menu-items/popups-promotion-item.php:24
@@ -3480,9 +3497,9 @@ msgstr "Ulepsz"
 #: modules/promotions/promotion-data.php:116 assets/js/app-packages.js:920
 #: assets/js/app-packages.js:4489 assets/js/app-packages.js:4765
 #: assets/js/app.js:1263 assets/js/checklist.js:241 assets/js/editor.js:6189
-#: assets/js/editor.js:10916 assets/js/editor.js:52985
-#: assets/js/editor.js:53000 assets/js/editor.js:53015
-#: assets/js/editor.js:53030
+#: assets/js/editor.js:10916 assets/js/editor.js:53017
+#: assets/js/editor.js:53032 assets/js/editor.js:53047
+#: assets/js/editor.js:53062
 #: assets/js/onboarding.50bce36b17131b8d21b7.bundle.js:326
 #: assets/js/onboarding.50bce36b17131b8d21b7.bundle.js:1405
 msgid "Upgrade Now"
@@ -3491,6 +3508,13 @@ msgstr "Ulepsz teraz"
 #: modules/announcements/module.php:118
 msgid "Let's do it"
 msgstr "Zróbmy to"
+
+#: core/admin/admin-notices.php:539 assets/js/app.js:5844
+#: assets/js/app.js:11755 assets/js/app.js:14325
+#: assets/js/packages/editor-controls/editor-controls.js:68
+#: assets/js/packages/editor-controls/editor-controls.strings.js:63
+msgid "Take me there"
+msgstr "Zabierz mnie tam"
 
 #: modules/container-converter/module.php:86
 #: modules/container-converter/module.php:119
@@ -3935,7 +3959,7 @@ msgstr "Funkcje"
 msgid "Header"
 msgstr "Nagłówek"
 
-#: modules/pro-install/pro-install-menu-item.php:23
+#: modules/pro-install/pro-install-menu-item.php:26
 #: assets/js/admin-top-bar.js:317
 msgid "Connect Account"
 msgstr "Połącz się z kontem"
@@ -4077,11 +4101,11 @@ msgstr "Zamień"
 msgid "Widescreen"
 msgstr "Szeroki ekran"
 
-#: core/admin/admin-notices.php:366
+#: core/admin/admin-notices.php:368
 msgid "Managing a multi-user site?"
 msgstr "Zarządzanie witryną z wieloma użytkownikami?"
 
-#: core/admin/admin-notices.php:367
+#: core/admin/admin-notices.php:369
 msgid "With Elementor Pro, you can control user access and make sure no one messes up your design."
 msgstr "Z Elementor Pro, można kontrolować dostęp użytkowników i upewnić się, że nikt nie zepsuje twojego projektu."
 
@@ -4274,13 +4298,14 @@ msgid "Arc"
 msgstr "Łuk"
 
 #: app/modules/import-export-customization/module.php:202
-#: app/modules/import-export/module.php:207 core/admin/admin-notices.php:284
-#: core/admin/admin-notices.php:412 core/admin/admin-notices.php:503
-#: core/admin/admin-notices.php:551 core/admin/admin-notices.php:599
-#: core/experiments/manager.php:317 core/experiments/manager.php:333
-#: core/experiments/manager.php:363 core/experiments/manager.php:534
-#: includes/controls/url.php:78 includes/elements/section.php:473
-#: includes/settings/settings-page.php:404 includes/widgets/video.php:606
+#: app/modules/import-export/module.php:207 core/admin/admin-notices.php:286
+#: core/admin/admin-notices.php:414 core/admin/admin-notices.php:505
+#: core/admin/admin-notices.php:545 core/admin/admin-notices.php:593
+#: core/admin/admin-notices.php:641 core/experiments/manager.php:317
+#: core/experiments/manager.php:333 core/experiments/manager.php:363
+#: core/experiments/manager.php:534 includes/controls/url.php:78
+#: includes/elements/section.php:473 includes/settings/settings-page.php:404
+#: includes/widgets/video.php:606
 #: modules/ai/feature-intro/product-image-unification-intro.php:40
 #: modules/checklist/steps/step-base.php:102
 #: modules/nested-elements/module.php:21
@@ -4476,7 +4501,7 @@ msgstr "Beta"
 msgid "Experiments"
 msgstr "Eksperymenty"
 
-#: modules/pro-install/pro-install-menu-item.php:183
+#: modules/pro-install/pro-install-menu-item.php:186
 msgid "Install & Activate"
 msgstr "Zainstaluj i włącz"
 
@@ -4523,7 +4548,7 @@ msgstr "Strona docelowa"
 #: modules/landing-pages/documents/landing-page.php:54
 #: modules/landing-pages/module.php:46 modules/landing-pages/module.php:163
 #: modules/landing-pages/module.php:294 modules/landing-pages/module.php:306
-#: assets/js/app.js:15531 assets/js/editor.js:52744
+#: assets/js/app.js:15531 assets/js/editor.js:52776
 msgid "Landing Pages"
 msgstr "Strony docelowe"
 
@@ -4624,7 +4649,7 @@ msgstr "Wybierz SVG"
 
 #: core/kits/documents/tabs/global-colors.php:24
 #: core/kits/documents/tabs/global-colors.php:43 assets/js/app.js:10400
-#: assets/js/app.js:15539 assets/js/editor.js:47730
+#: assets/js/app.js:15539 assets/js/editor.js:47762
 #: assets/js/styleguide-app.77392704cadf8bc1ca69.bundle.js:173
 msgid "Global Colors"
 msgstr "Kolory globalne"
@@ -4660,8 +4685,8 @@ msgid "User Preferences"
 msgstr "Preferencje użytkownika"
 
 #: core/kits/manager.php:436 includes/editor-templates/hotkeys.php:112
-#: assets/js/app.js:15537 assets/js/app.js:16034 assets/js/editor.js:47679
-#: assets/js/editor.js:47683 assets/js/editor.js:47693
+#: assets/js/app.js:15537 assets/js/app.js:16034 assets/js/editor.js:47711
+#: assets/js/editor.js:47715 assets/js/editor.js:47725
 #: assets/js/packages/editor-app-bar/editor-app-bar.js:12
 #: assets/js/packages/editor-app-bar/editor-app-bar.strings.js:9
 msgid "Site Settings"
@@ -4724,7 +4749,7 @@ msgstr "Dopasowanie obiektu"
 msgid "Changes will be reflected in the preview only after the page reloads."
 msgstr "Zmiany zostaną odzwierciedlone w podglądzie dopiero po przeładowaniu strony."
 
-#: core/settings/editor-preferences/model.php:174 assets/js/editor.js:48097
+#: core/settings/editor-preferences/model.php:174 assets/js/editor.js:48129
 msgid "Design System"
 msgstr "System projektowania"
 
@@ -4743,7 +4768,7 @@ msgstr "Pobierz"
 msgid "The latest update includes some substantial changes across different areas of the plugin. We highly recommend you %1$sbackup your site before upgrading%2$s, and make sure you first update in a staging environment"
 msgstr "Najnowsza aktualizacja zawiera kilka istotnych zmian w różnych obszarach wtyczki. Zdecydowanie zalecamy wykonanie %1$skopii zapasowej witryny przed aktualizacją%2$s i proszę się upewnić, że wykonano pierwszą aktualizację w środowisku testowym"
 
-#: modules/nested-tabs/widgets/nested-tabs.php:376 assets/js/editor.js:48089
+#: modules/nested-tabs/widgets/nested-tabs.php:376 assets/js/editor.js:48121
 msgid "Additional Settings"
 msgstr "Dodatkowe ustawienia"
 
@@ -4939,7 +4964,7 @@ msgstr "Znaczniki dynamiczne"
 #: includes/editor-templates/templates.php:224 assets/js/ai-admin.js:9560
 #: assets/js/ai-gutenberg.js:9778 assets/js/ai-media-library.js:9560
 #: assets/js/ai-unify-product-images.js:9560 assets/js/ai.js:11112
-#: assets/js/app.js:7455 assets/js/app.js:12176 assets/js/editor.js:47985
+#: assets/js/app.js:7455 assets/js/app.js:12176 assets/js/editor.js:48017
 msgid "Back"
 msgstr "Wstecz"
 
@@ -5618,7 +5643,7 @@ msgstr "Pobierz kreator wyskakujących okienek"
 #: app/modules/site-editor/module.php:31
 #: core/common/modules/finder/categories/general.php:72
 #: includes/template-library/sources/local.php:1732
-#: assets/js/app-packages.js:4809 assets/js/editor.js:47704
+#: assets/js/app-packages.js:4809 assets/js/editor.js:47736
 #: assets/js/packages/editor-app-bar/editor-app-bar.js:12
 #: assets/js/packages/editor-app-bar/editor-app-bar.strings.js:7
 msgid "Theme Builder"
@@ -5678,12 +5703,12 @@ msgstr "Menu"
 msgid "Dashboard"
 msgstr "Kokpit"
 
-#: modules/pro-install/pro-install-menu-item.php:76
+#: modules/pro-install/pro-install-menu-item.php:79
 msgid "Connect to Elementor"
 msgstr "Połącz z Elementorem"
 
 #: core/common/modules/connect/apps/base-app.php:87
-#: modules/pro-install/pro-install-menu-item.php:120
+#: modules/pro-install/pro-install-menu-item.php:123
 msgid "Disconnect"
 msgstr "Rozłącz"
 
@@ -5713,10 +5738,6 @@ msgstr "Skala oceny"
 #: includes/widgets/video.php:517
 msgid "Any Video"
 msgstr "Dowolny film"
-
-#: includes/editor-templates/hotkeys.php:201
-msgid "Quit"
-msgstr "Opuść"
 
 #: core/common/modules/finder/template.php:13
 msgid "Type to find anything in Elementor"
@@ -5753,7 +5774,7 @@ msgid "Finder"
 msgstr "Wyszukiwarka"
 
 #: core/common/modules/finder/categories/create.php:27 assets/js/editor.js:8884
-#: assets/js/editor.js:46302
+#: assets/js/editor.js:46334
 #: assets/js/packages/editor-components/editor-components.js:2
 #: assets/js/packages/editor-components/editor-components.strings.js:8
 #: assets/js/packages/editor-variables/editor-variables.js:2
@@ -5807,6 +5828,10 @@ msgstr "Ocena gwiazdkowa"
 msgid "Show / Hide Panel"
 msgstr "Pokaż / ukryj panel"
 
+#: includes/editor-templates/hotkeys.php:201
+msgid "Quit"
+msgstr "Wyjdź"
+
 #: includes/widgets/video.php:619
 msgid "Poster"
 msgstr "Plakat"
@@ -5823,11 +5848,11 @@ msgstr "Stwórz swoją pierwszą stronę"
 msgid "Welcome to Elementor"
 msgstr "Witamy w Elementorze"
 
-#: core/admin/admin-notices.php:328
+#: core/admin/admin-notices.php:330
 msgid "Hide Notification"
 msgstr "Ukryj powiadomienia"
 
-#: core/admin/admin-notices.php:318
+#: core/admin/admin-notices.php:320
 msgid "Congrats!"
 msgstr "Gratulacje!"
 
@@ -5863,7 +5888,7 @@ msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
 msgid "Once you fill your page with content, this window will give you an overview display of all the page elements. This way, you can easily move around any section, column, or widget."
 msgstr "Gdy wypełnisz stronę treścią, to okno da ci podgląd wszystkich elementów strony. W ten sposób możesz łatwo przemieszczać różne sekcje, kolumny i widgety."
 
-#: core/admin/admin-notices.php:322
+#: core/admin/admin-notices.php:324
 msgid "Happy To Help"
 msgstr "Chętnie pomogę"
 
@@ -5884,7 +5909,7 @@ msgstr "Pasek debugowania"
 msgid "Empty"
 msgstr "Puste"
 
-#: core/admin/admin-notices.php:319
+#: core/admin/admin-notices.php:321
 msgid "You created over 10 pages with Elementor. Great job! If you can spare a minute, please help us by leaving a five star review on WordPress.org."
 msgstr "Z pomocą Elementora utworzyłęś ponad 10 stron. Dobra robota! Jeśli możesz poświęcić chwilę, pomóż nam, zostawiając pięciogwiazdkową recenzję na WordPress.org."
 
@@ -6479,7 +6504,7 @@ msgstr "Zapisz opcje"
 
 #: includes/editor-templates/hotkeys.php:70
 #: includes/editor-templates/repeater.php:18 assets/js/editor.js:30727
-#: assets/js/editor.js:51450
+#: assets/js/editor.js:51482
 #: assets/js/packages/editor-controls/editor-controls.js:112
 #: assets/js/packages/editor-controls/editor-controls.strings.js:66
 #: assets/js/packages/editor-controls/editor-controls.strings.js:185
@@ -6689,7 +6714,7 @@ msgstr "Przepraszamy, ale coś poszło nie tak. Kliknij „Dowiedz się więcej�
 msgid "The preview could not be loaded"
 msgstr "Nie można wczytać podglądu"
 
-#: core/admin/admin-notices.php:147 core/admin/admin-notices.php:182
+#: core/admin/admin-notices.php:149 core/admin/admin-notices.php:184
 msgid "Update Notification"
 msgstr "Powiadomienie o aktualizacji"
 
@@ -6707,7 +6732,7 @@ msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm
 #: includes/editor-templates/panel.php:90 assets/js/ai-admin.js:2058
 #: assets/js/ai-gutenberg.js:2196 assets/js/ai-media-library.js:2058
 #: assets/js/ai-unify-product-images.js:2058 assets/js/ai.js:2846
-#: assets/js/editor.js:51772
+#: assets/js/editor.js:51804
 #: assets/js/packages/editor-app-bar/editor-app-bar.js:12
 #: assets/js/packages/editor-app-bar/editor-app-bar.strings.js:17
 msgid "History"
@@ -6719,13 +6744,13 @@ msgid "UI Color"
 msgstr "Kolor UI"
 
 #: modules/history/views/history-panel-template.php:10
-#: assets/js/editor.js:51180
+#: assets/js/editor.js:51212
 msgid "Revisions"
 msgstr "Wersje"
 
 #: includes/editor-templates/hotkeys.php:16
 #: includes/editor-templates/templates.php:203
-#: modules/history/views/history-panel-template.php:9 assets/js/editor.js:51177
+#: modules/history/views/history-panel-template.php:9 assets/js/editor.js:51209
 #: assets/js/kit-library.ed7fc5d9656556af9353.bundle.js:1196
 msgid "Actions"
 msgstr "Działania"
@@ -6930,7 +6955,7 @@ msgid "Disable"
 msgstr "Wyłącz"
 
 #: core/base/document.php:1993 modules/ai/preferences.php:67
-#: modules/pro-install/pro-install-menu-item.php:92
+#: modules/pro-install/pro-install-menu-item.php:95
 #: assets/js/element-manager-admin.js:655
 #: assets/js/element-manager-admin.js:732
 msgid "Status"
@@ -6988,7 +7013,7 @@ msgid "Choose Mode"
 msgstr "Wybierz tryb"
 
 #: core/kits/documents/kit.php:154 includes/maintenance-mode.php:215
-#: assets/js/editor.js:51449
+#: assets/js/editor.js:51481
 msgid "Disabled"
 msgstr "Wyłączono"
 
@@ -7405,7 +7430,7 @@ msgstr "Aktualizuj zmiany na stronie"
 msgid "%s are disabled"
 msgstr "%s są wyłączone"
 
-#: core/admin/admin-notices.php:243
+#: core/admin/admin-notices.php:245
 msgid "No thanks"
 msgstr "Nie, dziękuję"
 
@@ -7429,7 +7454,7 @@ msgstr "Rozciągnij sekcję na całą szerokość strony za pomocą JS."
 msgid "Stretch Section"
 msgstr "Sekcja rozciągania"
 
-#: core/admin/admin-notices.php:231
+#: core/admin/admin-notices.php:233
 msgid "Learn more."
 msgstr "Dowiedz się więcej."
 
@@ -7459,7 +7484,7 @@ msgstr "Biblioteka"
 #: assets/js/app-packages.js:2579 assets/js/app-packages.js:3138
 #: assets/js/app.js:697 assets/js/app.js:2956 assets/js/app.js:3379
 #: assets/js/app.js:7325 assets/js/app.js:9824 assets/js/app.js:16454
-#: assets/js/editor.js:47988 assets/js/import-export-admin.js:313
+#: assets/js/editor.js:48020 assets/js/import-export-admin.js:313
 msgid "Close"
 msgstr "Zamknij"
 
@@ -7503,10 +7528,6 @@ msgstr "Narzędzia"
 #: includes/template-library/sources/remote.php:51
 msgid "Remote"
 msgstr "Zdalne"
-
-#: includes/template-library/sources/local.php:1025
-msgid "Import Now"
-msgstr "Importuj"
 
 #: includes/template-library/sources/cloud.php:106
 #: includes/template-library/sources/cloud.php:327
@@ -7578,12 +7599,16 @@ msgstr "Biblioteka Elementora aktualizuje się automatycznie każdego dnia. Moż
 msgid "Sync Library"
 msgstr "Synchronizuj bibliotekę"
 
+#: includes/template-library/sources/local.php:1025
+msgid "Import Now"
+msgstr "Importuj teraz"
+
 #. translators: %s: WordPress child themes documentation.
 #: modules/system-info/reporters/theme.php:207
 msgid "If you want to modify the source code of your theme, we recommend using a <a href=\"%s\">child theme</a>."
 msgstr "Jeśli chcesz zmodyfikować kod źródłowy swojego motywu, zalecamy użycie <a href=\"%s\">motywu potomnego</a>."
 
-#: core/admin/admin-notices.php:371 modules/apps/admin-apps-page.php:182
+#: core/admin/admin-notices.php:373 modules/apps/admin-apps-page.php:182
 #: modules/safe-mode/module.php:359 modules/safe-mode/module.php:368
 #: modules/safe-mode/mu-plugin/elementor-safe-mode.php:105
 #: assets/js/app-packages.js:1232 assets/js/app-packages.js:4571
@@ -7602,7 +7627,7 @@ msgstr "Dowiedz się więcej"
 
 #: core/kits/documents/tabs/global-typography.php:28
 #: core/kits/documents/tabs/global-typography.php:47 assets/js/app.js:10400
-#: assets/js/app.js:15539 assets/js/editor.js:47739
+#: assets/js/app.js:15539 assets/js/editor.js:47771
 #: assets/js/styleguide-app.77392704cadf8bc1ca69.bundle.js:222
 msgid "Global Fonts"
 msgstr "Globalne kroje pisma"
@@ -7729,13 +7754,13 @@ msgid "Other"
 msgstr "Inne"
 
 #. translators: %s: Elementor version.
-#: core/admin/admin-notices.php:138
+#: core/admin/admin-notices.php:140
 msgid "View Elementor version %s details"
 msgstr "Zobacz szczegóły wersji %s Elementora"
 
 #. translators: 1: Details URL, 2: Accessibility text, 3: Version number, 4:
 #. Update URL, 5: Accessibility text.
-#: core/admin/admin-notices.php:134
+#: core/admin/admin-notices.php:136
 msgid "There is a new version of Elementor Page Builder available. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">update now</a>."
 msgstr "Dostępna jest już nowa wersja Elementora. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">Zobacz szczegóły wersji %3$s</a> lub <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">aktualizuj</a>."
 
@@ -7773,7 +7798,7 @@ msgstr "Odtwarzacz wizualny"
 msgid "Background Overlay"
 msgstr "Nakładka tła"
 
-#: core/admin/admin-notices.php:143 core/admin/admin-notices.php:151
+#: core/admin/admin-notices.php:145 core/admin/admin-notices.php:153
 #: core/base/db-upgrades-manager.php:97
 msgid "Update Now"
 msgstr "Aktualizuj teraz"
@@ -8079,7 +8104,7 @@ msgstr "Formularz"
 #: modules/atomic-widgets/elements/div-block/div-block.php:68
 #: modules/atomic-widgets/elements/flexbox/flexbox.php:68
 #: modules/usage/settings-reporter.php:13 assets/js/editor.js:7485
-#: assets/js/editor.js:38677 assets/js/editor.js:48105
+#: assets/js/editor.js:38677 assets/js/editor.js:48137
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:25
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.strings.js:46
 msgid "Settings"
@@ -8293,8 +8318,8 @@ msgstr "Opis"
 #: modules/shapes/widgets/text-path.php:508
 #: modules/shapes/widgets/text-path.php:528
 #: modules/shapes/widgets/text-path.php:579
-#: modules/shapes/widgets/text-path.php:599 assets/js/editor.js:48243
-#: assets/js/editor.js:48286
+#: modules/shapes/widgets/text-path.php:599 assets/js/editor.js:48275
+#: assets/js/editor.js:48318
 #: assets/js/packages/editor-controls/editor-controls.js:112
 #: assets/js/packages/editor-controls/editor-controls.strings.js:45
 #: assets/js/packages/editor-controls/editor-controls.strings.js:135
@@ -8474,7 +8499,7 @@ msgstr "Jestem opisem. Kliknij przycisk, by edytować ten tekst."
 msgid "You can copy the below info as simple text with Ctrl+C / Ctrl+V:"
 msgstr "Możesz skopiować poniższą informację jako prosty tekst korzystając z Ctrl+C / Ctrl+V:"
 
-#: core/admin/admin-notices.php:238
+#: core/admin/admin-notices.php:240
 msgid "Sure! I'd love to help"
 msgstr "Pewnie! Chętnie pomogę"
 
@@ -8666,7 +8691,7 @@ msgstr "Styl"
 #: includes/editor-templates/templates.php:356
 #: includes/editor-templates/templates.php:409 assets/js/editor.js:8938
 #: assets/js/editor.js:8957 assets/js/editor.js:9118 assets/js/editor.js:28294
-#: assets/js/editor.js:30819 assets/js/editor.js:48296
+#: assets/js/editor.js:30819 assets/js/editor.js:48328
 #: assets/js/import-export-admin.js:272
 #: assets/js/kit-library.ed7fc5d9656556af9353.bundle.js:1015
 #: assets/js/kit-library.ed7fc5d9656556af9353.bundle.js:1157
@@ -8720,7 +8745,7 @@ msgstr "Pomoc"
 #: includes/editor-templates/templates.php:23
 #: includes/editor-templates/templates.php:457
 #: includes/editor-templates/templates.php:469 assets/js/e-home-screen.js:244
-#: assets/js/editor.js:8570 assets/js/editor.js:45578
+#: assets/js/editor.js:8570 assets/js/editor.js:45610
 #: assets/js/element-manager-admin.js:785
 #: assets/js/kit-elements-defaults-editor.js:597
 #: assets/js/packages/editor-variables/editor-variables.js:2
@@ -8739,7 +8764,7 @@ msgid "Preview"
 msgstr "Podgląd"
 
 #: modules/history/views/revisions-panel-template.php:11
-#: assets/js/editor.js:45579
+#: assets/js/editor.js:45611
 #: assets/js/packages/editor-global-classes/editor-global-classes.js:2
 #: assets/js/packages/editor-global-classes/editor-global-classes.strings.js:34
 msgid "Discard"
@@ -9331,7 +9356,7 @@ msgstr "Rozdzielacz"
 #: modules/floating-buttons/base/widget-contact-button-base.php:2618
 #: modules/floating-buttons/base/widget-contact-button-base.php:2687
 #: modules/floating-buttons/base/widget-contact-button-base.php:2818
-#: modules/shapes/module.php:52 assets/js/editor.js:46128
+#: modules/shapes/module.php:52 assets/js/editor.js:46160
 #: assets/js/packages/editor-controls/editor-controls.js:112
 #: assets/js/packages/editor-controls/editor-controls.strings.js:15
 #: assets/js/packages/editor-controls/editor-controls.strings.js:54
@@ -9689,35 +9714,6 @@ msgstr "Tytuł karty"
 msgid "Toggle Content"
 msgstr "Przełącz treść"
 
-#: includes/controls/groups/background.php:433
-msgctxt "Background Control"
-msgid "Scroll"
-msgstr "Przewiń"
-
-#: includes/controls/groups/background.php:434
-msgctxt "Background Control"
-msgid "Fixed"
-msgstr "Stałe"
-
-#: includes/controls/groups/background.php:457
-msgctxt "Background Control"
-msgid "Repeat"
-msgstr "Powtórz"
-
-#: includes/controls/groups/border.php:65 includes/widgets/divider.php:342
-#: includes/widgets/icon-list.php:299 includes/widgets/star-rating.php:188
-#: assets/js/packages/editor-editing-panel/editor-editing-panel.js:22
-#: assets/js/packages/editor-editing-panel/editor-editing-panel.strings.js:230
-msgid "Solid"
-msgstr "Jednolita"
-
-#: includes/controls/groups/border.php:66 includes/widgets/divider.php:343
-#: includes/widgets/icon-list.php:300
-#: assets/js/packages/editor-editing-panel/editor-editing-panel.js:22
-#: assets/js/packages/editor-editing-panel/editor-editing-panel.strings.js:233
-msgid "Double"
-msgstr "Podwójna"
-
 #: core/kits/documents/tabs/theme-style-typography.php:109
 #: includes/elements/container.php:611 includes/widgets/audio.php:111
 #: includes/widgets/heading.php:200 includes/widgets/icon-box.php:195
@@ -9751,6 +9747,35 @@ msgstr "Podwójna"
 #: assets/js/packages/editor-controls/editor-controls.strings.js:27
 msgid "Link"
 msgstr "Połącz"
+
+#: includes/controls/groups/background.php:433
+msgctxt "Background Control"
+msgid "Scroll"
+msgstr "Przewiń"
+
+#: includes/controls/groups/background.php:434
+msgctxt "Background Control"
+msgid "Fixed"
+msgstr "Stałe"
+
+#: includes/controls/groups/background.php:457
+msgctxt "Background Control"
+msgid "Repeat"
+msgstr "Powtórz"
+
+#: includes/controls/groups/border.php:65 includes/widgets/divider.php:342
+#: includes/widgets/icon-list.php:299 includes/widgets/star-rating.php:188
+#: assets/js/packages/editor-editing-panel/editor-editing-panel.js:22
+#: assets/js/packages/editor-editing-panel/editor-editing-panel.strings.js:230
+msgid "Solid"
+msgstr "Jednolita"
+
+#: includes/controls/groups/border.php:66 includes/widgets/divider.php:343
+#: includes/widgets/icon-list.php:300
+#: assets/js/packages/editor-editing-panel/editor-editing-panel.js:22
+#: assets/js/packages/editor-editing-panel/editor-editing-panel.strings.js:233
+msgid "Double"
+msgstr "Podwójna"
 
 #: includes/controls/groups/background.php:428
 msgctxt "Background Control"
@@ -9868,7 +9893,7 @@ msgstr "Środek"
 msgid "Inactive"
 msgstr "Wyłączony"
 
-#: core/admin/admin-notices.php:658 includes/controls/gallery.php:123
+#: core/admin/admin-notices.php:700 includes/controls/gallery.php:123
 #: includes/controls/media.php:319 includes/widgets/heading.php:477
 msgid "Activate Plugin"
 msgstr "Włącz wtyczkę"
@@ -9986,6 +10011,34 @@ msgstr "Główny"
 msgid "Active"
 msgstr "Włączony"
 
+#: core/role-manager/role-manager.php:74
+msgid "Exclude Roles"
+msgstr "Wyklucz role"
+
+#: includes/widgets/accordion.php:174
+msgid "Accordion #2"
+msgstr "Akordeon nr 2"
+
+#: includes/widgets/accordion.php:170
+msgid "Accordion #1"
+msgstr "Akordeon nr 1"
+
+#: includes/widgets/counter.php:173
+msgid "Number Suffix"
+msgstr "Przyrostek liczby"
+
+#: includes/widgets/counter.php:158
+msgid "Number Prefix"
+msgstr "Przedrostek liczby"
+
+#: includes/widgets/counter.php:146
+msgid "Ending Number"
+msgstr "Liczba końcowa"
+
+#: includes/widgets/counter.php:134
+msgid "Starting Number"
+msgstr "Liczba początkowa"
+
 #: core/experiments/manager.php:390
 #: core/kits/documents/tabs/settings-background.php:78
 #: includes/base/widget-base.php:297 includes/controls/animation.php:154
@@ -10034,44 +10087,12 @@ msgstr "Włączony"
 #: modules/floating-buttons/base/widget-contact-button-base.php:2817
 #: modules/link-in-bio/base/widget-link-in-bio-base.php:179
 #: modules/page-templates/module.php:301
-#: modules/shapes/widgets/text-path.php:203 assets/js/editor.js:46120
-#: assets/js/editor.js:46131
+#: modules/shapes/widgets/text-path.php:203 assets/js/editor.js:46152
+#: assets/js/editor.js:46163
 #: assets/js/packages/editor-controls/editor-controls.js:128
 #: assets/js/packages/editor-controls/editor-controls.strings.js:103
 msgid "Default"
 msgstr "Domyślnie"
-
-#: core/role-manager/role-manager.php:74
-msgid "Exclude Roles"
-msgstr "Wyklucz role"
-
-#: includes/widgets/accordion.php:174
-msgid "Accordion #2"
-msgstr "Akordeon nr 2"
-
-#: includes/widgets/accordion.php:170
-msgid "Accordion #1"
-msgstr "Akordeon nr 1"
-
-#: includes/widgets/spacer.php:42 includes/widgets/spacer.php:123
-msgid "Spacer"
-msgstr "Odstępnik"
-
-#: includes/widgets/counter.php:173
-msgid "Number Suffix"
-msgstr "Przyrostek liczby"
-
-#: includes/widgets/counter.php:158
-msgid "Number Prefix"
-msgstr "Przedrostek liczby"
-
-#: includes/widgets/counter.php:146
-msgid "Ending Number"
-msgstr "Liczba końcowa"
-
-#: includes/widgets/counter.php:134
-msgid "Starting Number"
-msgstr "Liczba początkowa"
 
 #: includes/widgets/icon-box.php:334
 #: includes/widgets/traits/button-trait.php:175
@@ -10203,3 +10224,7 @@ msgstr "Przełącz elementy"
 #: includes/widgets/toggle.php:276
 msgid "Toggle"
 msgstr "Przełącznik"
+
+#: includes/widgets/spacer.php:42 includes/widgets/spacer.php:123
+msgid "Spacer"
+msgstr "Odstępnik"
