@@ -1,0 +1,9 @@
+FROM wordpress:6.8.2-php8.2-fpm
+
+# Copy our init script
+COPY ops/wordpress/init.sh /usr/local/bin/wp-init.sh
+RUN chmod +x /usr/local/bin/wp-init.sh
+
+# Set the entrypoint to our init script which will run safe init then start php-fpm
+ENTRYPOINT ["/usr/local/bin/wp-init.sh"]
+CMD ["php-fpm"]

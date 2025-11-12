@@ -1,0 +1,28 @@
+# Environment files
+.env
+.env.local
+
+# Backups
+bedrock/backup.sql
+bedrock/*.sql
+*.sql.gz
+*.tar.gz
+
+# Docker volumes and data
+data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Tool versions
+.tool-versions
