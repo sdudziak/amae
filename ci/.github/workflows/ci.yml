@@ -1,0 +1,44 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        
+    - name: Validate composer.json and composer.lock
+      run: composer validate
+      
+    - name: Install dependencies
+      run: composer install --prefer-dist --no-progress
+      
+    - name: Run PHP lint
+      run: find . -name "*.php" -not -path "./vendor/*" -exec php -l {} \;
+      
+    - name: Create artifact
+      run: |
+        tar -czf amae.tar.gz \
+          --exclude='.git' \
+          --exclude='node_modules' \
+          --exclude='data' \
+          app/bedrock/web \
+          app/bedrock/config \
+          vendor
+          
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: amae-release
+        path: amae.tar.gz
