@@ -27,6 +27,20 @@ add_shortcode('protected_audio', function ($atts) {
         return '';
     }
 
+    // Enqueue progress.js script only when shortcode is used
+    $asset_rel_path = 'protected-audio/progress.js';
+    $asset_url  = plugins_url($asset_rel_path, __FILE__);
+    $asset_path = WPMU_PLUGIN_DIR . '/' . $asset_rel_path;
+    $version    = file_exists($asset_path) ? filemtime($asset_path) : '1.0';
+    
+    wp_enqueue_script(
+        'protected-audio-progress',
+        $asset_url,
+        [],
+        $version,
+        true
+    );
+
     $uid = get_current_user_id();
     $session = function_exists('wp_get_session_token') ? wp_get_session_token() : '';
 
