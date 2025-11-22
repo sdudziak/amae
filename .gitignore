@@ -5,6 +5,7 @@
 # Backups
 bedrock/backup.sql
 bedrock/*.sql
+bedrock/web/app/cache/autooptimize/*
 *.sql.gz
 *.tar.gz
 

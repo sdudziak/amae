@@ -1,0 +1,165 @@
+/* =========================================
+   Amaë Brand Styles - Overriding Blocksy Yogi
+   ========================================= */
+
+/*
+   VARIABLE DEFINITION (First Level)
+   Define our custom color palette and fonts.
+*/
+:root {
+    /* --- Amaë Color Palette --- */
+    --amae-gold-light: #EBD9B4;   /* Champagne Gold - primary accent */
+    --amae-gold-dark: #dccfae;    /* Darker gold for hovers */
+    --amae-cream: #F9F7F4;        /* Main page background (Ecru) */
+    --amae-beige: #F0ECE6;        /* Secondary background (Misty Beige) */
+    --amae-graphite: #3D3A36;     /* Main text color (Warm Graphite) */
+    --amae-text-light: #5e5b57;   /* Lighter body text */
+    --amae-border: #e5e2dd;       /* Delicate borders */
+
+    /* --- Typography (must be enqueued in functions.php) --- */
+    --amae-heading-font: 'Montserrat', sans-serif;
+    --amae-body-font: 'Lato', sans-serif;
+}
+
+
+/*
+   OVERRIDING BLOCKSY VARIABLES (Second Level)
+   Map our custom colors to Blocksy's internal variables.
+   Use !important to force overrides where necessary.
+*/
+:root {
+    /* Overwrite Blocksy's global palette colors */
+    --paletteColor1: var(--amae-gold-light) !important; /* Primary accent */
+    --paletteColor2: var(--amae-gold-dark) !important;  /* Accent hover */
+    --paletteColor3: var(--amae-graphite) !important;   /* Headings */
+    --paletteColor4: var(--amae-text-light) !important; /* Body text */
+    --paletteColor5: var(--amae-border) !important;     /* Borders */
+    --paletteColor6: var(--amae-beige) !important;      /* Subtle backgrounds */
+    --paletteColor7: var(--amae-cream) !important;      /* Page background */
+    --paletteColor8: #ffffff !important;                /* Pure white (rarely used) */
+
+    /* Overwrite Blocksy's global font variables */
+    --fontFamily: var(--amae-body-font) !important;
+    --headingFontFamily: var(--amae-heading-font) !important;
+    --buttonFontFamily: var(--amae-heading-font) !important;
+
+    /* Blocksy might also use these for global styles */
+    --global-color-body: var(--amae-cream) !important;
+    --global-color-text: var(--amae-text-light) !important;
+    --global-color-headings: var(--amae-graphite) !important;
+    --global-color-primary: var(--amae-gold-light) !important; /* Often the primary accent color */
+
+    /* Make sure specific Blocksy color vars are set */
+    --theme-text-color: var(--amae-text-light) !important;
+    --theme-link-initial-color: var(--amae-gold-light) !important;
+    --theme-link-hover-color: var(--amae-gold-dark) !important;
+    --theme-button-background: var(--amae-gold-light) !important;
+    --theme-button-text: var(--amae-graphite) !important;
+    --theme-button-hover-background: var(--amae-gold-dark) !important;
+    --theme-button-hover-text: #fff !important;
+}
+
+/* =========================================
+   ELEMENT STYLING (Overriding Yogi Starter)
+   Added !important for direct rules too.
+   ========================================= */
+
+/* --- Global Backgrounds and Text --- */
+
+body {
+    background-color: var(--amae-cream) !important;
+    color: var(--amae-text-light) !important;
+    font-family: var(--amae-body-font) !important;
+}
+
+/* Resetting section backgrounds that might be green in Yogi */
+.ct-container,
+section,
+[class*="wp-block-group"] {
+    background-color: var(--amae-cream) !important;
+}
+
+/* Secondary section backgrounds (e.g., Features, Footer) - change to beige */
+[data-section-background="secondary"],
+[data-row-background="secondary"],
+footer.ct-footer {
+    background-color: var(--amae-beige) !important;
+    color: var(--amae-graphite) !important;
+}
+
+/* --- Typography --- */
+
+h1, h2, h3, h4, h5, h6,
+.ct-heading-text {
+    font-family: var(--amae-heading-font) !important;
+    color: var(--amae-graphite) !important;
+    font-weight: 400 !important;
+    letter-spacing: -0.02em !important;
+}
+
+h1 { font-weight: 300 !important; }
+
+/* --- Buttons --- */
+
+.ct-button-default,
+.wp-block-button__link,
+button[type="submit"] {
+    background-color: var(--amae-gold-light) !important;
+    color: var(--amae-graphite) !important;
+    border: none !important;
+    border-radius: 4px !important;
+    font-family: var(--amae-heading-font) !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    padding: 15px 35px !important;
+    box-shadow: 0 4px 15px rgba(235, 217, 180, 0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+.ct-button-default:hover,
+.wp-block-button__link:hover,
+button[type="submit"]:hover {
+    background-color: var(--amae-gold-dark) !important;
+    color: #fff !important;
+    transform: translateY(-2px) !important;
+}
+
+.ct-button-ghost {
+    border-color: var(--amae-gold-light) !important;
+    color: var(--amae-graphite) !important;
+}
+.ct-button-ghost:hover {
+    background-color: var(--amae-gold-light) !important;
+}
+
+/* --- Header and Navigation --- */
+
+.ct-header .ct-menu-link {
+    color: var(--amae-graphite) !important;
+    font-family: var(--amae-heading-font) !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+}
+
+.ct-header .ct-menu-link:hover {
+    color: var(--amae-gold-light) !important;
+}
+
+/* --- Cards and Blocks (e.g., Offer section) --- */
+
+.ct-fancy-box,
+[class*="wp-block-column"] {
+    background-color: transparent !important;
+}
+
+.ct-fancy-box-content {
+    background-color: var(--amae-cream) !important;
+    border: 1px solid var(--amae-border) !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05) !important;
+}
+
+.ct-fancy-box-icon {
+    color: var(--amae-gold-light) !important;
+}
