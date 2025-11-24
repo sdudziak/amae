@@ -2,11 +2,13 @@ services:
   db:
     image: mariadb:11
     container_name: ${PROJECT_NAME}-db
+    env_file:
+      - ../../bedrock/.env
     environment:
-      MYSQL_DATABASE: ${WP_DB_NAME}
-      MYSQL_USER: ${WP_DB_USER}
-      MYSQL_PASSWORD: ${WP_DB_PASSWORD}
-      MYSQL_ROOT_PASSWORD: ${WP_DB_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-rootsecret}
     volumes:
       - db_data:/var/lib/mysql
     ports:
@@ -26,15 +28,12 @@ services:
       depends_on:
         db:
           condition: service_healthy
+      env_file:
+        - ../../bedrock/.env
       environment:
-        # Bedrock DB vars (loaded by bedrock/config via .env)
-        DB_NAME: ${WP_DB_NAME}
-        DB_USER: ${WP_DB_USER}
-        DB_PASSWORD: ${WP_DB_PASSWORD}
+        # Bedrock DB vars (already loaded from .env file)
         DB_HOST: db:3306
         WP_ENVIRONMENT_TYPE: local
-        WP_HOME: http://localhost:8080
-        WP_SITEURL: http://localhost:8080/wp
         WORDPRESS_CONFIG_EXTRA: |
           // Hardening & dev logs
           define('DISALLOW_FILE_EDIT', true);
@@ -70,10 +69,12 @@ services:
       - db
     ports:
       - "8081:80"
+    env_file:
+      - ../../bedrock/.env
     environment:
       PMA_HOST: db
-      PMA_USER: ${WP_DB_USER}
-      PMA_PASSWORD: ${WP_DB_PASSWORD}
+      PMA_USER: ${DB_USER}
+      PMA_PASSWORD: ${DB_PASSWORD}
 
 volumes:
   db_data:

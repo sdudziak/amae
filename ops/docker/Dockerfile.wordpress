@@ -1,5 +1,10 @@
 FROM wordpress:6.8.2-php8.2-fpm
 
+# Install WP-CLI (for migration tooling)
+RUN curl -fsSL -o /usr/local/bin/wp https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar \
+	&& chmod +x /usr/local/bin/wp \
+	&& wp --info --allow-root || true
+
 # Copy our init script
 COPY ops/wordpress/init.sh /usr/local/bin/wp-init.sh
 RUN chmod +x /usr/local/bin/wp-init.sh

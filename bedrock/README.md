@@ -3,9 +3,22 @@ Bedrock scaffold (instructions)
 
 This folder is a scaffold for using Bedrock (roots/bedrock) as the project structure for the AMA E project.
 
+## ✨ Nowa funkcjonalność: Automatyczne wykrywanie domeny
+
+**Projekt wspiera teraz automatyczne wykrywanie domeny!** 
+
+- URL-e (`WP_HOME`, `WP_SITEURL`) są teraz **opcjonalne** w pliku `.env`
+- Jeśli nie są ustawione, system automatycznie wykrywa domenę i protokół (http/https)
+- To samo środowisko może działać na wielu domenach bez zmian konfiguracji
+
+📖 **Zobacz dokumentację:**
+- [Konfiguracja niezależna od domeny](../../../docs/konfiguracja-domen.md)
+- [Migracja do multi-domain](../../../docs/MIGRACJA-MULTI-DOMAIN.md)
+
 What I created here
-- `.env.example` — example environment file for Bedrock
+- `.env.example` — example environment file for Bedrock (WP_HOME/WP_SITEURL są opcjonalne)
 - `.gitignore` — ignore vendor and generated WordPress core
+- `config/application.php` — automatyczne wykrywanie domeny
 
 How to create a real Bedrock installation
 

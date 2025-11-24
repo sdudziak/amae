@@ -2,152 +2,216 @@
    Amaë Brand Styles - Overriding Blocksy Yogi
    ========================================= */
 
-/*
-   VARIABLE DEFINITION (First Level)
-   Define our custom color palette and fonts.
-*/
+/* --- DEFINICJA NASZYCH ZMIENNYCH + PALETA & DRY --- */
 :root {
-    /* --- Amaë Color Palette --- */
-    --amae-gold-light: #EBD9B4;   /* Champagne Gold - primary accent */
-    --amae-gold-dark: #dccfae;    /* Darker gold for hovers */
-    --amae-cream: #F9F7F4;        /* Main page background (Ecru) */
-    --amae-beige: #F0ECE6;        /* Secondary background (Misty Beige) */
-    --amae-graphite: #3D3A36;     /* Main text color (Warm Graphite) */
-    --amae-text-light: #5e5b57;   /* Lighter body text */
-    --amae-border: #e5e2dd;       /* Delicate borders */
+    /* Brand base colors */
+    --amae-gold-light: #EBD9B4;
+    --amae-gold-dark: #dccfae;
+    --amae-cream: #F9F7F4;
+    --amae-beige: #F0ECE6;
+    --amae-graphite: #3D3A36;
+    --amae-text-light: #5e5b57;
+    --amae-border: #e5e2dd;
+    --amae-gold-light-rgb: 235,217,180; /* for transparent shadows */
 
-    /* --- Typography (must be enqueued in functions.php) --- */
+    /* Font families */
     --amae-heading-font: 'Montserrat', sans-serif;
     --amae-body-font: 'Lato', sans-serif;
-}
 
+    /* Map brand colors to Blocksy theme palette (use these everywhere below) */
+    --theme-palette-color-1: var(--amae-gold-light);   /* Primary accent */
+    --theme-palette-color-2: var(--amae-gold-dark);    /* Accent hover */
+    --theme-palette-color-3: var(--amae-graphite);     /* Headings */
+    --theme-palette-color-4: var(--amae-text-light);   /* Body text */
+    --theme-palette-color-5: var(--amae-border);       /* Borders */
+    --theme-palette-color-6: var(--amae-beige);        /* Subtle backgrounds */
+    --theme-palette-color-7: var(--amae-cream);        /* Page background */
+    --theme-palette-color-8: #ffffff;                  /* Pure white */
 
-/*
-   OVERRIDING BLOCKSY VARIABLES (Second Level)
-   Map our custom colors to Blocksy's internal variables.
-   Use !important to force overrides where necessary.
-*/
-:root {
-    /* Overwrite Blocksy's global palette colors */
-    --paletteColor1: var(--amae-gold-light) !important; /* Primary accent */
-    --paletteColor2: var(--amae-gold-dark) !important;  /* Accent hover */
-    --paletteColor3: var(--amae-graphite) !important;   /* Headings */
-    --paletteColor4: var(--amae-text-light) !important; /* Body text */
-    --paletteColor5: var(--amae-border) !important;     /* Borders */
-    --paletteColor6: var(--amae-beige) !important;      /* Subtle backgrounds */
-    --paletteColor7: var(--amae-cream) !important;      /* Page background */
-    --paletteColor8: #ffffff !important;                /* Pure white (rarely used) */
+    /* Typography variables used by theme */
+    --fontFamily: var(--amae-body-font);
+    --headingFontFamily: var(--amae-heading-font);
+    --buttonFontFamily: var(--amae-heading-font);
+    --headingLetterSpacing: -0.02em;
+    --buttonLetterSpacing: 1px;
 
-    /* Overwrite Blocksy's global font variables */
-    --fontFamily: var(--amae-body-font) !important;
-    --headingFontFamily: var(--amae-heading-font) !important;
-    --buttonFontFamily: var(--amae-heading-font) !important;
+    /* Common radii & spacing */
+    --radius-pill: 50px;
+    --radius-sm: 4px;
+    --btn-padding-y: 15px;
+    --btn-padding-x: 35px;
+    --btn-outline-padding-y: 13px;
+    --btn-outline-padding-x: 33px;
+    --btn-hover-translate: -2px;
 
-    /* Blocksy might also use these for global styles */
-    --global-color-body: var(--amae-cream) !important;
-    --global-color-text: var(--amae-text-light) !important;
-    --global-color-headings: var(--amae-graphite) !important;
-    --global-color-primary: var(--amae-gold-light) !important; /* Often the primary accent color */
+    /* Shadows */
+    --btn-shadow: 0 4px 15px rgba(var(--amae-gold-light-rgb), 0.3);
+    --btn-shadow-hover: 0 6px 20px rgba(var(--amae-gold-light-rgb), 0.4);
+    --btn-shadow-outline-hover: 0 6px 20px rgba(var(--amae-gold-light-rgb), 0.3);
+    --card-shadow: 0 10px 30px rgba(0,0,0,0.05);
 
-    /* Make sure specific Blocksy color vars are set */
-    --theme-text-color: var(--amae-text-light) !important;
-    --theme-link-initial-color: var(--amae-gold-light) !important;
-    --theme-link-hover-color: var(--amae-gold-dark) !important;
-    --theme-button-background: var(--amae-gold-light) !important;
-    --theme-button-text: var(--amae-graphite) !important;
-    --theme-button-hover-background: var(--amae-gold-dark) !important;
-    --theme-button-hover-text: #fff !important;
+    /* Form & button color usage (mapped to palette) */
+    --form-input-text-color: var(--theme-palette-color-3);
+    --form-input-border-color: var(--theme-palette-color-5);
+    --form-input-focus-border-color: var(--theme-palette-color-1);
+    --theme-button-background: var(--theme-palette-color-1);
+    --theme-button-text: var(--theme-palette-color-3);
+    --theme-button-hover-background: var(--theme-palette-color-2);
+    --theme-button-hover-text: var(--theme-palette-color-8);
+
+    /* Global color overrides for Blocksy */
+    --theme-text-color: var(--theme-palette-color-4);
+    --theme-text-light-color: var(--theme-palette-color-4);
+    --theme-headings-color: var(--theme-palette-color-3);
+    --theme-primary-color: var(--theme-palette-color-1);
+    --theme-global-bg-color: var(--theme-palette-color-7);
+    --theme-global-secondary-bg-color: var(--theme-palette-color-6);
+    --theme-icon-color: var(--theme-palette-color-1);
+    --theme-icon-hover-color: var(--theme-palette-color-2);
+    --theme-link-initial-color: var(--theme-palette-color-1);
+    --theme-link-hover-color: var(--theme-palette-color-2);
 }
 
 /* =========================================
-   ELEMENT STYLING (Overriding Yogi Starter)
-   Added !important for direct rules too.
+   BEZPOŚREDNIE NADPISYWANIE ELEMENTÓW
+   Działamy bezpośrednio na elementach, używając maksymalnej specyficzności.
    ========================================= */
 
-/* --- Global Backgrounds and Text --- */
-
+/* --- Globalne Tła i Tekst --- */
 body {
-    background-color: var(--amae-cream) !important;
-    color: var(--amae-text-light) !important;
-    font-family: var(--amae-body-font) !important;
+    background-color: var(--theme-palette-color-7) !important;
+    color: var(--theme-palette-color-4) !important;
+    font-family: var(--fontFamily) !important;
 }
 
-/* Resetting section backgrounds that might be green in Yogi */
+/* Upewniamy się, że główne kontenery strony też mają odpowiednie tło */
 .ct-container,
-section,
-[class*="wp-block-group"] {
-    background-color: var(--amae-cream) !important;
+#main,
+.ct-content {
+    background-color: var(--theme-palette-color-7) !important;
 }
 
-/* Secondary section backgrounds (e.g., Features, Footer) - change to beige */
+/* Tła sekcji (jeśli są ustawione w Customizerze lub bloku Blocksy) */
+.ct-section[data-row-background="primary"], /* Domyślne tło sekcji Blocksy */
+.ct-section[data-row-background="accent"], /* Sekcje z kolorem akcentu */
+.ct-section-inner, /* Wewnętrzny kontener sekcji */
+.blocks-gallery-item figure { /* Na wszelki wypadek dla galerii */
+    background-color: var(--theme-palette-color-7) !important;
+}
+
+
+/* Tła sekcji drugorzędnych (np. Features, Footer) */
 [data-section-background="secondary"],
 [data-row-background="secondary"],
 footer.ct-footer {
-    background-color: var(--amae-beige) !important;
-    color: var(--amae-graphite) !important;
+    background-color: var(--theme-palette-color-6) !important;
+    color: var(--theme-palette-color-3) !important;
 }
 
-/* --- Typography --- */
 
+/* --- Typografia (upewniamy się, że style się przebijają) --- */
 h1, h2, h3, h4, h5, h6,
-.ct-heading-text {
-    font-family: var(--amae-heading-font) !important;
-    color: var(--amae-graphite) !important;
+.ct-heading-text,
+.site-title,
+.ct-widget-title {
+    font-family: var(--headingFontFamily) !important;
+    color: var(--theme-palette-color-3) !important;
     font-weight: 400 !important;
-    letter-spacing: -0.02em !important;
+    letter-spacing: var(--headingLetterSpacing) !important;
 }
 
-h1 { font-weight: 300 !important; }
+p, li, address, dl, blockquote {
+    font-family: var(--fontFamily) !important;
+    color: var(--theme-palette-color-4) !important;
+}
 
-/* --- Buttons --- */
 
-.ct-button-default,
-.wp-block-button__link,
-button[type="submit"] {
-    background-color: var(--amae-gold-light) !important;
-    color: var(--amae-graphite) !important;
+/* --- 1. Styl Bazowy dla WSZYSTKICH przycisków --- */
+/* Używamy bardzo szerokiej gamy selektorów, aby złapać je wszystkie */
+.ct-button, /* Ogólna klasa Blocksy */
+.ct-button-default, /* Domyślny przycisk theme */
+.wp-block-button__link, /* Przycisk Gutenberga */
+button[type="submit"], /* Przyciski wysyłania formularzy (np. newsletter) */
+input[type="submit"], /* Starszy typ przycisku formularza */
+.ct-button[data-color="custom"], /* Przyciski z ustawionym kolorem w Gutenbergu */
+.ct-newsletter-submit { /* Specyficzny dla newslettera Blocksy */
+
+    /* UJEDNOLICENIE KSZTAŁTU: Pastylka */
+    border-radius: var(--radius-pill) !important;
+
+    /* KOLORYSTYKA BAZOWA: Złote tło, Grafitowy tekst */
+    background-color: var(--theme-palette-color-1) !important;
+    color: var(--theme-palette-color-3) !important; /* <--- KLUCZOWE: Wymuszamy ciemny tekst */
+
+    /* Pozostałe style (reset) */
     border: none !important;
-    border-radius: 4px !important;
-    font-family: var(--amae-heading-font) !important;
+    font-family: var(--buttonFontFamily) !important;
     font-weight: 500 !important;
     text-transform: uppercase !important;
-    letter-spacing: 1px !important;
-    padding: 15px 35px !important;
-    box-shadow: 0 4px 15px rgba(235, 217, 180, 0.3) !important;
+    letter-spacing: var(--buttonLetterSpacing) !important;
+    padding: var(--btn-padding-y) var(--btn-padding-x) !important;
+    box-shadow: var(--btn-shadow) !important;
     transition: all 0.3s ease !important;
+    text-decoration: none !important; /* Usuwa podkreślenia linków */
 }
 
+/* --- 2. Styl HOVER (Po najechaniu) --- */
+.ct-button:hover,
 .ct-button-default:hover,
 .wp-block-button__link:hover,
-button[type="submit"]:hover {
-    background-color: var(--amae-gold-dark) !important;
-    color: #fff !important;
-    transform: translateY(-2px) !important;
+button[type="submit"]:hover,
+input[type="submit"]:hover,
+.ct-button[data-color="custom"]:hover,
+.ct-newsletter-submit:hover {
+    /* Tło lekko ciemniejsze złote */
+    background-color: var(--theme-palette-color-2) !important;
+
+    /* TEKST DALEJ CIEMNY! (Naprawia problem z obrazka 3 i 5) */
+    color: var(--theme-palette-color-3) !important;
+
+    /* Efekt uniesienia */
+    transform: translateY(var(--btn-hover-translate)) !important;
+    box-shadow: var(--btn-shadow-hover) !important;
 }
 
-.ct-button-ghost {
-    border-color: var(--amae-gold-light) !important;
-    color: var(--amae-graphite) !important;
-}
-.ct-button-ghost:hover {
-    background-color: var(--amae-gold-light) !important;
+/* --- 3. Specjalny przypadek: Przyciski "Outline" / "Ghost" --- */
+/* (Wersja podstawowa, przed silnym nadpisywaniem Stackable) */
+
+.ct-button-ghost,
+.is-style-outline .wp-block-button__link {
+    background-color: transparent !important;
+    border: 2px solid var(--theme-palette-color-1) !important;
+    color: var(--theme-palette-color-3) !important; /* Tutaj powinien być grafitowy */
+    box-shadow: none !important;
+    border-radius: var(--radius-pill) !important; /* Ujednolicamy kształt */
+    text-decoration: none !important;
+    padding: var(--btn-outline-padding-y) var(--btn-outline-padding-x) !important; /* Odpowiedni padding dla ramki */
 }
 
-/* --- Header and Navigation --- */
+/* Hover dla przycisków Outline/Ghost */
+.ct-button-ghost:hover,
+.is-style-outline .wp-block-button__link:hover {
+    background-color: var(--theme-palette-color-1) !important;
+    border-color: var(--theme-palette-color-1) !important;
+    color: var(--theme-palette-color-3) !important; /* Tutaj również grafitowy */
+    transform: translateY(var(--btn-hover-translate)) !important;
+    box-shadow: var(--btn-shadow-outline-hover) !important;
+}
 
+/* --- Nagłówek (Header) i Nawigacja --- */
 .ct-header .ct-menu-link {
-    color: var(--amae-graphite) !important;
-    font-family: var(--amae-heading-font) !important;
+    color: var(--theme-palette-color-3) !important;
+    font-family: var(--headingFontFamily) !important;
     font-weight: 500 !important;
     text-transform: uppercase !important;
     font-size: 14px !important;
 }
 
 .ct-header .ct-menu-link:hover {
-    color: var(--amae-gold-light) !important;
+    color: var(--theme-palette-color-1) !important;
 }
 
-/* --- Cards and Blocks (e.g., Offer section) --- */
+/* --- Karty i Bloki (np. sekcja Oferta) --- */
 
 .ct-fancy-box,
 [class*="wp-block-column"] {
@@ -155,11 +219,19 @@ button[type="submit"]:hover {
 }
 
 .ct-fancy-box-content {
-    background-color: var(--amae-cream) !important;
-    border: 1px solid var(--amae-border) !important;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05) !important;
+    background-color: var(--theme-palette-color-7) !important;
+    border: 1px solid var(--theme-palette-color-5) !important;
+    box-shadow: var(--card-shadow) !important;
 }
 
 .ct-fancy-box-icon {
-    color: var(--amae-gold-light) !important;
+    color: var(--theme-palette-color-1) !important;
+}
+
+/* Specyficzne nadpisanie dla zielonych pasków z Yogi starterem */
+.ct-section[data-row-background="primary"] {
+    background-color: var(--theme-palette-color-7) !important; /* Zmienia zielone na kremowe */
+}
+.ct-fancy-box[data-background="custom"] {
+    background-color: var(--theme-palette-color-7) !important; /* Jeśli boxy mają customowe tło */
 }

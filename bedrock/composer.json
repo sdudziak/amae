@@ -1,27 +1,18 @@
 {
-  "name": "roots/bedrock",
+  "name": "sdudziak/amae",
   "type": "project",
-  "license": "MIT",
-  "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure",
+  "license": "Proprietary",
+  "description": "Amae project",
   "homepage": "https://roots.io/bedrock/",
   "authors": [
     {
-      "name": "Scott Walkinshaw",
-      "email": "scott.walkinshaw@gmail.com",
-      "homepage": "https://github.com/swalkinshaw"
-    },
-    {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
+      "name": "Szymon Dudziak",
+      "email": "<redacted>",
+      "homepage": "https://github.com/sdudziak"
     }
   ],
-  "keywords": [
-    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
-  ],
   "support": {
-    "issues": "https://github.com/roots/bedrock/issues",
-    "forum": "https://discourse.roots.io/category/bedrock"
+    "issues": "https://github.com/sdudziak/amae"
   },
   "repositories": [
     {

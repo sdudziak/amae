@@ -69,10 +69,36 @@ if (!env('WP_ENVIRONMENT_TYPE') && in_array(WP_ENV, ['production', 'staging', 'd
 }
 
 /**
- * URLs
+ * URLs - Dynamic detection for domain-independent deployment
  */
-Config::define('WP_HOME', env('WP_HOME'));
-Config::define('WP_SITEURL', env('WP_SITEURL'));
+if (env('WP_HOME') && env('WP_SITEURL')) {
+    // Use explicit configuration if provided
+    Config::define('WP_HOME', env('WP_HOME'));
+    Config::define('WP_SITEURL', env('WP_SITEURL'));
+} else {
+    // Auto-detect based on current request
+    // Check for forwarded protocol (reverse proxy, load balancer, ngrok)
+    if (isset($_SERVER['HTTP_X_FORWARDED_PROTO'])) {
+        $scheme = $_SERVER['HTTP_X_FORWARDED_PROTO'];
+    } else {
+        $scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? 'https' : 'http';
+    }
+    
+    // Check for forwarded host (reverse proxy, load balancer, ngrok)
+    if (isset($_SERVER['HTTP_X_FORWARDED_HOST'])) {
+        $host = $_SERVER['HTTP_X_FORWARDED_HOST'];
+    } elseif (isset($_SERVER['HTTP_HOST'])) {
+        $host = $_SERVER['HTTP_HOST'];
+    } else {
+        $host = 'localhost:8080';
+    }
+    
+    // Debug logging (remove in production)
+    error_log("Domain detection: scheme=$scheme, host=$host, X-Forwarded-Host=" . ($_SERVER['HTTP_X_FORWARDED_HOST'] ?? 'not set'));
+    
+    Config::define('WP_HOME', $scheme . '://' . $host);
+    Config::define('WP_SITEURL', $scheme . '://' . $host . '/wp');
+}
 
 /**
  * Custom Content Directory
@@ -162,18 +188,6 @@ if (env('WPCACHEHOME')) {
  */
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
     $_SERVER['HTTPS'] = 'on';
-}
-
-/**
- * Dynamic WP_HOME and WP_SITEURL based on HTTP_HOST
- * Allows running from any domain without code changes
- */
-if (!env('WP_HOME') && !env('WP_SITEURL')) {
-    $scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? 'https' : 'http';
-    $host = $_SERVER['HTTP_HOST'] ?? 'localhost:8080';
-    
-    Config::define('WP_HOME', $scheme . '://' . $host);
-    Config::define('WP_SITEURL', $scheme . '://' . $host . '/wp');
 }
 
 /**
